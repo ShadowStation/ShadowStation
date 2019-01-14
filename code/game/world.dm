@@ -137,7 +137,7 @@ GLOBAL_VAR(restart_counter)
 	// but those are both private, so let's put the commit info in the runtime
 	// log which is ultimately public.
 	log_runtime(GLOB.revdata.get_log_message())
-	
+
 /world/Topic(T, addr, master, key)
 	TGS_TOPIC	//redirect to server tools if necessary
 
@@ -263,7 +263,7 @@ GLOBAL_VAR(restart_counter)
 	s += "Citadel"  //Replace this with something else. Or ever better, delete it and uncomment the game version. CIT CHANGE - modifies the hub entry link
 	s += "</a>"
 	s += ")\]" //CIT CHANGE - encloses the server title in brackets to make the hub entry fancier
-	s += "<br><small><i>That furry /TG/code server your mother warned you about.</i></small><br>" //CIT CHANGE - adds a tagline!
+	s += "<br><small><i>/TG/ Based Code</i></small><br>" //CIT CHANGE - adds a tagline!
 
 	var/n = 0
 	for (var/mob/M in GLOB.player_list)
