@@ -84,7 +84,7 @@
 /obj/structure/reagent_dispensers/fueltank/bullet_act(obj/item/projectile/P)
 	..()
 	if(!QDELETED(src)) //wasn't deleted by the projectile's effects.
-		if(!P.nodamage && ((P.damage_type == BURN) || (P.damage_type == BRUTE)))
+		if(!P.nodamage && (P.damage != 0) && ((P.damage_type == BURN) || (P.damage_type == BRUTE)))
 			var/boom_message = "[ADMIN_LOOKUPFLW(P.firer)] triggered a fueltank explosion via projectile."
 			GLOB.bombers += boom_message
 			message_admins(boom_message)
