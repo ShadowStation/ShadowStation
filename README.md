@@ -18,7 +18,7 @@ Forked from Citadel Station 13 and Based and maintained from /tg/station.<BR>
 
 **WZDS Station Information** <BR>
 **Code:** https://github.com/WZDSS13/WZDS-Station-13 <BR>
-**Discord:**  [Here](https://discord.gg/vD7AAW5). <BR>
+**Discord:**  [Here](). <BR>
 
 ## DOWNLOADING
 
