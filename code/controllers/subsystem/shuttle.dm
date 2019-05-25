@@ -53,7 +53,7 @@ SUBSYSTEM_DEF(shuttle)
 
 	var/lockdown = FALSE	//disallow transit after nuke goes off
 
-	var/auto_call = 72000 //CIT CHANGE - time before in deciseconds in which the shuttle is auto called. Default is 2ish hours plus 15 for the shuttle. So total is 3.
+	var/auto_call = 216000 //WZDS Change - increased the auto-call timer to ~6 hours
 	var/realtimeofstart = 0
 
 /datum/controller/subsystem/shuttle/Initialize(timeofday)
@@ -76,7 +76,7 @@ SUBSYSTEM_DEF(shuttle)
 	if(!supply)
 		WARNING("No /obj/docking_port/mobile/supply placed on the map!")
 	realtimeofstart = world.realtime
-	auto_call = CONFIG_GET(number/auto_transfer_delay)
+	auto_call = 216000
 	return ..()
 
 /datum/controller/subsystem/shuttle/proc/initial_load()
