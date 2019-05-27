@@ -76,7 +76,7 @@ SUBSYSTEM_DEF(shuttle)
 	if(!supply)
 		WARNING("No /obj/docking_port/mobile/supply placed on the map!")
 	realtimeofstart = world.realtime
-	auto_call = CONFIG_GET(number/auto_transfer_delay)
+	auto_call = 216000
 	return ..()
 
 /datum/controller/subsystem/shuttle/proc/initial_load()
