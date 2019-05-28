@@ -66,11 +66,13 @@
 		if(a_intent == INTENT_HELP)
 			suicide_message = pick("[src] is hugging [p_them()]self to death! It looks like [p_theyre()] trying to commit suicide.", \
 									"[src] is high-fiving [p_them()]self to death! It looks like [p_theyre()] trying to commit suicide.", \
+									"[src] is fisting [p_them()]self violently! It looks like [p_theyre()] trying to commit suicide.", \
 									"[src] is getting too high on life! It looks like [p_theyre()] trying to commit suicide.")
 		else
 			suicide_message = pick("[src] is attempting to bite [p_their()] tongue off! It looks like [p_theyre()] trying to commit suicide.", \
 								"[src] is jamming [p_their()] thumbs into [p_their()] eye sockets! It looks like [p_theyre()] trying to commit suicide.", \
 								"[src] is twisting [p_their()] own neck! It looks like [p_theyre()] trying to commit suicide.", \
+								"[src] is fisting [p_them()]self violently! It looks like [p_theyre()] trying to commit suicide.", \
 								"[src] is holding [p_their()] breath! It looks like [p_theyre()] trying to commit suicide.")
 
 		visible_message("<span class='danger'>[suicide_message]</span>", "<span class='userdanger'>[suicide_message]</span>")

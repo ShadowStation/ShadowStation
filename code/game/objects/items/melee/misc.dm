@@ -214,7 +214,7 @@
 	var/mob/living/carbon/human/H = user
 	var/obj/item/organ/brain/B = H.getorgan(/obj/item/organ/brain)
 
-	user.visible_message("<span class='suicide'>[user] stuffs [src] up [user.p_their()] nose and presses the 'extend' button! It looks like [user.p_theyre()] trying to clear [user.p_their()] mind.</span>")
+	user.visible_message("<span class='suicide'>[user] stuffs [src] up [user.p_their()] ass and presses the 'extend' button! It looks like [user.p_theyre()] trying to satisfy an itch. This won't end well!</span>")
 	if(!on)
 		src.attack_self(user)
 	else
