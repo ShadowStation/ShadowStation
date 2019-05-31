@@ -5,16 +5,19 @@
 	description = "Sperm from some animal. Useless for anything but insemination, really."
 	taste_description = "something salty"
 	taste_mult = 2 //Not very overpowering flavor
+	var/cooling_temperature = 2
 	data = list("donor"=null,"viruses"=null,"donor_DNA"=null,"blood_type"=null,"resistances"=null,"trace_chem"=null,"mind"=null,"ckey"=null,"gender"=null,"real_name"=null)
 	reagent_state = LIQUID
 	color = "#FFFFFF" // rgb: 255, 255, 255
 	nutriment_factor = 0.5 * REAGENTS_METABOLISM
 
-/datum/reagent/consumable/semen/reaction_turf(turf/T, reac_volume)
+/datum/reagent/consumable/semen/reaction_turf(turf/open/T, reac_volume)
 	if(!istype(T))
 		return
 	if(reac_volume < 3)
 		return
+	if(reac_volume > 5) //if someone came hard, let's make that shit slippy.
+		T.MakeSlippery(TURF_WET_WATER, 30 SECONDS, min(reac_volume*1.5 SECONDS, 60 SECONDS))
 
 	var/obj/effect/decal/cleanable/semen/S = locate() in T
 	if(!S)
@@ -22,6 +25,32 @@
 	S.reagents.add_reagent("semen", reac_volume)
 	if(data["blood_DNA"])
 		S.add_blood_DNA(list(data["blood_DNA"] = data["blood_type"]))
+
+/datum/reagent/consmable/semen/reaction_obj(obj/O, reac_volume)
+	O.extinguish()
+	O.acid_level = 0
+	// Monkey cube
+	if(istype(O, /obj/item/reagent_containers/food/snacks/monkeycube))
+		var/obj/item/reagent_containers/food/snacks/monkeycube/cube = O
+		cube.Expand()
+
+	// Dehydrated carp
+	else if(istype(O, /obj/item/toy/plush/carpplushie/dehy_carp))
+		var/obj/item/toy/plush/carpplushie/dehy_carp/dehy = O
+		dehy.Swell() // Makes a carp
+
+	else if(istype(O, /obj/item/stack/sheet/hairlesshide))
+		var/obj/item/stack/sheet/hairlesshide/HH = O
+		new /obj/item/stack/sheet/wetleather(get_turf(HH), HH.amount)
+		qdel(HH)
+
+/datum/reagent/consumable/semen/reaction_mob(mob/living/M, method=TOUCH, reac_volume)//Splashing people with cum can help put them out!
+	if(!istype(M))
+		return
+	if(method == TOUCH)
+		M.adjust_fire_stacks(-(reac_volume / 10))
+		M.ExtinguishMob()
+	..()
 
 /obj/effect/decal/cleanable/semen
 	name = "semen"
@@ -45,7 +74,7 @@
 	name = "Female Ejaculate"
 	id = "femcum"
 	description = "Vaginal lubricant found in most mammals and other animals of similar nature. Where you found this is your own business."
-	taste_description = "something with a tang" // wew coders who haven't eaten out a girl.
+	taste_description = "salty coins and milk" // WZDS - fixed it.
 	taste_mult = 2
 	data = list("donor"=null,"viruses"=null,"donor_DNA"=null,"blood_type"=null,"resistances"=null,"trace_chem"=null,"mind"=null,"ckey"=null,"gender"=null,"real_name"=null)
 	reagent_state = LIQUID
@@ -73,11 +102,13 @@
 	F.add_blood_DNA(return_blood_DNA())
 	..()
 
-/datum/reagent/consumable/femcum/reaction_turf(turf/T, reac_volume)
+/datum/reagent/consumable/femcum/reaction_turf(turf/open/T, reac_volume)
 	if(!istype(T))
 		return
 	if(reac_volume < 3)
 		return
+	if(reac_volume > 5) //if someone came hard, let's make that shit slippy.
+		T.MakeSlippery(TURF_WET_WATER, 30 SECONDS, min(reac_volume*1.5 SECONDS, 60 SECONDS))
 
 	var/obj/effect/decal/cleanable/femcum/S = locate() in T
 	if(!S)
@@ -85,6 +116,33 @@
 	S.reagents.add_reagent("femcum", reac_volume)
 	if(data["blood_DNA"])
 		S.add_blood_DNA(list(data["blood_DNA"] = data["blood_type"]))
+
+/datum/reagent/consmable/femcum/reaction_obj(obj/O, reac_volume)
+	O.extinguish()
+	O.acid_level = 0
+	// Monkey cube
+	if(istype(O, /obj/item/reagent_containers/food/snacks/monkeycube))
+		var/obj/item/reagent_containers/food/snacks/monkeycube/cube = O
+		cube.Expand()
+
+	// Dehydrated carp
+	else if(istype(O, /obj/item/toy/plush/carpplushie/dehy_carp))
+		var/obj/item/toy/plush/carpplushie/dehy_carp/dehy = O
+		dehy.Swell() // Makes a carp
+
+	else if(istype(O, /obj/item/stack/sheet/hairlesshide))
+		var/obj/item/stack/sheet/hairlesshide/HH = O
+		new /obj/item/stack/sheet/wetleather(get_turf(HH), HH.amount)
+		qdel(HH)
+
+/datum/reagent/consumable/femcum/reaction_mob(mob/living/M, method=TOUCH, reac_volume)//Splashing people with cum can help put them out!
+	if(!istype(M))
+		return
+	if(method == TOUCH)
+		M.adjust_fire_stacks(-(reac_volume / 10))
+		M.ExtinguishMob()
+	..()
+
 
 //aphrodisiac & anaphrodisiac
 
