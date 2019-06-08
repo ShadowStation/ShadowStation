@@ -155,7 +155,7 @@
 	color = "#FFADFF"//PINK, rgb(255, 173, 255)
 
 /datum/reagent/drug/aphrodisiac/on_mob_life(mob/living/M)
-	if(M && M.canbearoused && !M.has_trait(TRAIT_CROCRIN_IMMUNE))
+	if(M && M.canbearoused && !HAS_TRAIT(M, TRAIT_CROCRIN_IMMUNE))
 		if(prob(33))
 			M.adjustArousalLoss(2)
 		if(prob(5))
@@ -177,7 +177,7 @@
 	overdose_threshold = 20
 
 /datum/reagent/drug/aphrodisiacplus/on_mob_life(mob/living/M)
-	if(M && M.canbearoused && !M.has_trait(TRAIT_CROCRIN_IMMUNE))
+	if(M && M.canbearoused && !HAS_TRAIT(M, TRAIT_CROCRIN_IMMUNE))
 		if(prob(33))
 			M.adjustArousalLoss(6)//not quite six times as powerful, but still considerably more powerful.
 		if(prob(5))
@@ -209,7 +209,7 @@
 	..()
 
 /datum/reagent/drug/aphrodisiacplus/overdose_process(mob/living/M)
-	if(M && M.canbearoused && !M.has_trait(TRAIT_CROCRIN_IMMUNE) && prob(33))
+	if(M && M.canbearoused && !HAS_TRAIT(M, TRAIT_CROCRIN_IMMUNE) && prob(33))
 		if(M.getArousalLoss() >= 100 && ishuman(M) && M.has_dna())
 			var/mob/living/carbon/human/H = M
 			if(prob(50)) //Less spam

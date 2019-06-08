@@ -112,11 +112,16 @@
 	add_fingerprint(user)
 
 /obj/item/melee/baton/attack(mob/M, mob/living/carbon/human/user)
+<<<<<<< HEAD
 	if(status && user.has_trait(TRAIT_CLUMSY) && prob(50))
 		user.visible_message("<span class='danger'>[user] accidentally hits [user.p_them()]self with [src]!</span>", \
 							"<span class='userdanger'>You accidentally hit yourself with [src]!</span>")
 		user.Knockdown(stunforce*3)
 		deductcharge(hitcost)
+=======
+	if(status && HAS_TRAIT(user, TRAIT_CLUMSY) && prob(50))
+		clowning_around(user)
+>>>>>>> ab565d248... Merge pull request #8547 from Ghommie/Ghommie-cit29
 		return
 
 	if(user.getStaminaLoss() >= STAMINA_SOFTCRIT)//CIT CHANGE - makes it impossible to baton in stamina softcrit
