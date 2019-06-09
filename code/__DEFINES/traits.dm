@@ -72,6 +72,13 @@
 #define	TRAIT_CROCRIN_IMMUNE    "crocin_immune"
 #define TRAIT_NYMPHO			"nymphomania"
 #define TRAIT_MASO              "masochism"
+<<<<<<< HEAD
+=======
+#define TRAIT_EMPATH			"empath"
+#define TRAIT_FRIENDLY			"friendly"
+#define TRAIT_ASSBLASTUSA       "assblastusa"
+#define TRAIT_CULT_EYES 		"cult_eyes"
+>>>>>>> 7755bf6b0... Merge pull request #8508 from Thalpy/FriendlyEmpathy
 
 // common trait sources
 #define TRAIT_GENERIC "generic"
