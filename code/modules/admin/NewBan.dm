@@ -63,7 +63,7 @@ GLOBAL_PROTECT(Banlist)
 /proc/LoadBans()
 	if(!CONFIG_GET(flag/ban_legacy_system))
 		return
-		
+
 	GLOB.Banlist = new("data/banlist.bdb")
 	log_admin("Loading Banlist")
 
@@ -126,8 +126,10 @@ GLOBAL_PROTECT(Banlist)
 			WRITE_FILE(GLOB.Banlist["minutes"], bantimestamp)
 		if(!temp)
 			create_message("note", key, bannedby, "Permanently banned - [reason]", null, null, 0, 0, null, 0, 0)
+			send2irc("PERMABAN ADDED","ckey: [key] banned by: [bannedby] - Permanently banned - [reason]")
 		else
 			create_message("note", key, bannedby, "Banned for [minutes] minutes - [reason]", null, null, 0, 0, null, 0, 0)
+			send2irc("TEMPBAN ADDED","ckey: [key] banned by: [bannedby] for [minutes] mins - [reason]")
 	return 1
 
 /proc/RemoveBan(foldername)
@@ -145,10 +147,12 @@ GLOBAL_PROTECT(Banlist)
 	if(!usr)
 		log_admin_private("Ban Expired: [key]")
 		message_admins("Ban Expired: [key]")
+		send2irc("BAN EXPIRED","[key]")
 	else
 		ban_unban_log_save("[key_name(usr)] unbanned [key]")
 		log_admin_private("[key_name(usr)] unbanned [key]")
 		message_admins("[key_name_admin(usr)] unbanned: [key]")
+		send2irc("BAN REMOVED","[key_name(usr)] unbanned: [key]")
 		usr.client.holder.DB_ban_unban( ckey(key), BANTYPE_ANY_FULLBAN)
 	for (var/A in GLOB.Banlist.dir)
 		GLOB.Banlist.cd = "/base/[A]"
