@@ -1,0 +1,4 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - bugfix: "the chat bot notify command actually works now and is accessible for everyone."
