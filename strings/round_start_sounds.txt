@@ -23,3 +23,4 @@ sound/music/flytothemoon_otomatone.ogg
 sound/music/milkyway.ogg
 sound/music/rocketridersprayer.ogg
 sound/music/ironmistress.ogg
+sound/music/bannedfromargo.ogg
