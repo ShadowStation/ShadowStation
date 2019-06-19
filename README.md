@@ -16,7 +16,7 @@ Forked from Citadel Station 13 and Based/maintained from Citadel Station 13 & /t
 **Wiki** http://tgstation13.org/wiki/Main_Page <BR>
 **IRC:** irc://irc.rizon.net/coderbus or if you dont have an IRC client, you can click  [here](https://kiwiirc.com/client/irc.rizon.net:6667/?&theme=cli#coderbus).<BR>
 
-**WZDS Station Information** <BR>
+**Shadow Station Information** <BR>
 **Code:** https://github.com/ShadowStation/ShadowStation <BR>
 **Discord:**  [Here](https://discord.gg/cHG9yRr). <BR>
 
