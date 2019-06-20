@@ -1,14 +1,14 @@
 
-##WZDS Station 13 <BR>
-Forked from Citadel Station 13 and Based and maintained from /tg/station.<BR>
+##Shadow Station<BR>
+Forked from Citadel Station 13 and Based/maintained from Citadel Station 13 & /tg/station.<BR>
 
 [![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/pretty-risque.svg)](https://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)
 
 [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
-[![Build Status](https://api.travis-ci.org/WZDSS13/WZDS-Station-13.png)](https://travis-ci.org/WZDSS13/WZDS-Station-13) [![Krihelimeter](http://www.krihelinator.xyz/badge/WZDSS13/WZDS-Station-13)](http://www.krihelinator.xyz)
+[![Build Status](https://api.travis-ci.org/ShadowStation/ShadowStation.png)](https://travis-ci.org/ShadowStation/ShadowStation) [![Krihelimeter](http://www.krihelinator.xyz/badge/ShadowStation/ShadowStation)](http://www.krihelinator.xyz)
 
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/WZDSS13/WZDS-Station-13.svg)](http://isitmaintained.com/project/WZDSS13/WZDS-Station-13 "Percentage of issues still open") [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/WZDSS13/WZDS-Station-13.svg)](http://isitmaintained.com/project/WZDSS13/WZDS-Station-13 "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/ShadowStation/ShadowStation.svg)](http://isitmaintained.com/project/ShadowStation/ShadowStation "Percentage of issues still open") [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/ShadowStation/ShadowStation.svg)](http://isitmaintained.com/project/ShadowStation/ShadowStation "Average time to resolve an issue")
 
 **Upstream Information** <BR>
 **Website:** http://www.tgstation13.org <BR>
@@ -16,8 +16,8 @@ Forked from Citadel Station 13 and Based and maintained from /tg/station.<BR>
 **Wiki** http://tgstation13.org/wiki/Main_Page <BR>
 **IRC:** irc://irc.rizon.net/coderbus or if you dont have an IRC client, you can click  [here](https://kiwiirc.com/client/irc.rizon.net:6667/?&theme=cli#coderbus).<BR>
 
-**WZDS Station Information** <BR>
-**Code:** https://github.com/WZDSS13/WZDS-Station-13 <BR>
+**Shadow Station Information** <BR>
+**Code:** https://github.com/ShadowStation/ShadowStation <BR>
 **Discord:**  [Here](https://discord.gg/cHG9yRr). <BR>
 
 ## DOWNLOADING

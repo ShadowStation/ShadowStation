@@ -1,0 +1,7 @@
+author: "BurgerBB"
+delete-after: True
+changes: 
+  - rscadd: "Readds the clown car to traitor uplink"
+  - tweak: "Clown car now spews smoke lube when destroyed."
+  - balance: "Clown car explosion no longer removes limbs."
+  - bugfix: "Fixed the clown car not respecting capacity varedits."
