@@ -166,7 +166,7 @@
 	required_reagents = list("sugar" = 1, "hydrogen" = 1, "water" = 1)
 	mix_message = "The solution slightly bubbles, becoming thicker."
 
- /datum/chemical_reaction/neurine
+/datum/chemical_reaction/neurine
 	name = "Neurine"
 	id = "neurine"
 	results = list("neurine" = 3)
