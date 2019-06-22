@@ -651,6 +651,39 @@
 	QDEL_NULL(mobhook) // mobhook is not our component
 	return ..()
 
+/obj/item/clothing/head/helmet/space/hardsuit/flightsuit
+	name = "flightsuit helmet"
+	desc = "A special helmet designed for work in a hazardous, low-pressure environment."
+	icon = 'icons/obj/clothing/flightsuit.dmi'
+	icon_state = "flighthelmet"
+	item_state = "flighthelmet_mob"
+	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 5, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75)
+	heat_protection = HEAD												//Uncomment to enable firesuit protection
+	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
+
+/obj/item/clothing/head/helmet/space/hardsuit/attack_self(mob/user)
+	on = !on
+	user.update_inv_head()	//so our mob-overlays update
+
+	if(on)
+		set_light(brightness_on)
+	else
+		set_light(0)
+	for(var/X in actions)
+		var/datum/action/A = X
+		A.UpdateButtonIcon()
+
+/obj/item/clothing/suit/space/hardsuit/flightsuit
+	name = "flightsuit"
+	desc = "A special suit that protects against hazardous, low pressure environments. Has reinforcement points for an ion jetpack."
+	icon = 'icons/obj/clothing/flightsuit.dmi'
+	icon_state = "flightsuit"
+	item_state = "flightsuit_mob"
+	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 5, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75)
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS					//Uncomment to enable firesuit protection
+	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/flightsuit
+
 /////////////SHIELDED//////////////////////////////////
 
 /obj/item/clothing/suit/space/hardsuit/shielded

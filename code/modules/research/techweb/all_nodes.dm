@@ -558,6 +558,15 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2750)
 	export_price = 5000
 
+/datum/techweb_node/eva_designs
+	id = "eva_designs"
+	display_name = "Experimental EVA Designs"
+	description = "Advanced EVA equipment, allowing for flight without the use of compressed gases as propulsion."
+	design_ids = list("flightpack", "flightsuit")
+	prereq_ids = list("exp_tools", "adv_robotics")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
 /////////////////////////weaponry tech/////////////////////////
 /datum/techweb_node/weaponry
 	id = "weaponry"

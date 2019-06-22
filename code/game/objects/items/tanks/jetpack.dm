@@ -152,7 +152,78 @@
 	icon_state = "jetpack-sec"
 	item_state = "jetpack-sec"
 
+/obj/item/tank/jetpack/flightpack
+	name = "ion jetpack"
+	desc = "An experimental jetpack that uses ion pulse energy, allowing for powered flight without the need for compressed gas. It still has a small oxygen tank as a source of internals."
+	icon = 'icons/obj/clothing/flightsuit.dmi'
+	icon_state = "flightpack"
+	item_state = "flightpack_off_mob"
+	volume = 20
+	full_speed = FALSE
+	var/opened = FALSE
+	var/cell_type = null
+	var/obj/item/stock_parts/cell/cell
+	var/todrain = 0
 
+/obj/item/tank/jetpack/flightpack/cycle(mob/user)
+	full_speed = FALSE
+	if(opened)
+		to_chat(user, "<span class='warning'>Secure the battery compartment before turning on [src]!</span>")
+		return
+	if(ishuman(user))
+		var/mob/living/carbon/human/M = user
+		if(istype(M.wear_suit, /obj/item/clothing/suit/space/hardsuit/flightsuit))
+			full_speed = TRUE
+	..()
+
+/obj/item/tank/jetpack/flightpack/attackby(obj/item/W, mob/user)
+	if(istype(W, /obj/item/screwdriver))
+		W.play_tool_sound(src)
+		if(!opened)
+			to_chat(user, "<span class='notice'>You unscrew the battery compartment.</span>")
+			opened = TRUE
+			update_icon()
+			return
+		else
+			to_chat(user, "<span class='notice'>You close the battery compartment.</span>")
+			opened = FALSE
+			update_icon()
+			return
+	if(istype(W, /obj/item/crowbar) && opened)
+		if(cell)
+			to_chat(user, "<span class='notice'>You pry out [W] from [src].</span>")
+			user.put_in_hands(cell)
+			cell = null
+			return
+		else
+			to_chat(user, "<span class='notice'>[src] doesn't have \a [cell] installed!</span>")
+			return
+
+	if(istype(W, /obj/item/stock_parts/cell))
+		if(opened)
+			if(!cell)
+				if(!user.transferItemToLoc(W, src))
+					return
+				to_chat(user, "<span class='notice'>You insert [W] into [src].</span>")
+				cell = W
+				update_icon()
+				return
+			else
+				to_chat(user, "<span class='notice'>[src] already has \a [cell] installed!</span>")
+				return
+
+/obj/item/tank/jetpack/flightpack/allow_thrust(mob/living/user)
+	if(!on)
+		return
+	if(!cell.charge)
+		turn_off()
+		return
+	todrain = min(cell.charge, 10)
+	cell.use(todrain)
+	if(todrain < 10)
+		turn_off()
+		return
+	return 1
 
 /obj/item/tank/jetpack/carbondioxide
 	name = "jetpack (carbon dioxide)"
