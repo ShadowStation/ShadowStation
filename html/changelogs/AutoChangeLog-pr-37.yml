@@ -1,0 +1,4 @@
+author: "Sishen1542"
+delete-after: True
+changes: 
+  - tweak: "Adds the ability to buy meteor sats independently of station goal"
