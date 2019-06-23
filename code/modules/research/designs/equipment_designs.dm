@@ -72,3 +72,5 @@
 	build_type = PROTOLATHE
 	build_path = /obj/item/clothing/suit/space/hardsuit/flightsuit
 	materials = list(MAT_METAL=8000, MAT_GLASS = 8000, MAT_DIAMOND = 1000, MAT_GOLD = 3000, MAT_SILVER = 3000, MAT_TITANIUM = 30000)
+	category = list("Misc")
+	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING
