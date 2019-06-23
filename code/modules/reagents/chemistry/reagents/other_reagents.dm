@@ -196,12 +196,17 @@
 	glass_name = "glass of holy water"
 	glass_desc = "A glass of holy water."
 
-/datum/reagent/water/holywater/on_mob_add(mob/living/L)
+/datum/reagent/water/holywater/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(TRAIT_HOLY, id)
 
+<<<<<<< HEAD
 /datum/reagent/water/holywater/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_HOLY, id)
+=======
+/datum/reagent/water/holywater/on_mob_end_metabolize(mob/living/L)
+	REMOVE_TRAIT(L, TRAIT_HOLY, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/water/holywater/reaction_mob(mob/living/M, method=TOUCH, reac_volume)
@@ -1241,14 +1246,20 @@
 	color = "E1A116"
 	taste_description = "sourness"
 
-/datum/reagent/stimulum/on_mob_add(mob/living/L)
+/datum/reagent/stimulum/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(TRAIT_STUNIMMUNE, id)
 	L.add_trait(TRAIT_SLEEPIMMUNE, id)
 
+<<<<<<< HEAD
 /datum/reagent/stimulum/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_STUNIMMUNE, id)
 	L.remove_trait(TRAIT_SLEEPIMMUNE, id)
+=======
+/datum/reagent/stimulum/on_mob_end_metabolize(mob/living/L)
+	REMOVE_TRAIT(L, TRAIT_STUNIMMUNE, id)
+	REMOVE_TRAIT(L, TRAIT_SLEEPIMMUNE, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/stimulum/on_mob_life(mob/living/carbon/M)
@@ -1266,12 +1277,17 @@
 	color = "90560B"
 	taste_description = "burning"
 
-/datum/reagent/nitryl/on_mob_add(mob/living/L)
+/datum/reagent/nitryl/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(TRAIT_GOTTAGOFAST, id)
 
+<<<<<<< HEAD
 /datum/reagent/nitryl/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_GOTTAGOFAST, id)
+=======
+/datum/reagent/nitryl/on_mob_end_metabolize(mob/living/L)
+	REMOVE_TRAIT(L, TRAIT_GOTTAGOFAST, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /////////////////////////Coloured Crayon Powder////////////////////////////
@@ -1723,7 +1739,7 @@
 	H.update_transform()
 	..()
 
-/datum/reagent/growthserum/on_mob_delete(mob/living/M)
+/datum/reagent/growthserum/on_mob_end_metabolize(mob/living/M)
 	M.resize = 1/current_size
 	M.update_transform()
 	..()
@@ -1777,12 +1793,17 @@
 	taste_description = "water"
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM
 
-/datum/reagent/pax/on_mob_add(mob/living/L)
+/datum/reagent/pax/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(TRAIT_PACIFISM, id)
 
+<<<<<<< HEAD
 /datum/reagent/pax/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_PACIFISM, id)
+=======
+/datum/reagent/pax/on_mob_end_metabolize(mob/living/L)
+	REMOVE_TRAIT(L, TRAIT_PACIFISM, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/bz_metabolites
@@ -1793,11 +1814,11 @@
 	taste_description = "acrid cinnamon"
 	metabolization_rate = 0.2 * REAGENTS_METABOLISM
 
-/datum/reagent/bz_metabolites/on_mob_add(mob/living/L)
+/datum/reagent/bz_metabolites/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(CHANGELING_HIVEMIND_MUTE, id)
 
-/datum/reagent/bz_metabolites/on_mob_delete(mob/living/L)
+/datum/reagent/bz_metabolites/on_mob_end_metabolize(mob/living/L)
 	..()
 	L.remove_trait(CHANGELING_HIVEMIND_MUTE, id)
 

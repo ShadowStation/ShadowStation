@@ -390,12 +390,17 @@
 	glass_name = "glass of Nuka Cola"
 	glass_desc = "Don't cry, Don't raise your eye, It's only nuclear wasteland."
 
-/datum/reagent/consumable/nuka_cola/on_mob_add(mob/living/L)
+/datum/reagent/consumable/nuka_cola/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(TRAIT_GOTTAGOFAST, id)
 
+<<<<<<< HEAD
 /datum/reagent/consumable/nuka_cola/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_GOTTAGOFAST, id)
+=======
+/datum/reagent/consumable/nuka_cola/on_mob_end_metabolize(mob/living/L)
+	REMOVE_TRAIT(L, TRAIT_GOTTAGOFAST, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/consumable/nuka_cola/on_mob_life(mob/living/carbon/M)

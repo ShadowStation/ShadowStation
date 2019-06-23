@@ -156,11 +156,11 @@
 	toxpwr = 0.5
 	taste_description = "death"
 
-/datum/reagent/toxin/zombiepowder/on_mob_add(mob/living/L)
+/datum/reagent/toxin/zombiepowder/on_mob_metabolize(mob/living/L)
 	..()
 	L.fakedeath(id)
 
-/datum/reagent/toxin/zombiepowder/on_mob_delete(mob/living/L)
+/datum/reagent/toxin/zombiepowder/on_mob_end_metabolize(mob/living/L)
 	L.cure_fakedeath(id)
 	..()
 
@@ -178,12 +178,17 @@
 	toxpwr = 0.8
 	taste_description = "death"
 
-/datum/reagent/toxin/ghoulpowder/on_mob_add(mob/living/L)
+/datum/reagent/toxin/ghoulpowder/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(TRAIT_FAKEDEATH, id)
 
+<<<<<<< HEAD
 /datum/reagent/toxin/ghoulpowder/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_FAKEDEATH, id)
+=======
+/datum/reagent/toxin/ghoulpowder/on_mob_end_metabolize(mob/living/L)
+	REMOVE_TRAIT(L, TRAIT_FAKEDEATH, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/toxin/ghoulpowder/on_mob_life(mob/living/carbon/M)
@@ -626,7 +631,7 @@
 	toxpwr = 0
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 
-/datum/reagent/toxin/amanitin/on_mob_delete(mob/living/M)
+/datum/reagent/toxin/amanitin/on_mob_end_metabolize(mob/living/M)
 	var/toxdamage = current_cycle*3*REM
 	M.log_message("has taken [toxdamage] toxin damage from amanitin toxin", LOG_ATTACK)
 	M.adjustToxLoss(toxdamage)
@@ -742,7 +747,7 @@
 				animate(transform = matrix(-rotation, MATRIX_ROTATE), time = 5, easing = QUAD_EASING)
 	return ..()
 
-/datum/reagent/toxin/rotatium/on_mob_delete(mob/living/M)
+/datum/reagent/toxin/rotatium/on_mob_end_metabolize(mob/living/M)
 	if(M && M.hud_used)
 		var/list/screens = list(M.hud_used.plane_masters["[FLOOR_PLANE]"], M.hud_used.plane_masters["[GAME_PLANE]"], M.hud_used.plane_masters["[LIGHTING_PLANE]"])
 		for(var/whole_screen in screens)
@@ -779,7 +784,7 @@
 	*/
 	return ..()
 
-/datum/reagent/toxin/skewium/on_mob_delete(mob/living/M)
+/datum/reagent/toxin/skewium/on_mob_end_metabolize(mob/living/M)
 	if(M && M.hud_used)
 		var/list/screens = list(M.hud_used.plane_masters["[FLOOR_PLANE]"], M.hud_used.plane_masters["[GAME_PLANE]"], M.hud_used.plane_masters["[LIGHTING_PLANE]"])
 		for(var/whole_screen in screens)
@@ -882,8 +887,16 @@
 	toxpwr = 0
 	taste_description = "stillness"
 
+<<<<<<< HEAD
 /datum/reagent/toxin/mimesbane/on_mob_add(mob/living/L)
 	L.add_trait(TRAIT_EMOTEMUTE, id)
 
 /datum/reagent/toxin/mimesbane/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_EMOTEMUTE, id)
+=======
+/datum/reagent/toxin/mimesbane/on_mob_metabolize(mob/living/L)
+	ADD_TRAIT(L, TRAIT_EMOTEMUTE, id)
+
+/datum/reagent/toxin/mimesbane/on_mob_end_metabolize(mob/living/L)
+	REMOVE_TRAIT(L, TRAIT_EMOTEMUTE, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77

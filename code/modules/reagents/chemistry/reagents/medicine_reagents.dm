@@ -366,7 +366,7 @@
 				to_chat(M, "<span class='danger'>You feel your wounds fade away to nothing!</span>" )
 	..()
 
-/datum/reagent/medicine/mine_salve/on_mob_delete(mob/living/M)
+/datum/reagent/medicine/mine_salve/on_mob_end_metabolize(mob/living/M)
 	if(iscarbon(M))
 		var/mob/living/carbon/N = M
 		N.hal_screwyhud = SCREWYHUD_NONE
@@ -630,12 +630,17 @@
 	overdose_threshold = 30
 	addiction_threshold = 25
 
-/datum/reagent/medicine/morphine/on_mob_add(mob/living/L)
+/datum/reagent/medicine/morphine/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(TRAIT_IGNORESLOWDOWN, id)
 
+<<<<<<< HEAD
 /datum/reagent/medicine/morphine/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_IGNORESLOWDOWN, id)
+=======
+/datum/reagent/medicine/morphine/on_mob_end_metabolize(mob/living/L)
+	L.unignore_slowdown(id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/medicine/morphine/on_mob_life(mob/living/carbon/M)
@@ -883,12 +888,17 @@
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	overdose_threshold = 60
 
-/datum/reagent/medicine/stimulants/on_mob_add(mob/living/L)
+/datum/reagent/medicine/stimulants/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(TRAIT_GOTTAGOFAST, id)
 
+<<<<<<< HEAD
 /datum/reagent/medicine/stimulants/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_GOTTAGOFAST, id)
+=======
+/datum/reagent/medicine/stimulants/on_mob_end_metabolize(mob/living/L)
+	REMOVE_TRAIT(L, TRAIT_GOTTAGOFAST, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/medicine/stimulants/on_mob_life(mob/living/carbon/M)
@@ -1195,12 +1205,17 @@
 	color = "#C8A5DC"
 	metabolization_rate = 1
 
-/datum/reagent/medicine/changelinghaste/on_mob_add(mob/living/L)
+/datum/reagent/medicine/changelinghaste/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_trait(TRAIT_GOTTAGOREALLYFAST, id)
 
+<<<<<<< HEAD
 /datum/reagent/medicine/changelinghaste/on_mob_delete(mob/living/L)
 	L.remove_trait(TRAIT_GOTTAGOREALLYFAST, id)
+=======
+/datum/reagent/medicine/changelinghaste/on_mob_end_metabolize(mob/living/L)
+	REMOVE_TRAIT(L, TRAIT_GOTTAGOREALLYFAST, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/medicine/changelinghaste/on_mob_life(mob/living/carbon/M)
@@ -1217,12 +1232,17 @@
 	color = "#F5F5F5"
 	self_consuming = TRUE
 
-/datum/reagent/medicine/corazone/on_mob_add(mob/living/M)
+/datum/reagent/medicine/corazone/on_mob_metabolize(mob/living/M)
 	..()
 	M.add_trait(TRAIT_STABLEHEART, id)
 
+<<<<<<< HEAD
 /datum/reagent/medicine/corazone/on_mob_delete(mob/living/M)
 	M.remove_trait(TRAIT_STABLEHEART, id)
+=======
+/datum/reagent/medicine/corazone/on_mob_end_metabolize(mob/living/M)
+	REMOVE_TRAIT(M, TRAIT_STABLEHEART, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/medicine/muscle_stimulant
@@ -1230,11 +1250,11 @@
 	id = "muscle_stimulant"
 	description = "A potent chemical that allows someone under its influence to be at full physical ability even when under massive amounts of pain."
 
-/datum/reagent/medicine/muscle_stimulant/on_mob_add(mob/living/M)
+/datum/reagent/medicine/muscle_stimulant/on_mob_metabolize(mob/living/M)
 	. = ..()
 	M.add_trait(TRAIT_IGNORESLOWDOWN, id)
 
-/datum/reagent/medicine/muscle_stimulant/on_mob_delete(mob/living/M)
+/datum/reagent/medicine/muscle_stimulant/on_mob_end_metabolize(mob/living/M)
 	. = ..()
 	M.remove_trait(TRAIT_IGNORESLOWDOWN, id)
 
@@ -1249,12 +1269,21 @@
 	taste_description = "salt" // it actually does taste salty
 	var/overdose_progress = 0 // to track overdose progress
 
+<<<<<<< HEAD
 /datum/reagent/medicine/modafinil/on_mob_add(mob/living/M)
 	M.add_trait(TRAIT_SLEEPIMMUNE, id)
 	..()
 
 /datum/reagent/medicine/modafinil/on_mob_delete(mob/living/M)
 	M.remove_trait(TRAIT_SLEEPIMMUNE, id)
+=======
+/datum/reagent/medicine/modafinil/on_mob_metabolize(mob/living/M)
+	ADD_TRAIT(M, TRAIT_SLEEPIMMUNE, id)
+	..()
+
+/datum/reagent/medicine/modafinil/on_mob_end_metabolize(mob/living/M)
+	REMOVE_TRAIT(M, TRAIT_SLEEPIMMUNE, id)
+>>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/medicine/modafinil/on_mob_life(mob/living/carbon/M)
