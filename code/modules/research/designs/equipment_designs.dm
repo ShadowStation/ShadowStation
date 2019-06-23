@@ -53,3 +53,24 @@
 	construction_time = 100
 	category = list("Misc")
 	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING
+
+/datum/design/flightpack
+	name = "Ion Jetpack"
+	desc = "An experimental jetpack that uses ion pulse energy, allowing for powered flight without the need for compressed gas."
+	id = "flightpack"
+	build_type = PROTOLATHE
+	build_path = /obj/item/tank/jetpack/flightpack
+	materials = list(MAT_METAL=8000, MAT_GLASS = 4000, MAT_DIAMOND = 4000, MAT_GOLD = 24000, MAT_SILVER = 24000, MAT_URANIUM = 10000, MAT_PLASMA = 10000, MAT_TITANIUM = 30000) //expensive, as it should be
+	construction_time = 250
+	category = list("Misc")
+	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING
+
+/datum/design/flightsuit
+	name = "Spaceflight Hardsuit"
+	desc = "A lightweight titanium-based hardsuit designed specifically for spaceflight in conjunction with an Ion Jetpack." //hence why it costs 30 fucking thousand units of titanium
+	id = "flightsuit"
+	build_type = PROTOLATHE
+	build_path = /obj/item/clothing/suit/space/hardsuit/flightsuit
+	materials = list(MAT_METAL=8000, MAT_GLASS = 8000, MAT_DIAMOND = 1000, MAT_GOLD = 3000, MAT_SILVER = 3000, MAT_TITANIUM = 30000)
+	category = list("Misc")
+	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING
