@@ -24904,14 +24904,23 @@
 /area/ai_monitored/turret_protected/ai)
 "aWM" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "aWN" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "aWO" = (
 /obj/machinery/ai_slipper{
 	uses = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
 	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
@@ -26633,6 +26642,9 @@
 	uses = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "aZU" = (
@@ -29325,6 +29337,9 @@
 /obj/machinery/airalarm{
 	pixel_y = 23
 	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
 "bew" = (
@@ -30125,6 +30140,9 @@
 	},
 /obj/machinery/ai_slipper{
 	uses = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
 	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
@@ -31319,6 +31337,9 @@
 "bip" = (
 /obj/machinery/holopad,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai)
 "biq" = (
@@ -32054,6 +32075,9 @@
 	id = "AI";
 	pixel_x = -24;
 	pixel_y = 28
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai)
@@ -33084,6 +33108,9 @@
 /area/ai_monitored/turret_protected/aisat_interior)
 "blG" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
 "blH" = (
@@ -33119,6 +33146,9 @@
 	pixel_x = 28
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
 "blJ" = (
@@ -34101,6 +34131,9 @@
 	},
 /obj/effect/landmark/start/cyborg,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
 "bnD" = (
@@ -35113,8 +35146,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
-/obj/structure/cable{
-	icon_state = "0-8"
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
 /area/aisat)
@@ -35124,7 +35157,7 @@
 	icon_state = "2-4"
 	},
 /obj/structure/cable/yellow{
-	icon_state = "0-4"
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
 /area/aisat)
@@ -35240,6 +35273,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/ai_slipper{
 	uses = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
 	},
 /mob/living/simple_animal/bot/secbot/pingsky,
 /turf/open/floor/plasteel/dark,
@@ -83411,6 +83447,12 @@
 	},
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal/incinerator)
+"hsv" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
 "hvt" = (
 /obj/structure/kitchenspike_frame,
 /obj/effect/decal/cleanable/blood/gibs/old,
@@ -83677,6 +83719,13 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
+"lRn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
 "lWY" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Telecomms Server Room"
@@ -83988,6 +84037,13 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"pZJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
 "qhe" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -138863,11 +138919,11 @@ aRy
 aTV
 aVm
 aWM
-aWM
+lRn
 aZS
-aWM
-aWM
-aWM
+lRn
+lRn
+pZJ
 bgi
 bin
 bjR
@@ -139125,7 +139181,7 @@ bqm
 aTV
 aTV
 beu
-aWN
+hsv
 bio
 bjR
 blF
