@@ -164,7 +164,7 @@
 
 	to_chat(world, "<BR><BR><BR><span class='big bold'>The round has ended.</span>")
 	if(LAZYLEN(GLOB.round_end_notifiees))
-		world.TgsTargetedChatBroadcast("Notice", "[GLOB.round_end_notifiees.Join(", ")] the round has ended.",FALSE)
+		world.TgsTargetedChatBroadcast("[GLOB.round_end_notifiees.Join(", ")] the round has ended.",FALSE)
 		//send2irc("Notice", "[GLOB.round_end_notifiees.Join(", ")] the round has ended.")
 
 	for(var/I in round_end_events)
