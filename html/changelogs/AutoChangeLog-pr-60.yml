@@ -1,0 +1,7 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - rscadd: "Waddle is a thing again."
+  - rscadd: "Clown shoes will now make the wearer waddle, can be toggled by ctrl-clicking to turn on/off WADDLE DAMPENERS (TM)"
+  - rscadd: "Penguins now waddle, and have a waddle organ which can be harvested"
+  - tweak: "footstep sounds are more frequent (same as /tg/)"
