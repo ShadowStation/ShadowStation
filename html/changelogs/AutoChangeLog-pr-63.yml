@@ -1,0 +1,4 @@
+author: "ShadowStation"
+delete-after: True
+changes: 
+  - bugfix: "The sabre sheath properly plays sounds again after who knows how long"
