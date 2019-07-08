@@ -24,7 +24,7 @@
 /datum/outfit/ert/commander
 	name = "ERT Commander"
 
-	id = /obj/item/card/id/ert
+	id = /obj/item/card/id/ert/Commander
 	suit = /obj/item/clothing/suit/space/hardsuit/ert
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
 	back = /obj/item/storage/backpack/captain
