@@ -35,7 +35,7 @@ Research Director
 	name = "Research Director"
 	jobtype = /datum/job/rd
 
-	id = /obj/item/card/id/silver
+	id = /obj/item/card/id/job/rd
 	belt = /obj/item/pda/heads/rd
 	ears = /obj/item/radio/headset/heads/rd
 	uniform = /obj/item/clothing/under/rank/research_director
@@ -85,6 +85,7 @@ Scientist
 	name = "Scientist"
 	jobtype = /datum/job/scientist
 
+	id = /obj/item/card/id/job/science
 	belt = /obj/item/pda/toxins
 	ears = /obj/item/radio/headset/headset_sci
 	uniform = /obj/item/clothing/under/rank/scientist
@@ -119,6 +120,7 @@ Roboticist
 	name = "Roboticist"
 	jobtype = /datum/job/roboticist
 
+	id = /obj/item/card/id/job/science
 	belt = /obj/item/storage/belt/utility/full
 	l_pocket = /obj/item/pda/roboticist
 	ears = /obj/item/radio/headset/headset_sci

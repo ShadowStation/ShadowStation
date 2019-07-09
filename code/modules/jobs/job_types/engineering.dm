@@ -33,7 +33,7 @@ Chief Engineer
 	name = "Chief Engineer"
 	jobtype = /datum/job/chief_engineer
 
-	id = /obj/item/card/id/silver
+	id = /obj/item/card/id/job/ce
 	belt = /obj/item/storage/belt/utility/chief/full
 	l_pocket = /obj/item/pda/heads/ce
 	ears = /obj/item/radio/headset/heads/ce
@@ -90,6 +90,7 @@ Station Engineer
 	name = "Station Engineer"
 	jobtype = /datum/job/engineer
 
+	id = /obj/item/card/id/job/engineering
 	belt = /obj/item/storage/belt/utility/full/engi
 	l_pocket = /obj/item/pda/engineering
 	ears = /obj/item/radio/headset/headset_eng
@@ -145,6 +146,7 @@ Atmospheric Technician
 	name = "Atmospheric Technician"
 	jobtype = /datum/job/atmos
 
+	id = /obj/item/card/id/job/engineering
 	belt = /obj/item/storage/belt/utility/atmostech
 	l_pocket = /obj/item/pda/atmos
 	ears = /obj/item/radio/headset/headset_eng
