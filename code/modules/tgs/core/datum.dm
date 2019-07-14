@@ -1,11 +1,6 @@
 TGS_DEFINE_AND_SET_GLOBAL(tgs, null)
 
 /datum/tgs_api
-	var/datum/tgs_version/version
-
-/datum/tgs_api/New(datum/tgs_version/version)
-	. = ..()
-	src.version = version
 
 /datum/tgs_api/latest
 	parent_type = /datum/tgs_api/v4
@@ -56,7 +51,9 @@ TGS_PROTECT_DATUM(/datum/tgs_api)
 
 /*
 The MIT License
+
 Copyright (c) 2017 Jordan Brown
+
 Permission is hereby granted, free of charge,
 to any person obtaining a copy of this software and
 associated documentation files (the "Software"), to
@@ -66,8 +63,10 @@ merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom
 the Software is furnished to do so,
 subject to the following conditions:
+
 The above copyright notice and this permission notice
 shall be included in all copies or substantial portions of the Software.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
 OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
