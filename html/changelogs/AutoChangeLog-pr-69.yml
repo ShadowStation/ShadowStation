@@ -1,4 +1,0 @@
-author: "Phi"
-delete-after: True
-changes: 
-  - bugfix: "no more <@@mention> stuff."

@@ -1,4 +1,0 @@
-author: "Phi"
-delete-after: True
-changes: 
-  - admin: "Deaths are now logged in game.log, with the damage taken, time and location."

@@ -1,4 +1,0 @@
-author: "Wire Adding"
-delete-after: True
-changes: 
-  - rscadd: "Wires to AI Satellite to hook AI up to it's own main grid. Added wires to connect the AI satellite to the external wire leading to the station (does not connect to main station grid)"

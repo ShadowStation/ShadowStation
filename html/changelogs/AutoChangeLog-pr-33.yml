@@ -1,4 +1,0 @@
-author: "SkullyRoberts"
-delete-after: True
-changes: 
-  - rscadd: "added /obj/item/clothing/shoes/wheelys and /obj/item/clothing/shoes/kindleKicks as rare maint loot"

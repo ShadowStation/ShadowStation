@@ -1,4 +1,0 @@
-author: "Phi"
-delete-after: True
-changes: 
-  - server: "updates DMAPI to v4, from v3."
