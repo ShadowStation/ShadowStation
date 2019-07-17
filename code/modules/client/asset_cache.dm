@@ -467,8 +467,6 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"stamp-law" = 'icons/stamp_icons/large_stamp-law.png'
 	)
 
-<<<<<<< HEAD
-=======
 /datum/asset/spritesheet/simple/minesweeper
 	name = "minesweeper"
 	assets = list(
@@ -514,7 +512,6 @@ GLOBAL_LIST_EMPTY(asset_datums)
 		"pill22" = 'icons/UI_Icons/Pills/pill22.png',
 	)
 
->>>>>>> 2259ea2e1... Merge pull request #8874 from Ghommie/Ghommie-cit132
 /datum/asset/simple/IRV
 	assets = list(
 		"jquery-ui.custom-core-widgit-mouse-sortable-min.js" = 'html/IRV/jquery-ui.custom-core-widgit-mouse-sortable-min.js',
