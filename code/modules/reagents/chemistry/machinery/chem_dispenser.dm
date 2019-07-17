@@ -534,19 +534,10 @@
 		"creme_de_menthe",
 		"creme_de_cacao",
 		"triple_sec",
-<<<<<<< HEAD
-		"sake"
-	)//prevents the booze machine from obtaining chemical upgrades.
-	upgrade_reagents = null
-=======
 		"sake",
 		"applejack"
-	)
-	upgrade_reagents = list(
-		"ethanol",
-		"fernet"
-	)
->>>>>>> bce4ce31a... Merge pull request #8778 from Ghommie/Ghommie-cit97
+	)//prevents the booze machine from obtaining chemical upgrades.
+	upgrade_reagents = null
 	upgrade_reagents2 = null
 	upgrade_reagents3 = null
 	emagged_reagents = list(

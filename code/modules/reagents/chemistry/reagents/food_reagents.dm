@@ -711,8 +711,6 @@
 	nutriment_factor = 5 * REAGENTS_METABOLISM
 	color = "#eef442" // rgb: 238, 244, 66
 	taste_description = "mournful honking"
-<<<<<<< HEAD
-=======
 
 /datum/reagent/consumable/astrotame
 	name = "Astrotame"
@@ -742,4 +740,3 @@
 	quality = FOOD_AMAZING
 	taste_mult = 100
 	can_synth = FALSE
->>>>>>> bce4ce31a... Merge pull request #8778 from Ghommie/Ghommie-cit97
