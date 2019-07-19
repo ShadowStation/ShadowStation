@@ -562,6 +562,13 @@ SUBSYSTEM_DEF(ticker)
 		if(SHUTTLE_HIJACK)
 			news_message = "During routine evacuation procedures, the emergency shuttle of [station_name()] had its navigation protocols corrupted and went off course, but was recovered shortly after."
 
+	if(SSblackbox.first_death)
+		var/list/ded = SSblackbox.first_death
+		if(ded.len)
+			news_message += " A partial recovery of the station black box revealed the tragic last moments of a crew member. Their name was: [ded["name"]], [ded["role"]], at [ded["area"]].[ded["last_words"] ? " Their last words were: \"[ded["last_words"]]\"" : ""] May they rest in peace."
+		else
+			news_message += " A partial recovery of the station black box revealed that nobody died during the shift!"
+
 	if(news_message)
 		send2otherserver(news_source, news_message,"News_Report")
 		return news_message
