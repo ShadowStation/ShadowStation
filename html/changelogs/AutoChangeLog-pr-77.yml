@@ -1,0 +1,5 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - rscadd: "Last words added to round end notification"
+  - bugfix: "spelling error on the chaplain's special camera"
