@@ -182,13 +182,8 @@
 	..()
 	L.add_trait(TRAIT_FAKEDEATH, id)
 
-<<<<<<< HEAD
-/datum/reagent/toxin/ghoulpowder/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_FAKEDEATH, id)
-=======
 /datum/reagent/toxin/ghoulpowder/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_FAKEDEATH, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
+	L.remove_trait(TRAIT_FAKEDEATH, id)
 	..()
 
 /datum/reagent/toxin/ghoulpowder/on_mob_life(mob/living/carbon/M)
@@ -887,16 +882,8 @@
 	toxpwr = 0
 	taste_description = "stillness"
 
-<<<<<<< HEAD
-/datum/reagent/toxin/mimesbane/on_mob_add(mob/living/L)
+/datum/reagent/toxin/mimesbane/on_mob_metabolize(mob/living/L)
 	L.add_trait(TRAIT_EMOTEMUTE, id)
 
-/datum/reagent/toxin/mimesbane/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_EMOTEMUTE, id)
-=======
-/datum/reagent/toxin/mimesbane/on_mob_metabolize(mob/living/L)
-	ADD_TRAIT(L, TRAIT_EMOTEMUTE, id)
-
 /datum/reagent/toxin/mimesbane/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_EMOTEMUTE, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
+	L.remove_trait(TRAIT_EMOTEMUTE, id)

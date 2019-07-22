@@ -634,13 +634,8 @@
 	..()
 	L.add_trait(TRAIT_IGNORESLOWDOWN, id)
 
-<<<<<<< HEAD
-/datum/reagent/medicine/morphine/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_IGNORESLOWDOWN, id)
-=======
 /datum/reagent/medicine/morphine/on_mob_end_metabolize(mob/living/L)
 	L.unignore_slowdown(id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/medicine/morphine/on_mob_life(mob/living/carbon/M)
@@ -892,13 +887,8 @@
 	..()
 	L.add_trait(TRAIT_GOTTAGOFAST, id)
 
-<<<<<<< HEAD
-/datum/reagent/medicine/stimulants/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_GOTTAGOFAST, id)
-=======
 /datum/reagent/medicine/stimulants/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_GOTTAGOFAST, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
+	L.remove_trait(TRAIT_GOTTAGOFAST, id)
 	..()
 
 /datum/reagent/medicine/stimulants/on_mob_life(mob/living/carbon/M)
@@ -1209,13 +1199,8 @@
 	..()
 	L.add_trait(TRAIT_GOTTAGOREALLYFAST, id)
 
-<<<<<<< HEAD
-/datum/reagent/medicine/changelinghaste/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_GOTTAGOREALLYFAST, id)
-=======
 /datum/reagent/medicine/changelinghaste/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_GOTTAGOREALLYFAST, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
+	L.remove_trait(TRAIT_GOTTAGOREALLYFAST, id)
 	..()
 
 /datum/reagent/medicine/changelinghaste/on_mob_life(mob/living/carbon/M)
@@ -1236,13 +1221,8 @@
 	..()
 	M.add_trait(TRAIT_STABLEHEART, id)
 
-<<<<<<< HEAD
-/datum/reagent/medicine/corazone/on_mob_delete(mob/living/M)
-	M.remove_trait(TRAIT_STABLEHEART, id)
-=======
 /datum/reagent/medicine/corazone/on_mob_end_metabolize(mob/living/M)
-	REMOVE_TRAIT(M, TRAIT_STABLEHEART, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
+	M.remove_trait(TRAIT_STABLEHEART, id)
 	..()
 
 /datum/reagent/medicine/muscle_stimulant
@@ -1269,21 +1249,12 @@
 	taste_description = "salt" // it actually does taste salty
 	var/overdose_progress = 0 // to track overdose progress
 
-<<<<<<< HEAD
-/datum/reagent/medicine/modafinil/on_mob_add(mob/living/M)
+/datum/reagent/medicine/modafinil/on_mob_metabolize(mob/living/M)
 	M.add_trait(TRAIT_SLEEPIMMUNE, id)
 	..()
 
-/datum/reagent/medicine/modafinil/on_mob_delete(mob/living/M)
-	M.remove_trait(TRAIT_SLEEPIMMUNE, id)
-=======
-/datum/reagent/medicine/modafinil/on_mob_metabolize(mob/living/M)
-	ADD_TRAIT(M, TRAIT_SLEEPIMMUNE, id)
-	..()
-
 /datum/reagent/medicine/modafinil/on_mob_end_metabolize(mob/living/M)
-	REMOVE_TRAIT(M, TRAIT_SLEEPIMMUNE, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
+	M.remove_trait(TRAIT_SLEEPIMMUNE, id)
 	..()
 
 /datum/reagent/medicine/modafinil/on_mob_life(mob/living/carbon/M)

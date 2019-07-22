@@ -169,13 +169,8 @@
 	..()
 	L.add_trait(TRAIT_IGNORESLOWDOWN, id)
 
-<<<<<<< HEAD
-/datum/reagent/drug/methamphetamine/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_IGNORESLOWDOWN, id)
-=======
 /datum/reagent/drug/methamphetamine/on_mob_end_metabolize(mob/living/L)
 	L.unignore_slowdown(id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/drug/methamphetamine/on_mob_life(mob/living/carbon/M)
@@ -265,15 +260,9 @@
 		rage = new()
 		C.gain_trauma(rage, TRAUMA_RESILIENCE_ABSOLUTE)
 
-<<<<<<< HEAD
-/datum/reagent/drug/bath_salts/on_mob_delete(mob/living/L)
+/datum/reagent/drug/bath_salts/on_mob_end_metabolize(mob/living/L)
 	L.remove_trait(TRAIT_STUNIMMUNE, id)
 	L.remove_trait(TRAIT_SLEEPIMMUNE, id)
-=======
-/datum/reagent/drug/bath_salts/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_STUNIMMUNE, id)
-	REMOVE_TRAIT(L, TRAIT_SLEEPIMMUNE, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	if(rage)
 		QDEL_NULL(rage)
 	..()

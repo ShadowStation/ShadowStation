@@ -200,13 +200,8 @@
 	..()
 	L.add_trait(TRAIT_HOLY, id)
 
-<<<<<<< HEAD
-/datum/reagent/water/holywater/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_HOLY, id)
-=======
 /datum/reagent/water/holywater/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_HOLY, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
+	L.remove_trait(TRAIT_HOLY, id)
 	..()
 
 /datum/reagent/water/holywater/reaction_mob(mob/living/M, method=TOUCH, reac_volume)
@@ -1251,15 +1246,9 @@
 	L.add_trait(TRAIT_STUNIMMUNE, id)
 	L.add_trait(TRAIT_SLEEPIMMUNE, id)
 
-<<<<<<< HEAD
-/datum/reagent/stimulum/on_mob_delete(mob/living/L)
+/datum/reagent/stimulum/on_mob_end_metabolize(mob/living/L)
 	L.remove_trait(TRAIT_STUNIMMUNE, id)
 	L.remove_trait(TRAIT_SLEEPIMMUNE, id)
-=======
-/datum/reagent/stimulum/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_STUNIMMUNE, id)
-	REMOVE_TRAIT(L, TRAIT_SLEEPIMMUNE, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
 	..()
 
 /datum/reagent/stimulum/on_mob_life(mob/living/carbon/M)
@@ -1281,13 +1270,8 @@
 	..()
 	L.add_trait(TRAIT_GOTTAGOFAST, id)
 
-<<<<<<< HEAD
-/datum/reagent/nitryl/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_GOTTAGOFAST, id)
-=======
 /datum/reagent/nitryl/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_GOTTAGOFAST, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
+	L.remove_trait(TRAIT_GOTTAGOFAST, id)
 	..()
 
 /////////////////////////Coloured Crayon Powder////////////////////////////
@@ -1797,13 +1781,8 @@
 	..()
 	L.add_trait(TRAIT_PACIFISM, id)
 
-<<<<<<< HEAD
-/datum/reagent/pax/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_PACIFISM, id)
-=======
 /datum/reagent/pax/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_PACIFISM, id)
->>>>>>> dcab96d9d... Merge pull request #8721 from Ghommie/Ghommie-cit77
+	L.remove_trait(TRAIT_PACIFISM, id)
 	..()
 
 /datum/reagent/bz_metabolites

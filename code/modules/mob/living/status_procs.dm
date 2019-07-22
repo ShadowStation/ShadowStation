@@ -286,3 +286,11 @@
 	add_trait(TRAIT_DEATHCOMA, source)
 	tod = STATION_TIME_TIMESTAMP("hh:mm:ss")
 	update_stat()
+
+/mob/living/proc/unignore_slowdown(list/sources)
+	src.remove_trait(TRAIT_IGNORESLOWDOWN, sources)
+	update_movespeed(FALSE)
+
+/mob/living/proc/ignore_slowdown(source)
+	src.add_trait(TRAIT_IGNORESLOWDOWN, source)
+	update_movespeed(FALSE)
