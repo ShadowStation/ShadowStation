@@ -522,10 +522,10 @@
 
 /datum/reagent/consumable/grey_bull/on_mob_metabolize(mob/living/L)
 	..()
-	ADD_TRAIT(L, TRAIT_SHOCKIMMUNE, id)
+	L.add_trait(TRAIT_SHOCKIMMUNE, id)
 
 /datum/reagent/consumable/grey_bull/on_mob_end_metabolize(mob/living/L)
-	REMOVE_TRAIT(L, TRAIT_SHOCKIMMUNE, id)
+	L.remove_trait(TRAIT_SHOCKIMMUNE, id)
 	..()
 
 /datum/reagent/consumable/grey_bull/on_mob_life(mob/living/carbon/M)
