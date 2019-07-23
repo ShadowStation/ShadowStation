@@ -459,6 +459,7 @@
 #include "code\datums\mood_events\beauty_events.dm"
 #include "code\datums\mood_events\drink_events.dm"
 #include "code\datums\mood_events\drug_events.dm"
+#include "code\datums\mood_events\food_events.dm"
 #include "code\datums\mood_events\generic_negative_events.dm"
 #include "code\datums\mood_events\generic_positive_events.dm"
 #include "code\datums\mood_events\mood_event.dm"

@@ -32,6 +32,14 @@
 					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_drink", /datum/mood_event/quality_verygood)
 				if (DRINK_FANTASTIC)
 					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_drink", /datum/mood_event/quality_fantastic)
+				if (FOOD_NICE)
+					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_food", /datum/mood_event/quality_nice_food)
+				if (FOOD_GOOD)
+					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_food", /datum/mood_event/quality_good_food)
+				if (FOOD_VERYGOOD)
+					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_food", /datum/mood_event/quality_verygood_food)
+				if (FOOD_FANTASTIC)
+					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_food", /datum/mood_event/quality_fantastic_food)
 	return ..()
 
 /datum/reagent/consumable/nutriment
@@ -737,6 +745,6 @@
 	nutriment_factor = 2 * REAGENTS_METABOLISM
 	color = "#792300"
 	taste_description = "indescribable"
-	quality = FOOD_AMAZING
+	quality = FOOD_FANTASTIC
 	taste_mult = 100
 	can_synth = FALSE
