@@ -32,6 +32,14 @@
 					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_drink", /datum/mood_event/quality_verygood)
 				if (DRINK_FANTASTIC)
 					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_drink", /datum/mood_event/quality_fantastic)
+				if (FOOD_NICE)
+					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_food", /datum/mood_event/quality_nice_food)
+				if (FOOD_GOOD)
+					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_food", /datum/mood_event/quality_good_food)
+				if (FOOD_VERYGOOD)
+					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_food", /datum/mood_event/quality_verygood_food)
+				if (FOOD_FANTASTIC)
+					SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "quality_food", /datum/mood_event/quality_fantastic_food)
 	return ..()
 
 /datum/reagent/consumable/nutriment
@@ -711,3 +719,32 @@
 	nutriment_factor = 5 * REAGENTS_METABOLISM
 	color = "#eef442" // rgb: 238, 244, 66
 	taste_description = "mournful honking"
+
+/datum/reagent/consumable/astrotame
+	name = "Astrotame"
+	id = "astrotame"
+	description = "A space age artifical sweetener."
+	nutriment_factor = 0
+	metabolization_rate = 2 * REAGENTS_METABOLISM
+	reagent_state = SOLID
+	color = "#FFFFFF" // rgb: 255, 255, 255
+	taste_mult = 8
+	taste_description = "sweetness"
+	overdose_threshold = 17
+
+/datum/reagent/consumable/astrotame/overdose_process(mob/living/carbon/M)
+	if(M.disgust < 80)
+		M.adjust_disgust(10)
+	..()
+	. = TRUE
+
+/datum/reagent/consumable/secretsauce
+	name = "secret sauce"
+	id = "secret_sauce"
+	description = "What could it be."
+	nutriment_factor = 2 * REAGENTS_METABOLISM
+	color = "#792300"
+	taste_description = "indescribable"
+	quality = FOOD_FANTASTIC
+	taste_mult = 100
+	can_synth = FALSE
