@@ -301,19 +301,6 @@ h1.alert, h2.alert		{color: #99aab5;}
 .emote					{					font-style: italic;}
 .selecteddna			{color: #ffffff; 	background-color: #001B1B}
 
-<<<<<<< HEAD
-.attack					{color: #ff0000;}
-.disarm					{color: #990000;}
-.passive				{color: #660000;}
-
-.userdanger				{color: #ff0000;	font-weight: bold; font-size: 24px;}
-.danger					{color: #ff0000;}
-.warning				{color: #ff0000;	font-style: italic;}
-.boldwarning			{color: #ff0000;	font-style: italic;	font-weight: bold}
-.announce 				{color: #228b22;	font-weight: bold;}
-.boldannounce			{color: #ff0000;	font-weight: bold;}
-.greenannounce			{color: #00ff00;	font-weight: bold;}
-=======
 .attack					{color: #e01c1c;}
 .disarm					{color: #b42525;}
 .passive				{color: #a00f0f;}
@@ -326,7 +313,6 @@ h1.alert, h2.alert		{color: #99aab5;}
 .announce 				{color: #c51e1e;	font-weight: bold;}
 .boldannounce			{color: #c51e1e;	font-weight: bold;}
 .greenannounce			{color: #059223;	font-weight: bold;}
->>>>>>> 08fd6af7f... Merge pull request #8830 from Ghommie/Ghommie-cit114
 .rose					{color: #ff5050;}
 .info					{color: #6685f5;}
 .notice					{color: #6685f5;}
@@ -335,12 +321,6 @@ h1.alert, h2.alert		{color: #99aab5;}
 .adminhelp              {color: #ff0000;    font-weight: bold;}
 .unconscious			{color: #a4bad6;	font-weight: bold;}
 .suicide				{color: #ff5050;	font-style: italic;}
-<<<<<<< HEAD
-.green					{color: #03ff39;}
-.nicegreen					{color: #14a833;}
-.shadowling				{color: #3b2769;}
-.cult					{color: #960000;}
-=======
 .red					{color: #FF0000}
 .pink					{color: #ff70c1;}
 .blue					{color: #215cff}
@@ -350,7 +330,6 @@ h1.alert, h2.alert		{color: #99aab5;}
 .love					{color: #ff006a;	font-style: italic;	text-shadow: 0 0 6px #ff6d6d;}
 .shadowling			{color: #8e8a99;}
 .cult					{color: #aa1c1c;}
->>>>>>> 08fd6af7f... Merge pull request #8830 from Ghommie/Ghommie-cit114
 
 .cultitalic				{color: #aa1c1c;	font-style: italic;}
 .cultbold				{color: #aa1c1c; font-style: italic; font-weight: bold;}
