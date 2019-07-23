@@ -63,8 +63,6 @@
 	name = "Short (White)"
 	icon_state = "white_short"
 
-<<<<<<< HEAD
-=======
 /datum/sprite_accessory/socks/stockings_blue
 	name = "Stockings (Blue)"
 	icon_state = "stockings_blue"
@@ -101,7 +99,6 @@
 	name = "Thigh-high (Bee)"
 	icon_state = "bee_thigh"
 
->>>>>>> 3cd5b1d18... Merge pull request #8741 from Ghommie/Ghommie-cit88
 /datum/sprite_accessory/socks/black_thigh
 	name = "Thigh-high (Black)"
 	icon_state = "black_thigh"
