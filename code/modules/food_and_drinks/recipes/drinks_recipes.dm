@@ -153,7 +153,7 @@
 	name = "Beepksy Smash"
 	id = "beepksysmash"
 	results = list("beepskysmash" = 4)
-	required_reagents = list("limejuice" = 2, "whiskey" = 2, "iron" = 1)
+	required_reagents = list("limejuice" = 2, "quadruple_sec" = 2, "iron" = 1)
 
 /datum/chemical_reaction/doctor_delight
 	name = "The Doctor's Delight"
