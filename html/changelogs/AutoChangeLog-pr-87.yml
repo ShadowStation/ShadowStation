@@ -1,0 +1,5 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - tweak: "Light client skin no longer burns retinas out."
+  - tweak: "Changed around a few other colors to look better in light/dark modes respectively."
