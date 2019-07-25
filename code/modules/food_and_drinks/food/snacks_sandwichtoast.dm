@@ -52,7 +52,6 @@
 	list_reagents = list("nutriment" = 2, "cherryjelly" = 5, "vitamin" = 2)
 	foodtype = GRAIN | FRUIT
 
-<<<<<<< HEAD
 /obj/item/reagent_containers/food/snacks/icecreamsandwich
 	name = "icecream sandwich"
 	desc = "Portable Ice-cream in its own packaging."
@@ -62,7 +61,7 @@
 	list_reagents = list("nutriment" = 2, "ice" = 2)
 	tastes = list("ice cream" = 1)
 	foodtype = GRAIN | DAIRY
-=======
+	
 /obj/item/reagent_containers/food/snacks/jellysandwich/pbj
 	name = "\improper PB & J sandwich"
 	desc = "A grand creation of peanut butter, jelly and bread! An all-american classic."
@@ -89,7 +88,6 @@
 	bonus_reagents = list("peanut_butter" = 5, "vitamin" = 2)
 	list_reagents = list("nutriment" = 2, "peanut_butter" = 5, "vitamin" = 2)
 	foodtype  = GRAIN
->>>>>>> 231e0170a... Merge pull request #8663 from Ghommie/Ghommie-cit58
 
 /obj/item/reagent_containers/food/snacks/notasandwich
 	name = "not-a-sandwich"
