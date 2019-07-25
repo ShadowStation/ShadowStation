@@ -43,7 +43,6 @@
 	result = /obj/item/reagent_containers/food/snacks/jellysandwich/cherry
 	subcategory = CAT_SANDWICH
 
-<<<<<<< HEAD
 /datum/crafting_recipe/food/icecreamsandwich
 	name = "Icecream sandwich"
 	reqs = list(
@@ -54,7 +53,6 @@
 	result = /obj/item/reagent_containers/food/snacks/icecreamsandwich
 	subcategory = CAT_SANDWICH
 
-=======
 /datum/crafting_recipe/food/pbj_slimesandwich
 	name = "PB&J sandwich"
 	reqs = list(
@@ -96,8 +94,6 @@
 	result = /obj/item/reagent_containers/food/snacks/peanutbutter_sandwich
 	subcategory = CAT_SANDWICH
 
-
->>>>>>> 231e0170a... Merge pull request #8663 from Ghommie/Ghommie-cit58
 /datum/crafting_recipe/food/notasandwich
 	name = "Not a sandwich"
 	reqs = list(
