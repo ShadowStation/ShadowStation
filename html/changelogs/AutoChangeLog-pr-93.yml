@@ -1,0 +1,8 @@
+author: "Phi / AffectedArc07"
+delete-after: True
+changes: 
+  - rscadd: "Discord to ckey link (thanks to AffectedArc07 for laying basically all of this out)"
+  - rscadd: "Donor chat icon"
+  - tweak: "Tweaked prefs wording"
+  - admin: "Tools to manipulate linked accounts."
+  - config: "SQL changes to store linked accounts, tied to player table."
