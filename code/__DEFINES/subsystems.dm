@@ -1,7 +1,7 @@
 //Update this whenever the db schema changes
 //make sure you add an update to the schema_version stable in the db changelog
 #define DB_MAJOR_VERSION 4
-#define DB_MINOR_VERSION 7
+#define DB_MINOR_VERSION 8
 
 //Timing subsystem
 //Don't run if there is an identical unique timer active
@@ -83,6 +83,7 @@
 #define INIT_ORDER_SHUTTLE			-21
 #define INIT_ORDER_SQUEAK			-40
 #define INIT_ORDER_PATH				-50
+#define INIT_ORDER_DISCORD			-60
 #define INIT_ORDER_PERSISTENCE		-100
 
 // Subsystem fire priority, from lowest to highest priority
