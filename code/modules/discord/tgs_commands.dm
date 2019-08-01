@@ -22,7 +22,7 @@
 /datum/tgs_chat_command/setdonor/Run(datum/tgs_chat_user/sender, params)
 	var/list/all_params = splittext(params, " ")
 	if(all_params.len < 2)
-		return "Insufficient parameters"
+		return "Insufficient parameters."
 	var/dkey = all_params[1]
 	var/lvl = all_params[2]
 	if(lvl != null)
