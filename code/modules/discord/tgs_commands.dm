@@ -16,7 +16,7 @@
 
 /datum/tgs_chat_command/setdonor
 	name = "setdonor"
-	help_text = "Set the donation level of a user"
+	help_text = "Set the donation level of a user! <ckey> <donorlevel>"
 	admin_only = TRUE
 
 /datum/tgs_chat_command/setdonor/Run(datum/tgs_chat_user/sender, params)
@@ -30,3 +30,28 @@
 		donorlevel.Execute()
 		qdel(donorlevel)
 		return "Donor level for ckey [dkey] set to [lvl]."
+
+/datum/tgs_chat_command/idlookup
+	name = "idlookup"
+	help_text = "Allows you to perform a search for ckey or discord ID. <ckey/did> <ckey/discord ID>"
+	admin_only = TRUE
+
+/datum/tgs_chat_command/idlookup/Run(datum/tgs_chat_user/sender, params)
+	var/list/all_params = splittext(params, " ")
+	if(all_params.len < 2)
+		return "Insufficient parameters. Syntax: idlookup ckey/did ckey/discord ID"
+	var/lookup_type = all_params[1]
+	var/lookup_id = all_params[2]
+	if(lookup_id != null)
+		if(lookup_type == "ckey")
+			var/returned_id = SSdiscord.lookup_id(lookup_id)
+			if(returned_id)
+				return "[returned_id] is linked to ckey [lookup_id]"
+			else
+				return "Discord ID [lookup_id] has no associated ckey"
+		else if(lookup_type == "did")
+			var/returned_ckey = SSdiscord.lookup_ckey(lookup_id)
+			if(returned_ckey)
+				return "[returned_ckey] is linked to Discord ID [lookup_id]"
+			else
+				return "Ckey [lookup_id] has no associated Discord ID"
