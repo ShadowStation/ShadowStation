@@ -40,4 +40,4 @@
 
 			var/entered_id = input("Please enter your Discord ID (18-ish digits)", "Enter Discord ID", null, null) as text|null
 			SSdiscord.account_link_cache[replacetext(lowertext(usr.ckey), " ", "")] = "[entered_id]" // Prepares for TGS-side verification, also fuck spaces
-			alert(usr, "Account link started. Please ping the bot of the server you\'re currently on, followed by \"verify [usr.ckey]\" in the Discord to successfuly verify your account (Example: @Mr_Terry verify [usr.ckey])")
+			alert(usr, "Account link started. Please ping the bot of the server you\'re currently on, followed by \"verify [usr.ckey]\" in the Discord to successfuly verify your account (Example: @ShadowBot verify [usr.ckey])")

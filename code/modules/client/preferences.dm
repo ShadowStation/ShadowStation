@@ -187,6 +187,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 	var/unlock_content = 0
 
+	var/donor_lvl = "0"
+
 	var/list/ignoring = list()
 
 	var/clientfps = 0
@@ -208,6 +210,15 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/icon/bgstate = "steel"
 	var/list/bgstate_options = list("000", "midgrey", "FFF", "white", "steel", "techmaint", "dark", "plating", "reinforced")
 
+/datum/preferences/proc/get_donor_lvl(lookup_ckey)
+	var/datum/DBQuery/query_get_donor_lvl = SSdbcore.NewQuery("SELECT donor FROM [format_table_name("player")] WHERE ckey = '[sanitizeSQL(lookup_ckey)]'")
+	if(!query_get_donor_lvl.Execute())
+		qdel(query_get_donor_lvl)
+		return
+	if(query_get_donor_lvl.NextRow())
+		. = query_get_donor_lvl.item[1]
+	qdel(query_get_donor_lvl)
+
 /datum/preferences/New(client/C)
 	parent = C
 
@@ -219,6 +230,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 		if(!IsGuestKey(C.key))
 			load_path(C.ckey)
 			unlock_content = C.IsByondMember()
+			donor_lvl = get_donor_lvl(C.ckey)
 			if(unlock_content)
 				max_save_slots = 16
 	var/loaded_preferences_successfully = load_preferences()
@@ -762,7 +774,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			if(user.client)
 				if(unlock_content)
 					dat += "<b>BYOND Membership Publicity:</b> <a href='?_src_=prefs;preference=publicity'>[(toggles & MEMBER_PUBLIC) ? "Public" : "Hidden"]</a><br>"
-				if(unlock_content || check_rights_for(user.client, R_ADMIN))
+				if(donor_lvl != "0")
+					dat += "<b>ShadowStation Donor Publicity:</b> <a href='?_src_=prefs;preference=donorpublicity'>[(toggles & DONOR_PUBLIC) ? "Public" : "Hidden"]</a><br>"
+				if(unlock_content || check_rights_for(user.client, R_ADMIN) || donor_lvl != "0")
 					dat += "<b>OOC Color:</b> <span style='border: 1px solid #161616; background-color: [ooccolor ? ooccolor : GLOB.normal_ooc_colour];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=ooccolor;task=input'>Change</a><br>"
 					dat += "<b>Antag OOC Color:</b> <span style='border: 1px solid #161616; background-color: [aooccolor ? aooccolor : GLOB.normal_aooc_colour];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=aooccolor;task=input'>Change</a><br>"
 
@@ -2047,6 +2061,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if("publicity")
 					if(unlock_content)
 						toggles ^= MEMBER_PUBLIC
+				if("donorpublicity")
+					if(donor_lvl != "0")
+						toggles ^= DONOR_PUBLIC
 				if("gender")
 					var/chosengender = input(user, "Select your character's gender.", "Gender Selection", gender) in list(MALE,FEMALE,"nonbinary","object")
 					switch(chosengender)

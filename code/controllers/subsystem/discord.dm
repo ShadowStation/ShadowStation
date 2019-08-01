@@ -13,8 +13,7 @@ The system is kept per-server (EG: Terry will not notify people who pressed noti
 ##################
 
 MIDROUND:
-1] Someone usees the link verb, it adds their discord ID to the list.
-2] On fire, it will write that to the disk, as long as conditions above are correct
+1] Someone usees the link verb, it adds their discord ID to the list and log it to the db.
 
 */
 
@@ -22,6 +21,7 @@ SUBSYSTEM_DEF(discord)
 	name = "Discord"
 	wait = 3000
 	init_order = INIT_ORDER_DISCORD
+	flags = SS_NO_FIRE
 
 	var/list/account_link_cache = list() // List that holds accounts to link, used in conjunction with TGS
 	var/enabled = 0 // Is TGS enabled (If not we wont fire because otherwise this is useless)
