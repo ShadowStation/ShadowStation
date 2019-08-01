@@ -1,0 +1,6 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - rscadd: "Donor lvl discord bot command"
+  - rscadd: "Donor ooc chat icon reward"
+  - tweak: "Preferences show/hide donor status toggle"
