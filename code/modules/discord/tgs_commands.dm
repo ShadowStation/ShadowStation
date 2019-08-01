@@ -48,10 +48,10 @@
 			if(returned_id)
 				return "[returned_id] is linked to ckey [lookup_id]"
 			else
-				return "Discord ID [lookup_id] has no associated ckey"
+				return "Ckey [lookup_id] has no associated Discord ID"
 		else if(lookup_type == "did")
 			var/returned_ckey = SSdiscord.lookup_ckey(lookup_id)
 			if(returned_ckey)
 				return "[returned_ckey] is linked to Discord ID [lookup_id]"
 			else
-				return "Ckey [lookup_id] has no associated Discord ID"
+				return "Discord ID [lookup_id] has no associated Ckey"
