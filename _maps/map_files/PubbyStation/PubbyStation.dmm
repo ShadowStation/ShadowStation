@@ -9907,6 +9907,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+/obj/machinery/photocopier,
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/captain)
 "axT" = (
@@ -12636,6 +12637,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/machinery/photocopier,
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/hop)
 "aDZ" = (
@@ -21624,6 +21626,9 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/bar)
 "aZb" = (
@@ -21708,6 +21713,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/bar)
@@ -22242,6 +22250,9 @@
 /obj/machinery/computer/arcade,
 /obj/structure/noticeboard{
 	pixel_y = 32
+	},
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/open/floor/carpet{
 	icon_state = "carpetsymbol"
@@ -23097,10 +23108,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/bar)
-"bcs" = (
-/obj/item/clothing/shoes/sandal,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/bar)
 "bct" = (
@@ -24163,10 +24170,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
-"beS" = (
-/obj/item/caution,
-/turf/open/floor/plating,
-/area/maintenance/department/cargo)
 "beU" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -24573,12 +24576,8 @@
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "bfN" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/structure/table,
-/obj/item/paperplane,
-/obj/item/trash/chips,
+/obj/item/clothing/suit/hooded/carp_costume,
+/obj/item/clothing/head/hooded/carp_hood,
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "bfP" = (
@@ -53780,7 +53779,7 @@
 "eSB" = (
 /obj/machinery/computer/cryopod{
 	dir = 1;
-	pixel_y = -26;
+	pixel_y = -26
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
@@ -56270,13 +56269,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
-"kIo" = (
-/obj/structure/table,
-/obj/item/paper_bin{
-	layer = 2.9
-	},
-/turf/open/floor/plating,
-/area/maintenance/department/cargo)
 "kIO" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
@@ -56394,6 +56386,10 @@
 	},
 /turf/open/floor/plating,
 /area/storage/emergency/port)
+"kSY" = (
+/obj/structure/bed/dogbed,
+/turf/open/floor/plating,
+/area/maintenance/department/cargo)
 "kTj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/turf_decal/stripes/line{
@@ -56559,6 +56555,7 @@
 /area/engine/engineering)
 "lzJ" = (
 /obj/structure/closet/crate/bin,
+/obj/item/toy/plush/plushvar,
 /turf/open/floor/carpet,
 /area/chapel/office)
 "lAf" = (
@@ -58089,6 +58086,11 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/security/brig)
+"oTR" = (
+/obj/item/clothing/suit/hooded/ian_costume,
+/obj/item/clothing/head/hooded/ian_hood,
+/turf/open/floor/plating,
+/area/maintenance/department/cargo)
 "oUa" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -58488,6 +58490,20 @@
 	dir = 1
 	},
 /area/hallway/secondary/exit/departure_lounge)
+"pQm" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/clothing/shoes/sandal,
+/turf/open/floor/plasteel/dark,
+/area/crew_quarters/bar)
 "pQw" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -95952,7 +95968,7 @@ aUf
 aUf
 aPE
 bbu
-bcs
+bah
 bag
 beG
 aPE
@@ -96467,7 +96483,7 @@ aUf
 bap
 bbw
 bcu
-bag
+pQm
 aXb
 bdy
 bdo
@@ -106491,8 +106507,8 @@ aEl
 aEj
 aEj
 aTx
-aFi
-aFi
+aVF
+aFf
 aEj
 bjD
 lEn
@@ -106748,8 +106764,8 @@ aUC
 bcH
 aUC
 aZw
-beS
-aFi
+aEj
+aEj
 aEj
 gfi
 lEn
@@ -107005,8 +107021,8 @@ aGO
 bcI
 aFi
 aFi
-aFi
-bfM
+aEj
+oTR
 aEj
 bhz
 lEn
@@ -107261,8 +107277,8 @@ aZw
 aFi
 bcI
 aFi
-aFi
-kIo
+kSY
+aEj
 bfN
 aEj
 gfi
