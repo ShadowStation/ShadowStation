@@ -231,6 +231,7 @@
 					if(ears)
 						to_chat(usr, "<span class='warning'>It's already wearing something!</span>")
 						return
+<<<<<<< HEAD
 					else
 						var/obj/item/item_to_add = usr.get_active_held_item()
 						if(!item_to_add)
@@ -269,6 +270,33 @@
 							available_channels.Add(":b")
 		else
 			..()
+=======
+					ears = headset_to_add
+					to_chat(usr, "<span class='notice'>You fit the headset onto [src].</span>")
+
+					clearlist(available_channels)
+					for(var/ch in headset_to_add.channels)
+						switch(ch)
+							if(RADIO_CHANNEL_ENGINEERING)
+								available_channels.Add(RADIO_TOKEN_ENGINEERING)
+							if(RADIO_CHANNEL_COMMAND)
+								available_channels.Add(RADIO_TOKEN_COMMAND)
+							if(RADIO_CHANNEL_SECURITY)
+								available_channels.Add(RADIO_TOKEN_SECURITY)
+							if(RADIO_CHANNEL_SCIENCE)
+								available_channels.Add(RADIO_TOKEN_SCIENCE)
+							if(RADIO_CHANNEL_MEDICAL)
+								available_channels.Add(RADIO_TOKEN_MEDICAL)
+							if(RADIO_CHANNEL_SUPPLY)
+								available_channels.Add(RADIO_TOKEN_SUPPLY)
+							if(RADIO_CHANNEL_SERVICE)
+								available_channels.Add(RADIO_TOKEN_SERVICE)
+
+					if(headset_to_add.translate_binary)
+						available_channels.Add(MODE_TOKEN_BINARY)
+	else
+		return ..()
+>>>>>>> f1c9a07f6... Merge pull request #8912 from Ghommie/Ghommie-cit146
 
 
 /*
