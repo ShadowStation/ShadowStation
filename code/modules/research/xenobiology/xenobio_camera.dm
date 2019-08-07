@@ -3,6 +3,9 @@
 	visible_icon = 1
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "camera_target"
+	sprint = 1
+	var/max_sprint = 2
+	acceleration = 0
 	var/allowed_area = null
 
 /mob/camera/aiEye/remote/xenobio/Initialize()
