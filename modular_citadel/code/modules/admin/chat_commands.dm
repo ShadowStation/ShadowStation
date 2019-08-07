@@ -13,3 +13,12 @@
 	else
 		saltresult += "[saltprimarysubject] [saltsecondarysubject]"
 	return "[saltresult]!"
+
+/datum/tgs_chat_command/weh
+	name = "weh"
+	help_text = "ShadowBot lets out a weh!"
+	admin_only = FALSE
+
+/datum/tgs_chat_command/weh/Run(datum/tgs_chat_user/sender, params)
+	var/wehresult = "[pick("lets out a weh!","falls over and wehs :c","wehs seductively ;3", "weh.","w-weh?","WEH.","W E H","why?")]"
+	return "*[wehresult]*"
