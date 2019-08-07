@@ -71,7 +71,7 @@ GLOBAL_VAR_INIT(rollovercheck_last_timeofday, 0)
 		hourT = " and [hour] hour[(hour != 1)? "s":""]"
 	return "[day] day[(day != 1)? "s":""][hourT][minuteT][secondT]"
 
-//Takes a value of time in seciseconds.
+//Takes a value of time in deciseconds.
 //Returns a text value of that number in hours, minutes, or seconds. Formatted as hh:mm:ss.
 /proc/DisplayTimeTextHMS(time_value, round_seconds_to = 0.1)
 	var/second = FLOOR(time_value * 0.1, round_seconds_to)
