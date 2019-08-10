@@ -1,0 +1,4 @@
+author: "Ludox235"
+delete-after: True
+changes: 
+  - tweak: "Electrical storms now cannot happen more than twice per round"
