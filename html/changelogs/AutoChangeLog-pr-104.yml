@@ -1,0 +1,4 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - bugfix: "Fixes a bug with hardhat_atmos that would make the sprite always face east while toggled off."
