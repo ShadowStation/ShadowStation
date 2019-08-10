@@ -1,0 +1,4 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - bugfix: "fixed dead/used face huggers still being able to infect."
