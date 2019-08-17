@@ -1,0 +1,4 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - bugfix: "Fixed wallets turning invisible upon inserting IDs into them."
