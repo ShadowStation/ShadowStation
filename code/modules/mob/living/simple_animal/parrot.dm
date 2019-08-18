@@ -200,71 +200,71 @@
 	//Is the usr's mob type able to do this? (lolaliens)
 	if(ishuman(usr) || ismonkey(usr) || iscyborg(usr) ||  isalienadult(usr))
 
-	//Removing from inventory
-	if(href_list["remove_inv"])
-		var/remove_from = href_list["remove_inv"]
-		switch(remove_from)
-			if("ears")
-				if(!ears)
-					to_chat(usr, "<span class='warning'>There is nothing to remove from its [remove_from]!</span>")
-					return
-				if(!stat)
-					say("[available_channels.len ? "[pick(available_channels)] " : null]BAWWWWWK LEAVE THE HEADSET BAWKKKKK!")
-				ears.forceMove(drop_location())
-				ears = null
-				for(var/possible_phrase in speak)
-					if(copytext(possible_phrase,1,3) in GLOB.department_radio_keys)
-						possible_phrase = copytext(possible_phrase,3)
-
-	//Adding things to inventory
-	else if(href_list["add_inv"])
-		var/add_to = href_list["add_inv"]
-		if(!usr.get_active_held_item())
-			to_chat(usr, "<span class='warning'>You have nothing in your hand to put on its [add_to]!</span>")
-			return
-		switch(add_to)
-			if("ears")
-				if(ears)
-					to_chat(usr, "<span class='warning'>It's already wearing something!</span>")
-					return
-				else
-					var/obj/item/item_to_add = usr.get_active_held_item()
-					if(!item_to_add)
+		//Removing from inventory
+		if(href_list["remove_inv"])
+			var/remove_from = href_list["remove_inv"]
+			switch(remove_from)
+				if("ears")
+					if(!ears)
+						to_chat(usr, "<span class='warning'>There is nothing to remove from its [remove_from]!</span>")
 						return
+					if(!stat)
+						say("[available_channels.len ? "[pick(available_channels)] " : null]BAWWWWWK LEAVE THE HEADSET BAWKKKKK!")
+					ears.forceMove(drop_location())
+					ears = null
+					for(var/possible_phrase in speak)
+						if(copytext(possible_phrase,1,3) in GLOB.department_radio_keys)
+							possible_phrase = copytext(possible_phrase,3)
 
-					if( !istype(item_to_add,  /obj/item/radio/headset) )
-						to_chat(usr, "<span class='warning'>This object won't fit!</span>")
+		//Adding things to inventory
+		else if(href_list["add_inv"])
+			var/add_to = href_list["add_inv"]
+			if(!usr.get_active_held_item())
+				to_chat(usr, "<span class='warning'>You have nothing in your hand to put on its [add_to]!</span>")
+				return
+			switch(add_to)
+				if("ears")
+					if(ears)
+						to_chat(usr, "<span class='warning'>It's already wearing something!</span>")
 						return
+					else
+						var/obj/item/item_to_add = usr.get_active_held_item()
+						if(!item_to_add)
+							return
 
-					var/obj/item/radio/headset/headset_to_add = item_to_add
+						if( !istype(item_to_add,  /obj/item/radio/headset) )
+							to_chat(usr, "<span class='warning'>This object won't fit!</span>")
+							return
 
-					if(!usr.transferItemToLoc(headset_to_add, src))
-						return
-					ears = headset_to_add
-					to_chat(usr, "<span class='notice'>You fit the headset onto [src].</span>")
+						var/obj/item/radio/headset/headset_to_add = item_to_add
 
-					clearlist(available_channels)
-					for(var/ch in headset_to_add.channels)
-						switch(ch)
-							if(RADIO_CHANNEL_ENGINEERING)
-								available_channels.Add(RADIO_TOKEN_ENGINEERING)
-							if(RADIO_CHANNEL_COMMAND)
-								available_channels.Add(RADIO_TOKEN_COMMAND)
-							if(RADIO_CHANNEL_SECURITY)
-								available_channels.Add(RADIO_TOKEN_SECURITY)
-							if(RADIO_CHANNEL_SCIENCE)
-								available_channels.Add(RADIO_TOKEN_SCIENCE)
-							if(RADIO_CHANNEL_MEDICAL)
-								available_channels.Add(RADIO_TOKEN_MEDICAL)
-							if(RADIO_CHANNEL_SUPPLY)
-								available_channels.Add(RADIO_TOKEN_SUPPLY)
-							if(RADIO_CHANNEL_SERVICE)
-								available_channels.Add(RADIO_TOKEN_SERVICE)
+						if(!usr.transferItemToLoc(headset_to_add, src))
+							return
+						ears = headset_to_add
+						to_chat(usr, "<span class='notice'>You fit the headset onto [src].</span>")
 
-					if(headset_to_add.translate_binary)
-						available_channels.Add(MODE_TOKEN_BINARY)
-	else
-		return ..()
+						clearlist(available_channels)
+						for(var/ch in headset_to_add.channels)
+							switch(ch)
+								if(RADIO_CHANNEL_ENGINEERING)
+									available_channels.Add(RADIO_TOKEN_ENGINEERING)
+								if(RADIO_CHANNEL_COMMAND)
+									available_channels.Add(RADIO_TOKEN_COMMAND)
+								if(RADIO_CHANNEL_SECURITY)
+									available_channels.Add(RADIO_TOKEN_SECURITY)
+								if(RADIO_CHANNEL_SCIENCE)
+									available_channels.Add(RADIO_TOKEN_SCIENCE)
+								if(RADIO_CHANNEL_MEDICAL)
+									available_channels.Add(RADIO_TOKEN_MEDICAL)
+								if(RADIO_CHANNEL_SUPPLY)
+									available_channels.Add(RADIO_TOKEN_SUPPLY)
+								if(RADIO_CHANNEL_SERVICE)
+									available_channels.Add(RADIO_TOKEN_SERVICE)
+
+						if(headset_to_add.translate_binary)
+							available_channels.Add(MODE_TOKEN_BINARY)
+		else
+			return ..()
 
 /*
  * Attack responces
