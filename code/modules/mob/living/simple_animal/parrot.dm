@@ -200,77 +200,46 @@
 	//Is the usr's mob type able to do this? (lolaliens)
 	if(ishuman(usr) || ismonkey(usr) || iscyborg(usr) ||  isalienadult(usr))
 
-		//Removing from inventory
-		if(href_list["remove_inv"])
-			var/remove_from = href_list["remove_inv"]
-			switch(remove_from)
-				if("ears")
-					if(ears)
-						if(!stat)
-							if(available_channels.len)
-								src.say("[pick(available_channels)] BAWWWWWK LEAVE THE HEADSET BAWKKKKK!")
-							else
-								src.say("BAWWWWWK LEAVE THE HEADSET BAWKKKKK!")
-						ears.forceMove(src.loc)
-						ears = null
-						for(var/possible_phrase in speak)
-							if(copytext(possible_phrase,1,3) in GLOB.department_radio_keys)
-								possible_phrase = copytext(possible_phrase,3)
-					else
-						to_chat(usr, "<span class='warning'>There is nothing to remove from its [remove_from]!</span>")
+	//Removing from inventory
+	if(href_list["remove_inv"])
+		var/remove_from = href_list["remove_inv"]
+		switch(remove_from)
+			if("ears")
+				if(!ears)
+					to_chat(usr, "<span class='warning'>There is nothing to remove from its [remove_from]!</span>")
+					return
+				if(!stat)
+					say("[available_channels.len ? "[pick(available_channels)] " : null]BAWWWWWK LEAVE THE HEADSET BAWKKKKK!")
+				ears.forceMove(drop_location())
+				ears = null
+				for(var/possible_phrase in speak)
+					if(copytext(possible_phrase,1,3) in GLOB.department_radio_keys)
+						possible_phrase = copytext(possible_phrase,3)
+
+	//Adding things to inventory
+	else if(href_list["add_inv"])
+		var/add_to = href_list["add_inv"]
+		if(!usr.get_active_held_item())
+			to_chat(usr, "<span class='warning'>You have nothing in your hand to put on its [add_to]!</span>")
+			return
+		switch(add_to)
+			if("ears")
+				if(ears)
+					to_chat(usr, "<span class='warning'>It's already wearing something!</span>")
+					return
+				else
+					var/obj/item/item_to_add = usr.get_active_held_item()
+					if(!item_to_add)
 						return
 
-		//Adding things to inventory
-		else if(href_list["add_inv"])
-			var/add_to = href_list["add_inv"]
-			if(!usr.get_active_held_item())
-				to_chat(usr, "<span class='warning'>You have nothing in your hand to put on its [add_to]!</span>")
-				return
-			switch(add_to)
-				if("ears")
-					if(ears)
-						to_chat(usr, "<span class='warning'>It's already wearing something!</span>")
+					if( !istype(item_to_add,  /obj/item/radio/headset) )
+						to_chat(usr, "<span class='warning'>This object won't fit!</span>")
 						return
-<<<<<<< HEAD
-					else
-						var/obj/item/item_to_add = usr.get_active_held_item()
-						if(!item_to_add)
-							return
 
-						if( !istype(item_to_add,  /obj/item/radio/headset) )
-							to_chat(usr, "<span class='warning'>This object won't fit!</span>")
-							return
+					var/obj/item/radio/headset/headset_to_add = item_to_add
 
-						var/obj/item/radio/headset/headset_to_add = item_to_add
-
-						if(!usr.transferItemToLoc(headset_to_add, src))
-							return
-						src.ears = headset_to_add
-						to_chat(usr, "<span class='notice'>You fit the headset onto [src].</span>")
-
-						clearlist(available_channels)
-						for(var/ch in headset_to_add.channels)
-							switch(ch)
-								if("Engineering")
-									available_channels.Add(":e")
-								if("Command")
-									available_channels.Add(":c")
-								if("Security")
-									available_channels.Add(":s")
-								if("Science")
-									available_channels.Add(":n")
-								if("Medical")
-									available_channels.Add(":m")
-								if("Supply")
-									available_channels.Add(":u")
-								if("Service")
-									available_channels.Add(":v")
-
-						if(headset_to_add.translate_binary)
-							available_channels.Add(":b")
-		else
-			..()
-=======
+					if(!usr.transferItemToLoc(headset_to_add, src))
+						return
 					ears = headset_to_add
 					to_chat(usr, "<span class='notice'>You fit the headset onto [src].</span>")
 
@@ -296,8 +265,6 @@
 						available_channels.Add(MODE_TOKEN_BINARY)
 	else
 		return ..()
->>>>>>> f1c9a07f6... Merge pull request #8912 from Ghommie/Ghommie-cit146
-
 
 /*
  * Attack responces
