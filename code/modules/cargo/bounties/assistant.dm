@@ -215,3 +215,10 @@
 	description = "Commander Jackson is looking for a fine addition to her exotic weapons collection. She will reward you handsomely for either a Cat or Liz o' Nine Tails."
 	reward = 4000
 	wanted_types = list(/obj/item/melee/chainofcommand/tailwhip)
+
+/datum/bounty/item/assistant/dildos
+	name = "Dildos"
+	description = "Upper Management has requested some Dildos.. do not ask why, just ship them, would ya?"
+	reward = 2000
+	required_count = 5
+	wanted_types = list(/obj/item/dildo/human, /obj/item/dildo/knotted, /obj/item/dildo/custom) 
