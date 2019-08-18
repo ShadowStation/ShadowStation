@@ -24,6 +24,13 @@
 	description = "Station 49 is looking to kickstart their research program. Ship them a tank full of Tritium."
 	gas_type = /datum/gas/tritium
 
+/datum/bounty/item/engineering/gas/miasma_tank
+	name = "Full Tank of Miasma"
+	description = "Central Command is working on a very weird project that requires this special gas. Ship them a tank full of Miasma."
+	reward = 20000 // Pretty reasonable since Miasma is really really hard to get
+	moles_required = 10 // Pranked epic style, does not even have to be a full tank
+	gas_type = /datum/gas/miasma
+
 /datum/bounty/item/engineering/pacman
 	name = "P.A.C.M.A.N.-type portable generator"
 	description = "A neighboring station had a problem with their SMES, and now need something to power their communications console. Can you send them a P.AC.M.A.N.?"

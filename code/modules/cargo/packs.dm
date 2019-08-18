@@ -2143,6 +2143,15 @@
 					/mob/living/simple_animal/hostile/retaliate/poison/snake)
 	crate_name = "snake crate"
 
+/datum/supply_pack/critter/spider
+	name = "Spider Crate"
+	desc = "Contains highly dangerous spiders sent tightly sealed right into your station if you really need some extra fun within your shift!"
+	cost = 7500
+	contains = list(/mob/living/simple_animal/hostile/poison/giant_spider,
+					/mob/living/simple_animal/hostile/poison/giant_spider,
+					/mob/living/simple_animal/hostile/poison/giant_spider)
+	crate_name = "spider crate"
+
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////// Costumes & Toys /////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
