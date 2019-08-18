@@ -205,20 +205,16 @@
 			var/remove_from = href_list["remove_inv"]
 			switch(remove_from)
 				if("ears")
-					if(ears)
-						if(!stat)
-							if(available_channels.len)
-								src.say("[pick(available_channels)] BAWWWWWK LEAVE THE HEADSET BAWKKKKK!")
-							else
-								src.say("BAWWWWWK LEAVE THE HEADSET BAWKKKKK!")
-						ears.forceMove(src.loc)
-						ears = null
-						for(var/possible_phrase in speak)
-							if(copytext(possible_phrase,1,3) in GLOB.department_radio_keys)
-								possible_phrase = copytext(possible_phrase,3)
-					else
+					if(!ears)
 						to_chat(usr, "<span class='warning'>There is nothing to remove from its [remove_from]!</span>")
 						return
+					if(!stat)
+						say("[available_channels.len ? "[pick(available_channels)] " : null]BAWWWWWK LEAVE THE HEADSET BAWKKKKK!")
+					ears.forceMove(drop_location())
+					ears = null
+					for(var/possible_phrase in speak)
+						if(copytext(possible_phrase,1,3) in GLOB.department_radio_keys)
+							possible_phrase = copytext(possible_phrase,3)
 
 		//Adding things to inventory
 		else if(href_list["add_inv"])
@@ -244,32 +240,31 @@
 
 						if(!usr.transferItemToLoc(headset_to_add, src))
 							return
-						src.ears = headset_to_add
+						ears = headset_to_add
 						to_chat(usr, "<span class='notice'>You fit the headset onto [src].</span>")
 
 						clearlist(available_channels)
 						for(var/ch in headset_to_add.channels)
 							switch(ch)
-								if("Engineering")
-									available_channels.Add(":e")
-								if("Command")
-									available_channels.Add(":c")
-								if("Security")
-									available_channels.Add(":s")
-								if("Science")
-									available_channels.Add(":n")
-								if("Medical")
-									available_channels.Add(":m")
-								if("Supply")
-									available_channels.Add(":u")
-								if("Service")
-									available_channels.Add(":v")
+								if(RADIO_CHANNEL_ENGINEERING)
+									available_channels.Add(RADIO_TOKEN_ENGINEERING)
+								if(RADIO_CHANNEL_COMMAND)
+									available_channels.Add(RADIO_TOKEN_COMMAND)
+								if(RADIO_CHANNEL_SECURITY)
+									available_channels.Add(RADIO_TOKEN_SECURITY)
+								if(RADIO_CHANNEL_SCIENCE)
+									available_channels.Add(RADIO_TOKEN_SCIENCE)
+								if(RADIO_CHANNEL_MEDICAL)
+									available_channels.Add(RADIO_TOKEN_MEDICAL)
+								if(RADIO_CHANNEL_SUPPLY)
+									available_channels.Add(RADIO_TOKEN_SUPPLY)
+								if(RADIO_CHANNEL_SERVICE)
+									available_channels.Add(RADIO_TOKEN_SERVICE)
 
 						if(headset_to_add.translate_binary)
-							available_channels.Add(":b")
+							available_channels.Add(MODE_TOKEN_BINARY)
 		else
-			..()
-
+			return ..()
 
 /*
  * Attack responces
