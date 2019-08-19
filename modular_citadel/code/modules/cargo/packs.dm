@@ -26,3 +26,20 @@
 	cost = 35000
 	contains = list(/obj/machinery/jukebox)
 	crate_name = "Jukebox"
+
+//////////////////////////////////////////////////////////////////////////////
+///////////////////////////// Armory Stuff ///////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+/datum/supply_pack/security/armory/autoshotgun
+	name = "Auto-Shotgun Crate"
+	cost = 10000
+	contains = list(/obj/item/gun/ballistic/shotgun/automatic,
+					/obj/item/gun/ballistic/shotgun/automatic)
+
+/datum/supply_pack/security/armory/shotgunammo
+	name = "Shotgun Ammunition"
+	cost = 1500
+	contains = list(/obj/item/storage/box/lethalshot,
+					/obj/item/storage/box/lethalshot,
+					/obj/item/storage/box/lethalshot)
