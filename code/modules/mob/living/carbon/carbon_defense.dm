@@ -270,9 +270,8 @@
 			M.visible_message("<span class='notice'>[M] shakes [src] trying to get [p_them()] up!</span>", \
 							"<span class='notice'>You shake [src] trying to get [p_them()] up!</span>")
 
-		else if(check_zone(M.zone_selected) == "head")
+		else if(check_zone(M.zone_selected) == "head") // Headpats, now with 100% less tail wagging :)
 			var/mob/living/carbon/human/H = src
-			var/datum/species/pref_species = H.dna.species
 
 			M.visible_message("<span class='notice'>[M] gives [H] a pat on the head to make [p_them()] feel better!</span>", \
 						"<span class='notice'>You give [H] a pat on the head to make [p_them()] feel better!</span>")
@@ -283,29 +282,6 @@
 					SEND_SIGNAL(src, COMSIG_ADD_MOOD_EVENT, "friendly_hug", /datum/mood_event/besthug, M)
 				else if (mood.sanity >= SANITY_DISTURBED)
 					SEND_SIGNAL(src, COMSIG_ADD_MOOD_EVENT, "friendly_hug", /datum/mood_event/betterhug, M)
-			if(H.dna.species.can_wag_tail(H))
-				if("tail_human" in pref_species.default_features)
-					if(H.dna.features["tail_human"] == "None")
-						return
-					else
-						if(!H.dna.species.is_wagging_tail())
-							H.emote("wag")
-
-				if("tail_lizard" in pref_species.default_features)
-					if(H.dna.features["tail_lizard"] == "None")
-						return
-					else
-						if(!H.dna.species.is_wagging_tail())
-							H.emote("wag")
-
-				if("mam_tail" in pref_species.default_features)
-					if(H.dna.features["mam_tail"] == "None")
-						return
-					else
-						if(!H.dna.species.is_wagging_tail())
-							H.emote("wag")
-
-			else
 				return
 
 		else
