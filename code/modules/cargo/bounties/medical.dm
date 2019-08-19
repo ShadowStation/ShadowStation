@@ -58,6 +58,18 @@
 	reward = 3000
 	wanted_types = list(/obj/item/organ/tail/cat)
 
+/datum/bounty/item/medical/penis
+	name = "Penis"
+	description = "Admiral Jackson has lost his golden piece in a fight with some monkeys, he needs a transplant, please ship one."
+	reward = 7500
+	wanted_types = list(/obj/item/organ/genital/penis)
+
+/datum/bounty/item/medical/testicles
+	name = "Testicles"
+	description = "One of our new Interns lost his Testicles while working on something.. we do not know how this happened, and normally would not care, but please ship us some spare ones."
+	reward = 7500
+	wanted_types = list(/obj/item/organ/genital/testicles)
+
 /datum/bounty/item/medical/blood
 	name = "Generic Blood"
 	description = "Nanotrasen's annual blood drive is back up to full speed, following the garlic incident. Good blood in good volumes accepted for Credit returns."
