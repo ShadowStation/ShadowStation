@@ -1,0 +1,5 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - rscadd: "Added caramel and burnt caramel reagents"
+  - tweak: "Tweaked birthday cake recipe to require caramel and candles instead of a cakehat."
