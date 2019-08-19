@@ -3,6 +3,8 @@
 	minimal_access = list(ACCESS_BAR, ACCESS_MINERAL_STOREROOM)
 
 /datum/job/qm
+  department_head = list("Head of Personnel")
+	supervisors = "the head of personnel"
 	minimal_player_age = 10
 	exp_requirements = 180
 	exp_type_department = EXP_TYPE_SUPPLY
