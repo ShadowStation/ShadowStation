@@ -1,0 +1,5 @@
+author: "ok, we did it boys, sad day for the QM"
+delete-after: True
+changes: 
+  - rscdel: "Removed the QM's head status and access"
+  - rscadd: "added auto-shotguns and shotgun ammo (lethal) to the armory tab in cargo, i mean, come on, we already have Automatic Assault Rifles."
