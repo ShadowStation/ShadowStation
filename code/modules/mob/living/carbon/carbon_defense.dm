@@ -284,27 +284,30 @@
 				else if (mood.sanity >= SANITY_DISTURBED)
 					SEND_SIGNAL(src, COMSIG_ADD_MOOD_EVENT, "friendly_hug", /datum/mood_event/betterhug, M)
 			if(H.dna.species.can_wag_tail(H))
-				if("tail_human" in pref_species.default_features)
-					if(H.dna.features["tail_human"] == "None")
-						return
-					else
-						if(!H.dna.species.is_wagging_tail())
-							H.emote("wag")
+				if(H.has_trait(TRAIT_EXCITABLE))
+					if("tail_human" in pref_species.default_features)
+						if(H.dna.features["tail_human"] == "None")
+							return
+						else
+							if(!H.dna.species.is_wagging_tail())
+								H.emote("wag")
 
-				if("tail_lizard" in pref_species.default_features)
-					if(H.dna.features["tail_lizard"] == "None")
-						return
-					else
-						if(!H.dna.species.is_wagging_tail())
-							H.emote("wag")
+					if("tail_lizard" in pref_species.default_features)
+						if(H.dna.features["tail_lizard"] == "None")
+							return
+						else
+							if(!H.dna.species.is_wagging_tail())
+								H.emote("wag")
 
-				if("mam_tail" in pref_species.default_features)
-					if(H.dna.features["mam_tail"] == "None")
-						return
-					else
-						if(!H.dna.species.is_wagging_tail())
-							H.emote("wag")
+					if("mam_tail" in pref_species.default_features)
+						if(H.dna.features["mam_tail"] == "None")
+							return
+						else
+							if(!H.dna.species.is_wagging_tail())
+								H.emote("wag")
 
+				else
+					return
 			else
 				return
 

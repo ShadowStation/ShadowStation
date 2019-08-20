@@ -93,3 +93,12 @@
 	gain_text = "<span class='notice'>You feel more prudish.</span>"
 	lose_text = "<span class='notice'>You don't feel as prudish as before.</span>"
 	medical_record_text = "Patient exhibits a special gene that makes them immune to Crocin and Hexacrocin."
+
+/datum/quirk/excitable
+	name = "Excitable"
+	desc = "Theres nothing quite like getting headpats from a friend, you just cant stop wagging your tail whenever it happens!"
+	mob_trait = TRAIT_EXCITABLE
+	value = 0
+	gain_text = "<span class='notice'>Your tail wags slighthly at the thought of headpats!</span>"
+	lose_text = "<span class='notice'>You regain your composure.</span>"
+	medical_record_text = "Patient exhibits an unusual excitement at the thought of having their head pet by another."
