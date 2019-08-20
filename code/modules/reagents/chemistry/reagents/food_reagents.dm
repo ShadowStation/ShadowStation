@@ -759,6 +759,7 @@
 
 /datum/reagent/consumable/caramel
 	name = "Caramel"
+	id = "caramel"
 	description = "Who would have guessed that heating sugar is so delicious?"
 	nutriment_factor = 10 * REAGENTS_METABOLISM
 	color = "#D98736"
