@@ -268,4 +268,4 @@ Laser pointers can be upgraded by replacing its micro laser with a better one fr
 A quick and filling treat can be scavenged from maintenance, craft two dead rats and a metal rod to make a double rat kabob!
 You can turn synthmeat from a gross meal into a tasty treat by first cutting it on a table with a sharp object, then grinding the meat cutlets in the meat grinder to form bacon!
 Try hooking a handcuffed monkey buckled to a seat up to an IV drip, clicking it to set it to drain, then attaching a beaker almost full of cryoxadone to the IV drip make synthmeat!
-You can put your ID into your PDA by putting your ID into your active hand then clicking on your PDA, then the PDA with the ID in it fits into the ID pocket on your UI saving you a slot.
+You can put your ID into your PDA by putting your ID into your active hand then clicking on your PDA, then the PDA with the ID in it fits into the ID pocket on your UI saving you a slot!
