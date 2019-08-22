@@ -1,0 +1,5 @@
+author: "ShrkByte"
+delete-after: True
+changes: 
+  - bugfix: "Corrected preference \"Lewd Settings\" to \"SDS Settings\""
+  - soundadd: "Added new station ambience drone."
