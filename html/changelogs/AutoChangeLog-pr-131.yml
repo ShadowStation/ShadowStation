@@ -1,0 +1,5 @@
+author: "Jizzard"
+delete-after: True
+changes: 
+  - rscadd: "Added more round start tips"
+  - rscdel: "Deleted useless round start tips"
