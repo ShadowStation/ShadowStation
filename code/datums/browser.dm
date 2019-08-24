@@ -39,8 +39,12 @@
 	//title_image = ntitle_image
 
 /datum/browser/proc/add_stylesheet(name, file)
-	stylesheets["[ckey(name)].css"] = file
-	register_asset("[ckey(name)].css", file)
+	var/asset_name = "[name].css"
+
+	stylesheets[asset_name] = file
+
+	if (!SSassets.cache[asset_name])
+		register_asset(asset_name, file)
 
 /datum/browser/proc/add_script(name, file)
 	scripts["[ckey(name)].js"] = file
