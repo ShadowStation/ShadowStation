@@ -128,7 +128,9 @@ GLOBAL_LIST_INIT(admin_verbs_server, world.AVerbsServer())
 	/client/proc/toggle_random_events,
 	/client/proc/forcerandomrotate,
 	/client/proc/adminchangemap,
-	/client/proc/toggle_hub
+	/client/proc/toggle_hub,
+	/client/proc/change_auto_shuttle_call, /*ShadowStation Change: Changes when the shuttle is automatically called*/
+	/client/proc/toggle_auto_shuttle_call /*ShadowStation Change: Toggles if the shuttle is automatically called*/
 	)
 GLOBAL_PROTECT(admin_verbs_debug)
 GLOBAL_LIST_INIT(admin_verbs_debug, world.AVerbsDebug())
