@@ -9,6 +9,7 @@
     var/time_after = input("Please Input when the shuttle should be called in minutes.") as num
 
     SSshuttle.auto_call = time_after * 600
+    SSshuttle.autoEnd() // Has a if check built in, checks if the current time is over specified time and calls the shuttle if so
 
     message_admins("<span class='adminnotice'>[key_name_admin(usr)] adjusted the shuttle autocall timer from [time_before] to [time_after] minutes.</span>")
     log_admin("Adjust Shuttle Call: [key_name(usr)] adjusted the auto shuttle call.")
