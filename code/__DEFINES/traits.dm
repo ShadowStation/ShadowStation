@@ -75,6 +75,8 @@
 #define TRAIT_EMPATH			"empath"
 #define TRAIT_FRIENDLY			"friendly"
 
+#define TRAIT_EXCITABLE			"excitable"
+
 // common trait sources
 #define TRAIT_GENERIC "generic"
 #define EYE_DAMAGE "eye_damage"

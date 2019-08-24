@@ -791,7 +791,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				dat += "</td>"
 
 			dat +="<td width='300px' height='300px' valign='top'>"
-			dat += "<h2>Lewd Preferences</h2>" //Because fuck me if preferences can't be fucking modularized and expected to update in a reasonable timeframe.
+			dat += "<h2>SDS Preferences</h2>" //Because fuck me if preferences can't be fucking modularized and expected to update in a reasonable timeframe.
 			dat += "<b>Arousal:</b><a href='?_src_=prefs;preference=arousable'>[arousable == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 			dat += "<b>Exhibitionist:</b><a href='?_src_=prefs;preference=exhibitionist'>[features["exhibitionist"] == TRUE ? "Yes" : "No"]</a><BR>"
 			dat += "<b>Voracious MediHound sleepers:</b> <a href='?_src_=prefs;preference=hound_sleeper'>[(cit_toggles & MEDIHOUND_SLEEPER) ? "Yes" : "No"]</a><br>"
