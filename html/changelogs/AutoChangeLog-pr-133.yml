@@ -1,0 +1,5 @@
+author: "Autocall for Shuttle :)"
+delete-after: True
+changes: 
+  - rscadd: "Added 'Adjust Shuttle Autocall' verb for admins to change the time when the shuttle is called."
+  - rscadd: "Added 'Toggle Shuttle Autocall' verb for admins to turn the shuttle autocall on and off, when turned back on it automatically checks if the time limit has been reached and calls the shuttle."
