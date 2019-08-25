@@ -1,0 +1,5 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - rscadd: "FontAwesome 5.10.2"
+  - rscdel: "Old FontAwesome package"
