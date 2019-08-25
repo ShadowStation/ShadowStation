@@ -54,6 +54,7 @@ SUBSYSTEM_DEF(shuttle)
 	var/lockdown = FALSE	//disallow transit after nuke goes off
 
 	var/auto_call = 144000 //WZDS Change - shift time is ~4 hrs.
+	var/auto_call_allowed = TRUE //If the shuttle is allowed to be automatically called or not
 	var/realtimeofstart = 0
 
 /datum/controller/subsystem/shuttle/Initialize(timeofday)
