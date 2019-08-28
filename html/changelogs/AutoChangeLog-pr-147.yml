@@ -1,0 +1,5 @@
+author: "Bhijn / Poojawa"
+delete-after: True
+changes: 
+  - rscadd: "Poly now has a 0.01% chance per squawk to speak through the TGS relay."
+  - server: "Poly's speech now echos to the chat bot."
