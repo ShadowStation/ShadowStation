@@ -22,3 +22,26 @@
 /datum/tgs_chat_command/weh/Run(datum/tgs_chat_user/sender, params)
 	var/wehresult = "[pick("lets out a weh!","falls over and wehs :c","wehs seductively ;3", "weh.","w-weh?","WEH.","W E H","why?")]"
 	return "*[wehresult]*"
+
+/datum/tgs_chat_command/poly
+	name = "poly"
+	help_text = "Pulls a random line out of the bird brain."
+	var/list/speech_buffer
+
+/datum/tgs_chat_command/poly/Run()
+	GenerateSayList() //Has a check in here, but we're gunna sanity it after
+	if(!speech_buffer)
+		return "**BAWWWWWK!** LEAVE THE HEADSET! ***BAWKKKKK!!***"
+
+
+/datum/tgs_chat_command/poly/proc/GenerateSayList()
+	LAZYINITLIST(speech_buffer) //I figure this is just safe to do for everything at this point
+	if(length(speech_buffer))	//Let's not look up the whole json EVERY TIME, just the first time.
+		return "[pick(speech_buffer)]"
+	else
+		var/json_file = file("data/npc_saves/Poly.json")
+		if(!fexists(json_file))
+			return
+		var/list/json = json_decode(file2text(json_file))
+		speech_buffer = json["phrases"]
+		return "[pick(speech_buffer)]"
