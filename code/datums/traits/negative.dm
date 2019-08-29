@@ -322,3 +322,7 @@
 	value = -3
 	mob_trait = TRAIT_NOCLONE
 	medical_record_text = "Patient has a DNR (Do not resuscitate) order on file, and cannot be revived or cloned upon death."
+
+/datum/quirk/noclone/add()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.gain_trauma(TRAIT_NOCLONE, TRAUMA_RESILIENCE_ABSOLUTE)
