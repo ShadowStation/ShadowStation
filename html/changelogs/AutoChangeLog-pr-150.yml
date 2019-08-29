@@ -1,0 +1,4 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - bugfix: "Allows AIs to talk through holopads properly again"
