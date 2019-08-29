@@ -315,3 +315,10 @@
 	if(quirk_holder.mind && LAZYLEN(quirk_holder.mind.antag_datums))
 		to_chat(quirk_holder, "<span class='boldannounce'>Your antagonistic nature has caused your voice to be heard.</span>")
 		qdel(src)
+
+/datum/quirk/noclone
+	name = "DNR"
+	desc = "You have filed a Do Not Resuscitate order, meaning that no matter how hard medical staff try you cannot be revived or cloned upon death."
+	value = -3
+	mob_trait = TRAIT_NOCLONE
+	medical_record_text = "Patient has a DNR (Do not resuscitate) order on file, and cannot be revived or cloned upon death."
