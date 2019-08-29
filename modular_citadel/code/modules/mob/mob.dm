@@ -18,6 +18,8 @@
 
 /mob/living/compose_message(atom/movable/speaker, datum/language/message_language, raw_message, radio_freq, list/spans, message_mode, face_name = FALSE)
 	. = ..()
+	if(isAI(speaker))
+		return
 	if(istype(speaker, /mob/living))
 		var/turf/speakturf = get_turf(speaker)
 		var/turf/sourceturf = get_turf(src)
