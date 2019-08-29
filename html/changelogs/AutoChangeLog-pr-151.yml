@@ -1,0 +1,4 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - bugfix: "Added qdels for mentor memo queries."
