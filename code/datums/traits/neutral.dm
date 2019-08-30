@@ -102,3 +102,10 @@
 	gain_text = "<span class='notice'>Your tail wags slighthly at the thought of headpats!</span>"
 	lose_text = "<span class='notice'>You regain your composure.</span>"
 	medical_record_text = "Patient exhibits an unusual excitement at the thought of having their head pet by another."
+
+/datum/quirk/noclone
+	name = "DNC"
+	desc = "You have filed a Do Not Clone order, stating that you do not wish to be cloned. You can still be revived by other means."
+	value = 0
+	mob_trait = TRAIT_NEVER_CLONE
+	medical_record_text = "Patient has a DNC (Do not clone) order on file, and cannot be cloned as a result."

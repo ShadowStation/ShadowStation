@@ -74,8 +74,8 @@
 #define TRAIT_MASO              "masochism"
 #define TRAIT_EMPATH			"empath"
 #define TRAIT_FRIENDLY			"friendly"
-
 #define TRAIT_EXCITABLE			"excitable"
+#define TRAIT_NEVER_CLONE		"never_clone"
 
 // common trait sources
 #define TRAIT_GENERIC "generic"
