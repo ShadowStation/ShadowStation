@@ -1,0 +1,5 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - rscadd: "Added the DNC trait."
+  - tweak: "Tweaked the DNR trait's internal naming"
