@@ -264,12 +264,16 @@
 		var/mob/living/brain/B = mob_occupant
 		dna = B.stored_dna
 
+	if(mob_occupant.has_trait(TRAIT_NEVER_CLONE))
+		scantemp = "<font class='bad'>Subject has an active DNC record on file. Unable to clone.</font>"
+		playsound(src, 'sound/machines/terminal_alert.ogg', 50, 0)
+		return
 	if(!istype(dna))
 		scantemp = "<font class='bad'>Unable to locate valid genetic data.</font>"
 		playsound(src, 'sound/machines/terminal_prompt_deny.ogg', 50, 0)
 		return
 	if((mob_occupant.has_trait(TRAIT_NOCLONE)) && (src.scanner.scan_level < 2))
-		scantemp = "<font class='bad'>Subject no longer contains the fundamental materials required to create a living clone.</font>"
+		scantemp = "<font class='bad'>Subject either has a DNR record on file or no longer contains the fundamental materials required to create a living clone.</font>"
 		playsound(src, 'sound/machines/terminal_alert.ogg', 50, 0)
 		return
 
