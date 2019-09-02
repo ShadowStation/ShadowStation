@@ -1699,14 +1699,6 @@
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
 /area/awaymission/caves/listeningpost)
-"fj" = (
-/obj/effect/mob_spawn/human/skeleton/alive{
-	name = "spooky skeleton remains"
-	},
-/turf/open/floor/plating/asteroid/basalt{
-	initial_gas_mix = "n2=23;o2=14"
-	},
-/area/awaymission/caves/BMP_asteroid/level_two)
 "fk" = (
 /obj/item/grenade/syndieminibomb/concussion,
 /turf/open/floor/plating/asteroid/basalt{
@@ -2280,6 +2272,12 @@
 /obj/effect/baseturf_helper/asteroid/basalt,
 /turf/closed/wall,
 /area/awaymission/caves/northblock)
+"lK" = (
+/mob/living/simple_animal/hostile/skeleton,
+/turf/open/floor/plating/asteroid/basalt{
+	initial_gas_mix = "n2=23;o2=14"
+	},
+/area/awaymission/caves/BMP_asteroid/level_two)
 
 (1,1,1) = {"
 aa
@@ -59795,7 +59793,7 @@ bK
 bK
 bK
 bJ
-bJ
+lK
 cq
 bJ
 bJ
@@ -60052,7 +60050,7 @@ bK
 bK
 bJ
 bJ
-fj
+fl
 fd
 bK
 bK
