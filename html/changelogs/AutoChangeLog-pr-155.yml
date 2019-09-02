@@ -1,0 +1,9 @@
+author: "Phi / as334 / redmoogle"
+delete-after: True
+changes: 
+  - rscadd: "Tritium now needs to be an environment with a sizable thermal mass for full efficiency combustion."
+  - rscadd: "Advanced Gas reactions now produce research points."
+  - rscadd: "A gas canister with Pluoxium, Noblium, Stimulum, Miasma or BZ inside now produces points when sold via cargo."
+  - tweak: "Miasma and BZ no longer affect the energy level of the BZ generation reaction."
+  - balance: "Tweaked how BZ generation's research points work to reward higher efficiency setups."
+  - rscadd: "Added support for 3 new gasses; Tritium, Pluoxium, and BZ"
