@@ -1,0 +1,6 @@
+author: "Zaiakusin"
+delete-after: True
+changes: 
+  - rscadd: "16 block thick wall around beach"
+  - rscadd: "Hostile skelly mob added in caves"
+  - rscdel: "skelly ghost spawner removed"
