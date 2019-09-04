@@ -3029,7 +3029,9 @@
 #include "modular_citadel\code\modules\vore\eating\voreitems.dm"
 #include "modular_citadel\code\modules\vore\eating\vorepanel_vr.dm"
 #include "modular_citadel\interface\skin.dmf"
+#include "modular_shadow\code\game\machinery\vending.dm"
 #include "modular_shadow\code\game\objects\items\cards_ids.dm"
 #include "modular_shadow\code\modules\admin\admin.dm"
+#include "modular_shadow\code\modules\clothing\under\schoolgirl.dm"
 #include "modular_shadow\code\modules\events\electrical_storm.dm"
 // END_INCLUDE
