@@ -18117,10 +18117,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
 /area/crew_quarters/locker)
-"aQU" = (
-/obj/machinery/vending/kink,
-/turf/open/floor/plasteel,
-/area/crew_quarters/locker)
 "aQV" = (
 /obj/machinery/vending/clothing,
 /turf/open/floor/plasteel,
@@ -76864,7 +76860,7 @@ aLH
 aLE
 aOl
 aPA
-aQU
+aTB
 aQN
 aQN
 aUt
