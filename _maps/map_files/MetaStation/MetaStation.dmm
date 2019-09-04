@@ -63121,10 +63121,7 @@
 /obj/structure/table,
 /obj/item/restraints/handcuffs/cable/white,
 /obj/item/gun/syringe,
-/obj/item/reagent_containers/blood/random{
-	step_x = 0;
-	step_y = 0
-	},
+/obj/item/reagent_containers/blood/random
 /obj/item/hatchet,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
