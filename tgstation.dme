@@ -3032,4 +3032,8 @@
 #include "modular_shadow\code\game\objects\items\cards_ids.dm"
 #include "modular_shadow\code\modules\admin\admin.dm"
 #include "modular_shadow\code\modules\events\electrical_storm.dm"
+#include "modular_shadow\code\modules\oracle_ui\assets.dm"
+#include "modular_shadow\code\modules\oracle_ui\hookup_procs.dm"
+#include "modular_shadow\code\modules\oracle_ui\oracle_ui.dm"
+#include "modular_shadow\code\modules\oracle_ui\themed.dm"
 // END_INCLUDE
