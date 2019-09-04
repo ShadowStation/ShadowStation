@@ -23931,20 +23931,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/locker)
-"aUR" = (
-/obj/machinery/vending/kink,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/locker)
 "aUS" = (
 /obj/machinery/vending/clothing,
 /obj/effect/turf_decal/tile/neutral{
@@ -25729,7 +25715,6 @@
 "aYn" = (
 /obj/structure/table,
 /obj/item/aicard,
-/obj/item/aiModule/reset,
 /turf/open/floor/plasteel/dark,
 /area/storage/tech)
 "aYo" = (
@@ -63136,12 +63121,15 @@
 /obj/structure/table,
 /obj/item/restraints/handcuffs/cable/white,
 /obj/item/gun/syringe,
+/obj/item/reagent_containers/blood/random{
+	step_x = 0;
+	step_y = 0
+	},
+/obj/item/hatchet,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "csb" = (
-/obj/structure/rack,
-/obj/item/hatchet,
-/obj/item/reagent_containers/blood/random,
+/obj/machinery/vending/kink,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "csc" = (
@@ -83159,6 +83147,12 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
+"dSw" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "dYu" = (
 /obj/machinery/door/airlock/external{
 	name = "Auxiliary Airlock"
@@ -83401,6 +83395,12 @@
 	},
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal/incinerator)
+"hdy" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "hsv" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
@@ -119134,7 +119134,7 @@ aOw
 aQX
 aOu
 aTt
-aUR
+aUQ
 aUM
 aYe
 dnh
@@ -122984,12 +122984,12 @@ dhH
 aCM
 aCM
 dCs
-aCM
+hdy
 aPT
 aRi
 aCM
 aCM
-avF
+dSw
 aWv
 aYn
 aZB

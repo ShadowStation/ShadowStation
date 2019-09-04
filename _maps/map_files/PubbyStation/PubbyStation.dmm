@@ -54248,7 +54248,6 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
 "gcj" = (
-/obj/machinery/vending/kink,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},

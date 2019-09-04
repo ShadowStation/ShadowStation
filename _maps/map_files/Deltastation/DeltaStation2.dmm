@@ -19173,7 +19173,7 @@
 /turf/open/floor/plasteel/grimy,
 /area/crew_quarters/abandoned_gambling_den/secondary)
 "aMR" = (
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/machinery/vending/kink,
 /turf/open/floor/plasteel/grimy,
 /area/crew_quarters/abandoned_gambling_den/secondary)
 "aMS" = (

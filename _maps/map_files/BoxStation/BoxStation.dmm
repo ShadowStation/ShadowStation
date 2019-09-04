@@ -18117,10 +18117,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
 /area/crew_quarters/locker)
-"aQU" = (
-/obj/machinery/vending/kink,
-/turf/open/floor/plasteel,
-/area/crew_quarters/locker)
 "aQV" = (
 /obj/machinery/vending/clothing,
 /turf/open/floor/plasteel,
@@ -57444,6 +57440,10 @@
 /obj/machinery/food_cart,
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
+"uEY" = (
+/obj/machinery/vending/kink,
+/turf/open/floor/plating,
+/area/maintenance/port/fore)
 "uNu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -75565,7 +75565,7 @@ atL
 alU
 avX
 axf
-amC
+uEY
 atO
 aAY
 aBQ
@@ -76864,7 +76864,7 @@ aLH
 aLE
 aOl
 aPA
-aQU
+aQN
 aQN
 aQN
 aUt
