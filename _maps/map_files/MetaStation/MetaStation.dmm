@@ -23932,7 +23932,6 @@
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/locker)
 "aUR" = (
-/obj/machinery/vending/kink,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -23943,6 +23942,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/vending/snack/random,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/locker)
 "aUS" = (
@@ -63858,7 +63858,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "cto" = (
-/obj/machinery/vending/kink,
+/obj/machinery/vending/snack/random,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "ctq" = (

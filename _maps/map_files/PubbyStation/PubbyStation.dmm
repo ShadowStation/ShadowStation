@@ -54248,10 +54248,10 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
 "gcj" = (
-/obj/machinery/vending/kink,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/machinery/vending/snack,
 /turf/open/floor/plasteel/white/corner{
 	dir = 1
 	},
@@ -57280,10 +57280,6 @@
 	},
 /obj/item/stack/spacecash/c10,
 /turf/open/floor/plasteel/dark,
-/area/maintenance/department/crew_quarters/dorms)
-"noC" = (
-/obj/machinery/vending/kink,
-/turf/open/floor/wood,
 /area/maintenance/department/crew_quarters/dorms)
 "noM" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
@@ -60890,6 +60886,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
+"vMH" = (
+/obj/machinery/vending/kink,
+/turf/open/floor/plating,
+/area/maintenance/department/engine)
 "vOw" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Library"
@@ -85995,8 +85995,8 @@ kpK
 bDi
 bZt
 bva
+vMH
 oAW
-bDi
 pYC
 bva
 mHy
@@ -99006,7 +99006,7 @@ cBo
 alQ
 alb
 cBw
-noC
+alb
 aiS
 aiS
 aiS
