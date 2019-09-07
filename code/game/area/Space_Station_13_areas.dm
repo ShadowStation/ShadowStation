@@ -1211,22 +1211,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Storage Wing"
 	icon_state = "storage_wing"
 
-// Vacant rooms
-
-/area/vacant_room
-	name = "Vacant Room"
-	icon_state = "yellow"
-	ambientsounds = MAINTENANCE
-	icon_state = "vacant_room"
-
-/area/vacant_room/office
-	name = "Vacant Office"
-	icon_state = "vacant_office"
-
-/area/vacant_room/commissary
-	name = "Vacant Commissary"
-	icon_state = "vacant_commissary"
-
 
 //AI
 
