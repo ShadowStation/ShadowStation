@@ -21,7 +21,7 @@
 	growthstages = 4
 	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
 	growing_icon = 'icons/obj/hydroponics/growing_mushrooms.dmi'
-	reagents_add = list("morphine" = 0.35, "charcoal" = 0.35, "nutriment" = 0)
+	reagents_add = list("morphine" = 0.35, "charcoal" = 0.35)
 
 /obj/item/reagent_containers/food/snacks/grown/mushroom/reishi
 	seed = /obj/item/seeds/reishi
@@ -47,7 +47,7 @@
 	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
 	growing_icon = 'icons/obj/hydroponics/growing_mushrooms.dmi'
 	mutatelist = list(/obj/item/seeds/angel)
-	reagents_add = list("mushroomhallucinogen" = 0.04, "amatoxin" = 0.35, "nutriment" = 0, "growthserum" = 0.1)
+	reagents_add = list("mushroomhallucinogen" = 0.04, "amatoxin" = 0.35, "growthserum" = 0.1)
 
 /obj/item/reagent_containers/food/snacks/grown/mushroom/amanita
 	seed = /obj/item/seeds/amanita
@@ -73,7 +73,7 @@
 	growthstages = 3
 	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
 	growing_icon = 'icons/obj/hydroponics/growing_mushrooms.dmi'
-	reagents_add = list("mushroomhallucinogen" = 0.04, "amatoxin" = 0.1, "nutriment" = 0, "amanitin" = 0.2)
+	reagents_add = list("mushroomhallucinogen" = 0.04, "amatoxin" = 0.1, "amanitin" = 0.2)
 	rarity = 30
 
 /obj/item/reagent_containers/food/snacks/grown/mushroom/angel
@@ -331,8 +331,9 @@
 	species = "polypore"
 	plantname = "Polypore Mushrooms"
 	product = /obj/item/reagent_containers/food/snacks/grown/ash_flora/shavings
-	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
+	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism, /datum/plant_gene/trait/fire_resistance)
 	growing_icon = 'icons/obj/hydroponics/growing_mushrooms.dmi'
+	reagents_add = list("sugar" = 0.06, "ethanol" = 0.04, "stabilizing_agent" = 0.06, "mint" = 0.02)
 
 // Porcini (Leafy mushroom)
 
@@ -345,6 +346,7 @@
 	product = /obj/item/reagent_containers/food/snacks/grown/ash_flora/mushroom_leaf
 	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
 	growing_icon = 'icons/obj/hydroponics/growing_mushrooms.dmi'
+	reagents_add = list("vitfro" = 0.04, "nutriment" = 0.06, "nicotine" = 0.04)
 
 // Inocybe (Mushroom caps)
 
@@ -355,8 +357,9 @@
 	species = "inocybe"
 	plantname = "Inocybe Mushrooms"
 	product = /obj/item/reagent_containers/food/snacks/grown/ash_flora/mushroom_cap
-	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
+	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism, /datum/plant_gene/trait/fire_resistance)
 	growing_icon = 'icons/obj/hydroponics/growing_mushrooms.dmi'
+	reagents_add = list("mushroomhallucinogen" = 0.04, "entpoly" = 0.08, "mindbreaker" = 0.04)
 
 // Embershroom (Mushroom stem)
 
@@ -367,5 +370,6 @@
 	species = "ember"
 	plantname = "Embershroom Mushrooms"
 	product = /obj/item/reagent_containers/food/snacks/grown/ash_flora/mushroom_stem
-	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism, /datum/plant_gene/trait/glow)
+	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism, /datum/plant_gene/trait/glow, /datum/plant_gene/trait/fire_resistance)
 	growing_icon = 'icons/obj/hydroponics/growing_mushrooms.dmi'
+	reagents_add = list("vitimin" = 0.02, "tinlux" = 0.04, "space_drugs" = 0.02)
