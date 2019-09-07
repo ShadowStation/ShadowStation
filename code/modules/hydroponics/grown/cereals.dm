@@ -35,6 +35,7 @@
 	plantname = "Oat Stalks"
 	product = /obj/item/reagent_containers/food/snacks/grown/oat
 	mutatelist = list()
+	reagents_add = list("nutriment" = 0.04)
 
 /obj/item/reagent_containers/food/snacks/grown/oat
 	seed = /obj/item/seeds/wheat/oat
@@ -59,6 +60,7 @@
 	product = /obj/item/reagent_containers/food/snacks/grown/rice
 	mutatelist = list()
 	growthstages = 3
+	reagents_add = list("nutriment" = 0.04)
 
 /obj/item/reagent_containers/food/snacks/grown/rice
 	seed = /obj/item/seeds/wheat/rice
@@ -82,6 +84,7 @@
 	plantname = "Meatwheat"
 	product = /obj/item/reagent_containers/food/snacks/grown/meatwheat
 	mutatelist = list()
+	reagents_add = list("nutriment" = 0.05, "vitamin" = 0.04)
 
 /obj/item/reagent_containers/food/snacks/grown/meatwheat
 	name = "meatwheat"
