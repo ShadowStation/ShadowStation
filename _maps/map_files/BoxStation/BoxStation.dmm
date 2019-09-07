@@ -57009,6 +57009,10 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
+"nEq" = (
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "nGt" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -57044,6 +57048,10 @@
 /obj/machinery/light,
 /turf/open/floor/plating,
 /area/engine/engineering)
+"oEY" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "oHj" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -57163,6 +57171,10 @@
 /obj/item/clothing/mask/muzzle,
 /turf/open/floor/plating,
 /area/maintenance/bar)
+"rFS" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "rKP" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
@@ -57232,6 +57244,10 @@
 /obj/item/shovel/spade,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/service)
+"szK" = (
+/obj/machinery/atmospherics/miner/toxins,
+/turf/open/floor/engine/plasma,
+/area/engine/atmos)
 "sAM" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
@@ -57307,6 +57323,10 @@
 /obj/structure/chair/comfy/brown,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
+"tkD" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "tkU" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
@@ -90029,7 +90049,7 @@ cph
 ckb
 ckV
 clU
-clU
+tkD
 bOh
 ccw
 coZ
@@ -91057,7 +91077,7 @@ cph
 ckb
 ckY
 clW
-clW
+oEY
 bOh
 cig
 cig
@@ -94123,15 +94143,15 @@ bPm
 bOh
 bTW
 bUW
-bTW
+nEq
 bOh
 bXY
 bYW
-bXW
+szK
 bOh
 cbH
 ccD
-cbH
+rFS
 bOh
 aaf
 aaf
