@@ -53923,10 +53923,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/engine/supermatter)
-"fjJ" = (
-/obj/machinery/atmospherics/miner/carbon_dioxide,
-/turf/open/floor/engine/co2,
-/area/engine/atmos)
 "fkH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -57714,10 +57710,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
-"omc" = (
-/obj/machinery/atmospherics/miner/n2o,
-/turf/open/floor/engine/n2o,
-/area/engine/atmos)
 "onX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -58931,10 +58923,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/maintenance/department/crew_quarters/dorms)
-"qQg" = (
-/obj/machinery/atmospherics/miner/oxygen,
-/turf/open/floor/engine/o2,
-/area/engine/atmos)
 "qRl" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -59177,10 +59165,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/office)
-"rrZ" = (
-/obj/machinery/atmospherics/miner/toxins,
-/turf/open/floor/engine/plasma,
-/area/engine/atmos)
 "rse" = (
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable{
@@ -61454,10 +61438,6 @@
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/security/brig)
-"wUM" = (
-/obj/machinery/atmospherics/miner/n2o,
-/turf/open/floor/engine/n2,
-/area/engine/atmos)
 "wVC" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=Sci";
@@ -97067,7 +97047,7 @@ eAZ
 bZL
 caz
 cbs
-wUM
+cbs
 bJP
 aaa
 aaa
@@ -98095,7 +98075,7 @@ bZd
 bZL
 caC
 cbu
-qQg
+cbu
 bJP
 aht
 aht
@@ -102192,15 +102172,15 @@ bLe
 bJP
 bPh
 bQb
-omc
+bPh
 bJP
 bSl
 bSY
-rrZ
+bSk
 bJP
 bVo
 bWg
-fjJ
+bVo
 bJP
 aaa
 aaa

@@ -56,6 +56,7 @@
 	plantname = "Snapcorn Stalks"
 	product = /obj/item/grown/snapcorn
 	mutatelist = list()
+	reagents_add = list("cornoil" = 0.2, "vitamin" = 0.04, "nutriment" = 0.1)
 	rarity = 10
 
 /obj/item/grown/snapcorn
