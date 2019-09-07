@@ -48223,7 +48223,6 @@
 /area/engine/atmos)
 "bPz" = (
 /obj/effect/landmark/xeno_spawn,
-/obj/machinery/atmospherics/miner/toxins,
 /turf/open/floor/engine/plasma,
 /area/engine/atmos)
 "bPA" = (
@@ -83624,10 +83623,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/circuit)
-"ljw" = (
-/obj/machinery/atmospherics/miner/oxygen,
-/turf/open/floor/engine/o2,
-/area/engine/atmos)
 "llb" = (
 /obj/structure/table/reinforced,
 /obj/item/integrated_circuit_printer,
@@ -83681,10 +83676,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
-"lPq" = (
-/obj/machinery/atmospherics/miner/n2o,
-/turf/open/floor/engine/n2o,
-/area/engine/atmos)
 "lRn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/cable/yellow{
@@ -83978,10 +83969,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"pCF" = (
-/obj/machinery/atmospherics/miner/nitrogen,
-/turf/open/floor/engine/n2,
-/area/engine/atmos)
 "pCV" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -84205,10 +84192,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/science/circuit)
-"sFG" = (
-/obj/machinery/atmospherics/miner/carbon_dioxide,
-/turf/open/floor/engine/co2,
-/area/engine/atmos)
 "sGh" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -125876,7 +125859,7 @@ cfu
 cgA
 chN
 cjc
-pCF
+cjc
 bAR
 aaf
 aaa
@@ -126904,7 +126887,7 @@ cfu
 cgA
 chQ
 cjf
-ljw
+cjf
 bAR
 aaf
 aaa
@@ -130482,7 +130465,7 @@ bCC
 bEe
 bGb
 bAR
-lPq
+bJd
 bKJ
 bMn
 bAR
@@ -130490,7 +130473,7 @@ bPz
 bQZ
 bSl
 bAR
-sFG
+bUJ
 bVP
 bXs
 bAR
