@@ -1,0 +1,6 @@
+author: "Zaiakusin"
+delete-after: True
+changes: 
+  - rscadd: "Added Lavaland reagents and traits.  Added reagents to Tea Asperas, Oats, Rice, Meatwheat(May or may not have been necessary) and SnapCorn."
+  - rscdel: "Removed the nutriment from three of the mushrooms as it was unnecessary.  Removed Perennial growth from Pineapples"
+  - tweak: "fixed the value of nutriment on sunflowers"
