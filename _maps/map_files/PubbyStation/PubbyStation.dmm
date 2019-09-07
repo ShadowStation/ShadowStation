@@ -51295,6 +51295,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/main/monastery)
+"cvn" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "cvq" = (
 /obj/machinery/camera{
 	c_tag = "Monastery Secondary Dock";
@@ -53002,6 +53006,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
+"dbT" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "dci" = (
 /obj/structure/rack,
 /obj/item/gun/energy/laser/practice,
@@ -53817,6 +53825,10 @@
 	},
 /turf/open/floor/engine,
 /area/science/explab)
+"eXZ" = (
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "eYr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -56942,6 +56954,10 @@
 /obj/item/pen/blue,
 /turf/open/floor/wood,
 /area/lawoffice)
+"mpQ" = (
+/obj/machinery/atmospherics/miner/toxins,
+/turf/open/floor/engine/plasma,
+/area/engine/atmos)
 "mql" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 9
@@ -60285,6 +60301,10 @@
 "uoS" = (
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
+"uoZ" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "upc" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
@@ -97047,7 +97067,7 @@ eAZ
 bZL
 caz
 cbs
-cbs
+dbT
 bJP
 aaa
 aaa
@@ -98075,7 +98095,7 @@ bZd
 bZL
 caC
 cbu
-cbu
+uoZ
 bJP
 aht
 aht
@@ -102172,15 +102192,15 @@ bLe
 bJP
 bPh
 bQb
-bPh
+eXZ
 bJP
 bSl
 bSY
-bSk
+mpQ
 bJP
 bVo
 bWg
-bVo
+cvn
 bJP
 aaa
 aaa

@@ -56355,6 +56355,10 @@
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
 /area/maintenance/bar)
+"dLt" = (
+/obj/machinery/atmospherics/miner/toxins,
+/turf/open/floor/engine/plasma,
+/area/engine/atmos)
 "dMZ" = (
 /obj/structure/sign/poster/official/random{
 	pixel_y = 32
@@ -56889,6 +56893,10 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningdock)
+"kVm" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "lnu" = (
 /obj/structure/chair/wood/normal{
 	dir = 4
@@ -57071,6 +57079,10 @@
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/white,
 /area/science/circuit)
+"oVe" = (
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "poc" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -57257,6 +57269,10 @@
 /obj/machinery/door/airlock/maintenance/abandoned,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"sPJ" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "sQX" = (
 /turf/open/floor/plating,
 /area/space)
@@ -57632,6 +57648,10 @@
 /obj/item/stack/sheet/metal/ten,
 /turf/open/floor/plasteel/white,
 /area/science/circuit)
+"wxV" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "wBd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
@@ -90029,7 +90049,7 @@ cph
 ckb
 ckV
 clU
-clU
+kVm
 bOh
 ccw
 coZ
@@ -91057,7 +91077,7 @@ cph
 ckb
 ckY
 clW
-clW
+wxV
 bOh
 cig
 cig
@@ -94123,15 +94143,15 @@ bPm
 bOh
 bTW
 bUW
-bTW
+oVe
 bOh
 bXY
 bYW
-bXW
+dLt
 bOh
 cbH
 ccD
-cbH
+sPJ
 bOh
 aaf
 aaf

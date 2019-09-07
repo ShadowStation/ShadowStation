@@ -17694,7 +17694,6 @@
 	pixel_x = -28;
 	pixel_y = 23
 	},
-/obj/machinery/status_display/supply,
 /obj/machinery/conveyor{
 	dir = 5;
 	id = "QMLoad2"
@@ -21619,7 +21618,6 @@
 /obj/structure/table,
 /obj/item/clipboard,
 /obj/item/stamp/qm,
-/obj/machinery/status_display/supply,
 /turf/open/floor/plasteel,
 /area/quartermaster/qm)
 "aQu" = (
@@ -27051,7 +27049,6 @@
 /area/hallway/primary/port)
 "baA" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/obj/machinery/status_display/supply,
 /obj/structure/table,
 /obj/item/folder/yellow,
 /obj/effect/turf_decal/tile/brown{
@@ -27934,7 +27931,6 @@
 /area/quartermaster/office)
 "bbS" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/obj/machinery/status_display/supply,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
@@ -48223,6 +48219,7 @@
 /area/engine/atmos)
 "bPz" = (
 /obj/effect/landmark/xeno_spawn,
+/obj/machinery/atmospherics/miner/toxins,
 /turf/open/floor/engine/plasma,
 /area/engine/atmos)
 "bPA" = (
@@ -83401,6 +83398,10 @@
 	},
 /turf/closed/wall/r_wall,
 /area/maintenance/disposal/incinerator)
+"hbS" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "hsv" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
@@ -83659,6 +83660,10 @@
 /obj/docking_port/stationary/public_mining_dock,
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
+"lKL" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "lMz" = (
 /obj/structure/falsewall,
 /turf/open/floor/plating,
@@ -83757,6 +83762,10 @@
 	icon_state = "panelscorched"
 	},
 /area/maintenance/port/aft)
+"nmi" = (
+/obj/machinery/status_display/supply,
+/turf/closed/wall,
+/area/maintenance/port/fore)
 "nnK" = (
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/paper_bin,
@@ -83807,6 +83816,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/construction/storage/wing)
+"nMt" = (
+/obj/machinery/status_display/supply,
+/turf/closed/wall,
+/area/quartermaster/office)
 "nXA" = (
 /obj/structure/rack{
 	icon = 'icons/obj/stationobjs.dmi';
@@ -83816,6 +83829,10 @@
 /obj/item/storage/fancy/candle_box,
 /turf/open/floor/engine/cult,
 /area/library)
+"oao" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "obb" = (
 /obj/structure/target_stake,
 /obj/effect/turf_decal/stripes/line{
@@ -84303,6 +84320,10 @@
 /obj/machinery/vending/assist,
 /turf/open/floor/plasteel,
 /area/science/mixing)
+"uzq" = (
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "uGW" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -101648,7 +101669,7 @@ aAC
 aAC
 aEw
 aFG
-ayj
+rMS
 aIh
 aJC
 aKP
@@ -104232,7 +104253,7 @@ aSX
 aVM
 aXm
 aSX
-bat
+nMt
 bbS
 bdn
 bfa
@@ -105510,13 +105531,13 @@ aLc
 dne
 dne
 dne
+nmi
 dne
 dne
 dne
 dne
 dne
-dne
-dne
+nmi
 baA
 bbX
 bds
@@ -125859,7 +125880,7 @@ cfu
 cgA
 chN
 cjc
-cjc
+hbS
 bAR
 aaf
 aaa
@@ -126887,7 +126908,7 @@ cfu
 cgA
 chQ
 cjf
-cjf
+oao
 bAR
 aaf
 aaa
@@ -130465,7 +130486,7 @@ bCC
 bEe
 bGb
 bAR
-bJd
+uzq
 bKJ
 bMn
 bAR
@@ -130473,7 +130494,7 @@ bPz
 bQZ
 bSl
 bAR
-bUJ
+lKL
 bVP
 bXs
 bAR
