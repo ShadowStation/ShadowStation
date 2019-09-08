@@ -56355,6 +56355,10 @@
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
 /area/maintenance/bar)
+"dLt" = (
+/obj/machinery/atmospherics/miner/toxins,
+/turf/open/floor/engine/plasma,
+/area/engine/atmos)
 "dMZ" = (
 /obj/structure/sign/poster/official/random{
 	pixel_y = 32
@@ -56889,6 +56893,10 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningdock)
+"kVm" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "lnu" = (
 /obj/structure/chair/wood/normal{
 	dir = 4
@@ -57009,10 +57017,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
-"nEq" = (
-/obj/machinery/atmospherics/miner/n2o,
-/turf/open/floor/engine/n2o,
-/area/engine/atmos)
 "nGt" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -57048,10 +57052,6 @@
 /obj/machinery/light,
 /turf/open/floor/plating,
 /area/engine/engineering)
-"oEY" = (
-/obj/machinery/atmospherics/miner/oxygen,
-/turf/open/floor/engine/o2,
-/area/engine/atmos)
 "oHj" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -57079,6 +57079,10 @@
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/white,
 /area/science/circuit)
+"oVe" = (
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "poc" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -57171,10 +57175,6 @@
 /obj/item/clothing/mask/muzzle,
 /turf/open/floor/plating,
 /area/maintenance/bar)
-"rFS" = (
-/obj/machinery/atmospherics/miner/carbon_dioxide,
-/turf/open/floor/engine/co2,
-/area/engine/atmos)
 "rKP" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
@@ -57244,10 +57244,6 @@
 /obj/item/shovel/spade,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/service)
-"szK" = (
-/obj/machinery/atmospherics/miner/toxins,
-/turf/open/floor/engine/plasma,
-/area/engine/atmos)
 "sAM" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
@@ -57273,6 +57269,10 @@
 /obj/machinery/door/airlock/maintenance/abandoned,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"sPJ" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "sQX" = (
 /turf/open/floor/plating,
 /area/space)
@@ -57323,10 +57323,6 @@
 /obj/structure/chair/comfy/brown,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
-"tkD" = (
-/obj/machinery/atmospherics/miner/nitrogen,
-/turf/open/floor/engine/n2,
-/area/engine/atmos)
 "tkU" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
@@ -57652,6 +57648,10 @@
 /obj/item/stack/sheet/metal/ten,
 /turf/open/floor/plasteel/white,
 /area/science/circuit)
+"wxV" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "wBd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
@@ -90049,7 +90049,7 @@ cph
 ckb
 ckV
 clU
-tkD
+kVm
 bOh
 ccw
 coZ
@@ -91077,7 +91077,7 @@ cph
 ckb
 ckY
 clW
-oEY
+wxV
 bOh
 cig
 cig
@@ -94143,15 +94143,15 @@ bPm
 bOh
 bTW
 bUW
-nEq
+oVe
 bOh
 bXY
 bYW
-szK
+dLt
 bOh
 cbH
 ccD
-rFS
+sPJ
 bOh
 aaf
 aaf

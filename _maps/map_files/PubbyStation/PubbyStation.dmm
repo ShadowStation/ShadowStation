@@ -51295,6 +51295,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/main/monastery)
+"cvn" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "cvq" = (
 /obj/machinery/camera{
 	c_tag = "Monastery Secondary Dock";
@@ -53002,6 +53006,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
+"dbT" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "dci" = (
 /obj/structure/rack,
 /obj/item/gun/energy/laser/practice,
@@ -53817,6 +53825,10 @@
 	},
 /turf/open/floor/engine,
 /area/science/explab)
+"eXZ" = (
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "eYr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -53923,10 +53935,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/engine/supermatter)
-"fjJ" = (
-/obj/machinery/atmospherics/miner/carbon_dioxide,
-/turf/open/floor/engine/co2,
-/area/engine/atmos)
 "fkH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -56946,6 +56954,10 @@
 /obj/item/pen/blue,
 /turf/open/floor/wood,
 /area/lawoffice)
+"mpQ" = (
+/obj/machinery/atmospherics/miner/toxins,
+/turf/open/floor/engine/plasma,
+/area/engine/atmos)
 "mql" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 9
@@ -57714,10 +57726,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
-"omc" = (
-/obj/machinery/atmospherics/miner/n2o,
-/turf/open/floor/engine/n2o,
-/area/engine/atmos)
 "onX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -58931,10 +58939,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/maintenance/department/crew_quarters/dorms)
-"qQg" = (
-/obj/machinery/atmospherics/miner/oxygen,
-/turf/open/floor/engine/o2,
-/area/engine/atmos)
 "qRl" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -59177,10 +59181,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/office)
-"rrZ" = (
-/obj/machinery/atmospherics/miner/toxins,
-/turf/open/floor/engine/plasma,
-/area/engine/atmos)
 "rse" = (
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable{
@@ -60301,6 +60301,10 @@
 "uoS" = (
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
+"uoZ" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "upc" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
@@ -61454,10 +61458,6 @@
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/security/brig)
-"wUM" = (
-/obj/machinery/atmospherics/miner/n2o,
-/turf/open/floor/engine/n2,
-/area/engine/atmos)
 "wVC" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=Sci";
@@ -97067,7 +97067,7 @@ eAZ
 bZL
 caz
 cbs
-wUM
+dbT
 bJP
 aaa
 aaa
@@ -98095,7 +98095,7 @@ bZd
 bZL
 caC
 cbu
-qQg
+uoZ
 bJP
 aht
 aht
@@ -102192,15 +102192,15 @@ bLe
 bJP
 bPh
 bQb
-omc
+eXZ
 bJP
 bSl
 bSY
-rrZ
+mpQ
 bJP
 bVo
 bWg
-fjJ
+cvn
 bJP
 aaa
 aaa

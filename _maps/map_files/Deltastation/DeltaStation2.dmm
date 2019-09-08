@@ -126282,10 +126282,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/mixing)
-"eNJ" = (
-/obj/machinery/atmospherics/miner/carbon_dioxide,
-/turf/open/floor/engine/co2,
-/area/engine/atmos)
 "eTv" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -126557,6 +126553,10 @@
 /obj/item/restraints/handcuffs/fake,
 /turf/open/floor/plating,
 /area/crew_quarters/abandoned_gambling_den)
+"hQK" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/air,
+/area/engine/atmos)
 "iaF" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
@@ -126693,6 +126693,10 @@
 	},
 /turf/open/space,
 /area/space)
+"jpz" = (
+/obj/machinery/atmospherics/miner/toxins,
+/turf/open/floor/engine/plasma,
+/area/engine/atmos)
 "jqM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -126756,10 +126760,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/medical/morgue)
-"jBN" = (
-/obj/machinery/atmospherics/miner/toxins,
-/turf/open/floor/engine/plasma,
-/area/engine/atmos)
 "jRy" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -126916,6 +126916,10 @@
 	dir = 6
 	},
 /area/science/circuit)
+"lTd" = (
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "lTo" = (
 /obj/docking_port/stationary{
 	area_type = /area/construction/mining/aux_base;
@@ -127025,6 +127029,10 @@
 	},
 /turf/open/floor/engine,
 /area/science/mixing)
+"nvd" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "nyN" = (
 /obj/machinery/vending/kink,
 /turf/open/floor/plating,
@@ -127211,10 +127219,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
-"pVK" = (
-/obj/machinery/atmospherics/miner/n2o,
-/turf/open/floor/engine/n2o,
-/area/engine/atmos)
 "qhc" = (
 /obj/structure/table/reinforced,
 /obj/item/integrated_electronics/analyzer,
@@ -127416,10 +127420,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
 /area/science/circuit)
-"wvK" = (
-/obj/machinery/atmospherics/miner/nitrogen,
-/turf/open/floor/engine/n2,
-/area/engine/atmos)
 "wAA" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall/r_wall,
@@ -127435,10 +127435,6 @@
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel/white,
 /area/science/misc_lab)
-"wSm" = (
-/obj/machinery/atmospherics/miner/oxygen,
-/turf/open/floor/engine/o2,
-/area/engine/atmos)
 "xaf" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Holodeck Access"
@@ -127461,6 +127457,10 @@
 /obj/machinery/the_singularitygen/tesla,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
+"xlW" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "xmt" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
@@ -127552,6 +127552,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/toxins_mixing_output,
 /turf/open/floor/engine/vacuum,
 /area/science/mixing)
+"xYl" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "xZM" = (
 /obj/structure/fans/tiny/invisible,
 /turf/open/space/basic,
@@ -148496,15 +148500,15 @@ aPz
 nSh
 hFo
 aRF
-eNJ
+nvd
 aXV
 aWt
 aRF
-jBN
+jpz
 beu
 bcX
 aRF
-pVK
+lTd
 bkG
 biT
 aRF
@@ -156463,15 +156467,15 @@ aad
 aRF
 aTl
 aVb
-aTl
+hQK
 aRF
 bam
 bbP
-wSm
+xYl
 aRF
 bgh
 bhx
-wvK
+xlW
 aRF
 aMO
 alf
