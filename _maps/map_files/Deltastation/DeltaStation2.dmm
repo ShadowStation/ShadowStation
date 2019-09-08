@@ -126553,6 +126553,10 @@
 /obj/item/restraints/handcuffs/fake,
 /turf/open/floor/plating,
 /area/crew_quarters/abandoned_gambling_den)
+"hQK" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/air,
+/area/engine/atmos)
 "iaF" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
@@ -126689,6 +126693,10 @@
 	},
 /turf/open/space,
 /area/space)
+"jpz" = (
+/obj/machinery/atmospherics/miner/toxins,
+/turf/open/floor/engine/plasma,
+/area/engine/atmos)
 "jqM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -126908,6 +126916,10 @@
 	dir = 6
 	},
 /area/science/circuit)
+"lTd" = (
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "lTo" = (
 /obj/docking_port/stationary{
 	area_type = /area/construction/mining/aux_base;
@@ -127017,6 +127029,10 @@
 	},
 /turf/open/floor/engine,
 /area/science/mixing)
+"nvd" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "nyN" = (
 /obj/machinery/vending/kink,
 /turf/open/floor/plating,
@@ -127441,6 +127457,10 @@
 /obj/machinery/the_singularitygen/tesla,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
+"xlW" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "xmt" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
@@ -127532,6 +127552,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/toxins_mixing_output,
 /turf/open/floor/engine/vacuum,
 /area/science/mixing)
+"xYl" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "xZM" = (
 /obj/structure/fans/tiny/invisible,
 /turf/open/space/basic,
@@ -148476,15 +148500,15 @@ aPz
 nSh
 hFo
 aRF
-aWt
+nvd
 aXV
 aWt
 aRF
-bcX
+jpz
 beu
 bcX
 aRF
-biT
+lTd
 bkG
 biT
 aRF
@@ -156443,15 +156467,15 @@ aad
 aRF
 aTl
 aVb
-aTl
+hQK
 aRF
 bam
 bbP
-bam
+xYl
 aRF
 bgh
 bhx
-bgh
+xlW
 aRF
 aMO
 alf

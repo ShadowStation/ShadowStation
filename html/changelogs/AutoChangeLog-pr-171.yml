@@ -1,0 +1,5 @@
+author: "TheMocheeze"
+delete-after: True
+changes: 
+  - rscadd: "Gas miners for atmospherics tanks"
+  - bugfix: "MetaStation cargo bay's shuttle monitors fixed."
