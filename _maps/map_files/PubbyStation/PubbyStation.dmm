@@ -13197,10 +13197,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/security/brig)
-"aFl" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/space)
 "aFm" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -89057,7 +89053,7 @@ bca
 aXS
 bej
 bfn
-aFl
+bdm
 aJI
 aDZ
 bik

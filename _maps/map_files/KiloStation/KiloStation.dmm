@@ -41496,16 +41496,14 @@
 	broadcasting = 1;
 	frequency = 1447;
 	name = "Private AI Channel";
-	pixel_y = -2;
-	step_x = 0;
-	step_y = -26
+	pixel_y = -26
 	},
 /obj/machinery/turretid{
 	control_area = "/area/ai_monitored/turret_protected/ai_upload";
 	icon_state = "control_stun";
 	name = "AI Upload turret control";
-	pixel_y = 26;
-	step_y = 8
+	pixel_y = 8;
+	
 	},
 /turf/open/floor/plasteel,
 /area/bridge)
@@ -87438,6 +87436,9 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/construction/mining/aux_base)
+"cJc" = (
+/turf/closed/wall/rust,
+/area/library)
 "cJe" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Long-Term Cell 3";
@@ -89384,22 +89385,28 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
-"dLZ" = (
-/obj/machinery/status_display/evac,
-/turf/closed/wall/rust,
-/area/security/warden)
-"dWc" = (
-/turf/closed/wall/rust,
-/area/crew_quarters/heads/hor)
-"dWt" = (
-/turf/closed/wall/rust,
-/area/medical/cryo)
-"eoH" = (
+"dis" = (
 /turf/closed/wall/r_wall/rust,
-/area/crew_quarters/heads/captain)
-"eTw" = (
+/area/bridge)
+"emD" = (
 /turf/closed/wall/rust,
-/area/gateway)
+/area/quartermaster/miningoffice)
+"erN" = (
+/turf/closed/wall/rust,
+/area/hallway/primary/starboard)
+"evx" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine{
+	initial_gas_mix = "n2=100;TEMP=80";
+	name = "mainframe floor"
+	},
+/area/tcommsat/server)
+"ezp" = (
+/turf/closed/wall/rust,
+/area/hydroponics)
 "fyr" = (
 /obj/machinery/camera{
 	c_tag = "Laser Room Starboard";
@@ -89409,9 +89416,21 @@
 	},
 /turf/closed/mineral/random/labormineral,
 /area/space/nearstation)
-"fHO" = (
-/turf/closed/wall/rust,
-/area/crew_quarters/bar)
+"fXq" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	icon_state = "pipe11-1";
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/corner{
+	dir = 8
+	},
+/area/hallway/primary/fore)
 "gnA" = (
 /obj/machinery/airalarm{
 	dir = 1;
@@ -89433,16 +89452,55 @@
 	},
 /turf/open/floor/plating,
 /area/engine/engineering)
-"gVM" = (
-/obj/machinery/status_display/evac,
+"hzY" = (
 /turf/closed/wall/rust,
-/area/crew_quarters/heads/hor)
-"hby" = (
+/area/gateway)
+"iiA" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine{
+	initial_gas_mix = "n2=100;TEMP=80";
+	name = "mainframe floor"
+	},
+/area/tcommsat/server)
+"ikw" = (
+/obj/machinery/camera{
+	c_tag = "Xenobiology Cell 4";
+	dir = 8;
+	name = "xenobiology camera";
+	network = list("ss13","rd","xeno")
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/science/xenobiology)
+"iMq" = (
+/obj/machinery/camera{
+	c_tag = "Xenobiology Cell 5";
+	dir = 4;
+	name = "xenobiology camera";
+	network = list("ss13","rd","xeno")
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/science/xenobiology)
+"iRL" = (
+/turf/closed/wall/rust,
+/area/hallway/primary/aft)
+"iYW" = (
+/turf/closed/wall/r_wall/rust,
+/area/crew_quarters/heads/captain)
+"iZo" = (
 /turf/closed/wall/r_wall/rust,
 /area/medical/virology)
-"itG" = (
-/turf/closed/wall/rust,
-/area/security/checkpoint/medical)
 "jaZ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -89457,95 +89515,7 @@
 /obj/structure/chair/stool,
 /turf/open/floor/plasteel/dark,
 /area/security/courtroom)
-"jUP" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	icon_state = "pipe11-1";
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark/corner{
-	dir = 8
-	},
-/area/hallway/primary/fore)
-"lcK" = (
-/turf/closed/wall/rust,
-/area/chapel/main)
-"lBV" = (
-/turf/closed/wall/rust,
-/area/science/lab)
-"mIA" = (
-/obj/machinery/status_display/evac,
-/turf/closed/wall/rust,
-/area/chapel/office)
-"neO" = (
-/turf/closed/wall/rust,
-/area/hallway/secondary/exit/departure_lounge)
-"nlM" = (
-/turf/closed/wall/rust,
-/area/bridge)
-"nIJ" = (
-/turf/closed/wall/rust,
-/area/storage/tech)
-"omk" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/engine{
-	initial_gas_mix = "n2=100;TEMP=80";
-	name = "mainframe floor"
-	},
-/area/tcommsat/server)
-"psA" = (
-/turf/closed/wall/r_wall/rust,
-/area/bridge)
-"pSE" = (
-/turf/closed/wall/rust,
-/area/lawoffice)
-"pTV" = (
-/turf/closed/wall/rust,
-/area/hallway/primary/central)
-"pVv" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/engine{
-	initial_gas_mix = "n2=100;TEMP=80";
-	name = "mainframe floor"
-	},
-/area/tcommsat/server)
-"qzh" = (
-/turf/closed/wall/r_wall/rust,
-/area/tcommsat/server)
-"qMR" = (
-/obj/structure/sign/warning/securearea,
-/turf/closed/wall/rust,
-/area/gateway)
-"rjY" = (
-/turf/closed/wall/rust,
-/area/quartermaster/qm)
-"rEd" = (
-/turf/closed/wall/rust,
-/area/security/warden)
-"rGp" = (
-/turf/closed/wall/rust,
-/area/library)
-"rJz" = (
-/turf/closed/wall/rust,
-/area/medical/genetics/cloning)
-"rNo" = (
-/turf/closed/wall/rust,
-/area/hallway/primary/aft)
-"rYV" = (
+"juX" = (
 /obj/machinery/camera{
 	c_tag = "Xenobiology Cell 2";
 	dir = 4;
@@ -89557,22 +89527,10 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
-"szu" = (
+"jxc" = (
 /turf/closed/wall/rust,
-/area/security/checkpoint/supply)
-"sAc" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel/dark/corner{
-	dir = 8
-	},
 /area/hallway/primary/fore)
-"sMa" = (
-/turf/closed/wall/rust,
-/area/quartermaster/storage)
-"sWH" = (
+"jCp" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -89584,58 +89542,54 @@
 	name = "mainframe floor"
 	},
 /area/tcommsat/server)
-"uFK" = (
+"jDv" = (
 /turf/closed/wall/rust,
-/area/hallway/primary/fore)
-"vkn" = (
+/area/quartermaster/storage)
+"krJ" = (
 /turf/closed/wall/rust,
-/area/hallway/primary/starboard)
-"vkC" = (
+/area/hallway/secondary/exit/departure_lounge)
+"lVk" = (
+/obj/machinery/status_display/evac,
 /turf/closed/wall/rust,
-/area/hydroponics)
-"vmu" = (
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/item/instrument/guitar,
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/bar)
-"vmD" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Cell 5";
-	dir = 4;
-	name = "xenobiology camera";
-	network = list("ss13","rd","xeno")
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
-"vuF" = (
-/turf/closed/wall/rust,
-/area/quartermaster/miningoffice)
-"wGu" = (
+/area/security/warden)
+"mej" = (
 /turf/closed/wall/r_wall/rust,
 /area/science/robotics/lab)
-"wTg" = (
+"mPm" = (
 /turf/closed/wall/rust,
-/area/medical/surgery)
-"wXc" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Cell 4";
-	dir = 8;
-	name = "xenobiology camera";
-	network = list("ss13","rd","xeno")
+/area/security/checkpoint/supply)
+"nDw" = (
+/obj/machinery/status_display/evac,
+/turf/closed/wall/rust,
+/area/crew_quarters/heads/hor)
+"nNA" = (
+/turf/closed/wall/rust,
+/area/bridge)
+"nNV" = (
+/turf/closed/wall/rust,
+/area/science/lab)
+"nSz" = (
+/turf/closed/wall/rust,
+/area/medical/cryo)
+"nVt" = (
+/turf/closed/wall/rust,
+/area/storage/tech)
+"oPf" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
 	},
-/obj/machinery/light/small{
-	dir = 4
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/plasteel/dark/corner{
+	dir = 8
 	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
-"xyp" = (
+/area/hallway/primary/fore)
+"qtv" = (
+/turf/closed/wall/r_wall/rust,
+/area/tcommsat/server)
+"qtS" = (
+/turf/closed/wall/rust,
+/area/medical/genetics/cloning)
+"qIR" = (
 /obj/machinery/camera{
 	c_tag = "Xenobiology Cell 6";
 	dir = 8;
@@ -89647,9 +89601,53 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
-"xLj" = (
+"qWU" = (
+/turf/closed/wall/rust,
+/area/chapel/main)
+"sPG" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/heads/hor)
+"tqw" = (
+/turf/closed/wall/rust,
+/area/lawoffice)
+"tyb" = (
+/turf/closed/wall/rust,
+/area/hallway/primary/central)
+"tEC" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/bar)
+"tGU" = (
+/obj/structure/sign/warning/securearea,
+/turf/closed/wall/rust,
+/area/gateway)
+"uda" = (
+/turf/closed/wall/rust,
+/area/security/warden)
+"uzR" = (
 /turf/closed/wall/rust,
 /area/storage/primary)
+"uWo" = (
+/turf/closed/wall/rust,
+/area/security/checkpoint/medical)
+"vmu" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/item/instrument/guitar,
+/turf/open/floor/plasteel/dark,
+/area/crew_quarters/bar)
+"whw" = (
+/turf/closed/wall/rust,
+/area/medical/surgery)
+"wmX" = (
+/turf/closed/wall/rust,
+/area/quartermaster/qm)
+"xBI" = (
+/obj/machinery/status_display/evac,
+/turf/closed/wall/rust,
+/area/chapel/office)
 "xON" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -109061,8 +109059,8 @@ aQJ
 aTc
 aUL
 aWr
-itG
-wTg
+uWo
+whw
 bxr
 aQN
 aQN
@@ -109318,7 +109316,7 @@ aQI
 aQJ
 aQf
 aQJ
-itG
+uWo
 baB
 bcS
 bek
@@ -109600,8 +109598,8 @@ cBw
 cBT
 aef
 aef
-dLZ
-rEd
+lVk
+uda
 aef
 ani
 anm
@@ -110078,7 +110076,7 @@ aBq
 aCP
 aEo
 aGt
-dWt
+nSz
 aJB
 aQo
 aTO
@@ -110334,8 +110332,8 @@ aNH
 aVH
 aNO
 aso
-rJz
-rJz
+qtS
+qtS
 aQd
 aQC
 aNn
@@ -110381,7 +110379,7 @@ bWr
 coN
 cqh
 bVW
-rEd
+uda
 ayi
 aJr
 ayi
@@ -110890,7 +110888,7 @@ aiZ
 bWs
 abO
 afl
-rEd
+uda
 avt
 bSZ
 bUk
@@ -111128,7 +111126,7 @@ cuH
 aUD
 aVA
 aVW
-hby
+iZo
 bIZ
 bGp
 bJo
@@ -113668,7 +113666,7 @@ bta
 btC
 atL
 avK
-mIA
+xBI
 aob
 azS
 aAu
@@ -113688,7 +113686,7 @@ btE
 aPK
 aLU
 btE
-rGp
+cJc
 buC
 aRF
 aSP
@@ -113937,7 +113935,7 @@ btA
 bsx
 aOS
 aaJ
-fHO
+tEC
 btE
 bvi
 bub
@@ -113958,7 +113956,7 @@ boY
 buC
 bsy
 aoh
-pSE
+tqw
 bCn
 aoh
 aoA
@@ -114194,7 +114192,7 @@ btA
 ahF
 aOT
 cfa
-fHO
+tEC
 aTB
 btT
 buc
@@ -115982,7 +115980,7 @@ cCU
 cAF
 cAO
 cDA
-lcK
+qWU
 btA
 cCy
 btA
@@ -116541,8 +116539,8 @@ auP
 bQx
 bOP
 bRh
-pTV
-rNo
+tyb
+iRL
 cag
 cbh
 bRX
@@ -118049,7 +118047,7 @@ aIz
 ajW
 ajJ
 aOS
-jUP
+fXq
 aIV
 aox
 aOk
@@ -118072,7 +118070,7 @@ atT
 atT
 ajK
 atT
-psA
+dis
 atj
 apN
 awj
@@ -118307,7 +118305,7 @@ atQ
 cjj
 aRj
 anX
-sAc
+oPf
 aLV
 axf
 aHz
@@ -118564,7 +118562,7 @@ aba
 cgw
 aRk
 apY
-sAc
+oPf
 aLV
 aHz
 aTE
@@ -118855,7 +118853,7 @@ atG
 bQx
 bOF
 bYW
-nIJ
+nVt
 bDp
 bQn
 bSf
@@ -119105,7 +119103,7 @@ atj
 atj
 bHI
 atj
-nlM
+nNA
 atT
 atT
 atT
@@ -119324,9 +119322,9 @@ ajP
 aws
 cdo
 cdK
-omk
+evx
 cfd
-omk
+evx
 cfB
 cfO
 adB
@@ -119583,7 +119581,7 @@ awJ
 awJ
 aAh
 cfe
-omk
+evx
 cfC
 cfP
 aoD
@@ -119833,7 +119831,7 @@ adH
 adQ
 abX
 cBc
-qzh
+qtv
 cew
 awI
 cdq
@@ -120090,14 +120088,14 @@ cEW
 aoZ
 cFg
 agC
-qzh
+qtv
 atU
-sWH
+jCp
 awJ
 awJ
 aAj
 cff
-pVv
+iiA
 cfE
 cfR
 cge
@@ -120354,7 +120352,7 @@ cdB
 cdM
 aAk
 cfg
-omk
+evx
 cfF
 cfS
 cgf
@@ -121129,8 +121127,8 @@ cvM
 awE
 aEN
 aGQ
-eTw
-uFK
+hzY
+jxc
 avw
 aRB
 aJi
@@ -121643,7 +121641,7 @@ cvO
 cvU
 aEQ
 aGS
-qMR
+tGU
 aJY
 awr
 aRX
@@ -123212,8 +123210,8 @@ asx
 asx
 asx
 asx
-eoH
-eoH
+iYW
+iYW
 asx
 asx
 bMu
@@ -124470,7 +124468,7 @@ aYH
 aCJ
 aYH
 aYH
-wGu
+mej
 aoK
 aua
 aNw
@@ -124501,7 +124499,7 @@ bof
 bFJ
 bFX
 bqQ
-vkC
+ezp
 aZd
 bBU
 bXv
@@ -124757,14 +124755,14 @@ bAl
 bAu
 bFV
 bGk
-vkC
-vkC
+ezp
+ezp
 bGh
 bZI
 bhY
 bCa
 bMD
-xLj
+uzR
 auE
 auE
 bNV
@@ -125471,7 +125469,7 @@ aeu
 aeu
 alB
 bfq
-vmD
+iMq
 bbx
 alB
 afX
@@ -125735,7 +125733,7 @@ cIe
 bhl
 alB
 bfq
-rYV
+juX
 bbx
 aWR
 bfq
@@ -127576,7 +127574,7 @@ aKA
 bjh
 bjy
 bpw
-szu
+mPm
 bsV
 buS
 bxl
@@ -127833,7 +127831,7 @@ bkr
 bmx
 bod
 bpx
-szu
+mPm
 blg
 bBo
 blg
@@ -128330,8 +128328,8 @@ beE
 bbl
 aNM
 bgW
-lBV
-lBV
+nNV
+nNV
 biB
 aYg
 aDI
@@ -128596,7 +128594,7 @@ bbb
 bdz
 cby
 clA
-rjY
+wmX
 bjJ
 blJ
 biV
@@ -128616,7 +128614,7 @@ bCc
 bOw
 bAT
 bOC
-vkn
+erN
 bHT
 bJh
 bJK
@@ -128819,7 +128817,7 @@ agv
 aho
 aWR
 bfs
-wXc
+ikw
 bft
 aWR
 bfs
@@ -128840,7 +128838,7 @@ aZY
 aJF
 aWX
 aVJ
-gVM
+nDw
 bbM
 aNT
 aPo
@@ -128853,7 +128851,7 @@ bbb
 bdE
 cbz
 cLt
-rjY
+wmX
 bhO
 aqH
 biI
@@ -128883,9 +128881,9 @@ bTk
 bXL
 bXx
 bPe
-neO
-neO
-neO
+krJ
+krJ
+krJ
 bOc
 bOc
 bSr
@@ -129069,7 +129067,7 @@ aeu
 aeu
 alB
 bfs
-xyp
+qIR
 bft
 alB
 bhl
@@ -129097,7 +129095,7 @@ aGa
 aKu
 aMe
 bfB
-dWc
+sPG
 bfr
 bex
 aTU
@@ -129373,7 +129371,7 @@ big
 big
 bom
 aCb
-sMa
+jDv
 bpB
 bkl
 bli
@@ -130143,7 +130141,7 @@ bhH
 bhW
 bmN
 boK
-vuF
+emD
 bhH
 bjV
 bkh
