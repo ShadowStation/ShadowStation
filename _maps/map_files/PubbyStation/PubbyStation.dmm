@@ -13198,21 +13198,9 @@
 	},
 /area/maintenance/department/security/brig)
 "aFl" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/genericbush,
-/obj/structure/flora/ausbushes/ppflowers,
-/obj/structure/flora/ausbushes/sunnybush,
-/obj/structure/window/reinforced,
-/obj/structure/window{
-	icon_state = "window";
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 4
-	},
-/turf/open/floor/grass,
-/area/hydroponics)
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/space)
 "aFm" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -24700,17 +24688,9 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "bgj" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/leafybush,
+/obj/effect/spawner/structure/window,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/window/reinforced,
-/obj/structure/window{
-	icon_state = "window";
-	dir = 1
-	},
-/turf/open/floor/grass,
+/turf/open/floor/plating,
 /area/hydroponics)
 "bgk" = (
 /obj/effect/spawner/structure/window,
@@ -55240,19 +55220,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/office)
-"hZt" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/genericbush,
-/obj/structure/flora/ausbushes/ppflowers,
-/obj/structure/flora/ausbushes/sunnybush,
-/obj/structure/window/reinforced,
-/obj/structure/window{
-	icon_state = "window";
-	dir = 1
-	},
-/turf/open/floor/grass,
-/area/hydroponics)
 "hZB" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -59763,18 +59730,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/r_wall,
 /area/science/xenobiology)
-"sYk" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/structure/window/reinforced,
-/obj/structure/window{
-	icon_state = "window";
-	dir = 1
-	},
-/turf/open/floor/grass,
-/area/hydroponics)
 "sYQ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -60195,22 +60150,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/r_wall,
 /area/science/mixing)
-"ucI" = (
-/obj/structure/flora/grass/jungle/b,
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/structure/window/reinforced,
-/obj/structure/window{
-	icon_state = "window";
-	dir = 1
-	},
-/obj/structure/window{
-	icon_state = "window";
-	dir = 8
-	},
-/turf/open/floor/grass,
-/area/hydroponics)
 "udl" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -87833,7 +87772,7 @@ aYN
 aYN
 aXQ
 bfj
-ucI
+bdm
 aJI
 aDZ
 bih
@@ -88090,7 +88029,7 @@ aZS
 aXS
 bef
 bfk
-hZt
+bdm
 bhd
 aBI
 bii
@@ -88347,7 +88286,7 @@ aZT
 bdj
 beg
 bfl
-sYk
+bdm
 aJI
 aDZ
 bij
@@ -88604,7 +88543,7 @@ bbZ
 bdk
 beh
 bfl
-hZt
+bdm
 aJI
 aDZ
 bik
