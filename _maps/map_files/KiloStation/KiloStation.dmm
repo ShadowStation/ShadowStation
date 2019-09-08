@@ -9529,18 +9529,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/solars/port/fore)
-"apt" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Cell 5";
-	dir = 4;
-	name = "xenobiology camera";
-	network = list("ss13","rd","xeno")
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
 "apu" = (
 /obj/item/radio/intercom{
 	pixel_y = 22
@@ -16671,18 +16659,6 @@
 /obj/structure/beebox,
 /turf/open/floor/grass,
 /area/chapel/main)
-"aAy" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Cell 6";
-	dir = 8;
-	name = "xenobiology camera";
-	network = list("ss13","rd","xeno")
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
 "aAz" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/cable{
@@ -16694,18 +16670,6 @@
 	},
 /turf/open/floor/engine,
 /area/security/nuke_storage)
-"aAA" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Cell 2";
-	dir = 4;
-	name = "xenobiology camera";
-	network = list("ss13","rd","xeno")
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
 "aAB" = (
 /turf/open/floor/engine,
 /area/security/nuke_storage)
@@ -19739,11 +19703,11 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/research)
 "aFs" = (
+/obj/effect/decal/cleanable/cobweb,
 /obj/effect/turf_decal/box/corners{
 	icon_state = "box_corners";
-	dir = 1
+	dir = 4
 	},
-/obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/engine,
 /area/science/explab)
 "aFt" = (
@@ -23635,6 +23599,10 @@
 	name = "Test Chamber Blast Door"
 	},
 /obj/effect/turf_decal/caution/stand_clear,
+/obj/machinery/door/airlock/research/glass{
+	name = "Experimentor Lab";
+	req_one_access_txt = "7;29"
+	},
 /turf/open/floor/engine,
 /area/science/explab)
 "aLP" = (
@@ -23669,18 +23637,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/central)
-"aLR" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Cell 4";
-	dir = 8;
-	name = "xenobiology camera";
-	network = list("ss13","rd","xeno")
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
 "aLS" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
@@ -32039,14 +31995,14 @@
 	},
 /area/maintenance/central/secondary)
 "aXU" = (
-/obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
-	dir = 4
-	},
 /obj/machinery/button/door{
 	id = "telelab";
 	name = "Test Chamber Toggle";
 	pixel_y = 25
+	},
+/obj/effect/turf_decal/box/corners{
+	icon_state = "box_corners";
+	dir = 8
 	},
 /turf/open/floor/engine,
 /area/science/explab)
@@ -35770,12 +35726,12 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "bdA" = (
-/obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
-	dir = 8
-	},
 /obj/item/radio/intercom{
 	pixel_x = -28
+	},
+/obj/effect/turf_decal/box/corners{
+	icon_state = "box_corners";
+	dir = 1
 	},
 /turf/open/floor/engine,
 /area/science/explab)
@@ -38059,16 +38015,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/showroomfloor,
 /area/science/xenobiology)
-"bgR" = (
-/obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
-	dir = 1
-	},
-/obj/structure/sign/warning/electricshock{
-	pixel_y = 32
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
 "bgS" = (
 /obj/structure/sign/warning/electricshock{
 	pixel_y = -32
@@ -38291,13 +38237,6 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
-"bhj" = (
-/obj/effect/turf_decal/box/corners,
-/obj/structure/sign/warning/electricshock{
-	pixel_y = -32
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
 "bhk" = (
 /obj/machinery/door/firedoor/heavy,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -125244,9 +125183,9 @@ aeu
 aeu
 aeu
 alB
+bfq
+aUI
 bbx
-apt
-bfs
 alB
 afX
 agF
@@ -125508,13 +125447,13 @@ alB
 cIe
 bhl
 alB
-bbx
-aAA
-bfs
-aWR
-bbx
+bfq
 aUI
-bfs
+bbx
+aWR
+bfq
+aUI
+bbx
 alB
 crh
 agD
@@ -125758,9 +125697,9 @@ aeu
 aeu
 aeu
 alB
-bfq
+bfs
 aWJ
-bhj
+bft
 aWR
 agf
 agM
@@ -126022,11 +125961,11 @@ aWR
 agh
 agQ
 aWR
-bfq
+bfs
 aWJ
 bft
 bhn
-bfq
+bfs
 aWJ
 bft
 alB
@@ -126267,9 +126206,9 @@ aeu
 aeu
 aeu
 alB
-bbx
+bfq
 aax
-bfs
+bbx
 alB
 akX
 aeV
@@ -127809,7 +127748,7 @@ aeu
 aeu
 aeu
 alB
-bfq
+bfs
 beZ
 bft
 alB
@@ -128078,13 +128017,13 @@ aWR
 bgw
 ajB
 aWR
-bbx
+bfq
 aWJ
-bfs
+bbx
 bhn
-bbx
+bfq
 aWJ
-bfs
+bbx
 alB
 cby
 cMP
@@ -128328,9 +128267,9 @@ aeu
 aeu
 aeu
 alB
-bgR
+bfq
 aWJ
-bfs
+bbx
 aWR
 bhg
 akt
@@ -128592,11 +128531,11 @@ aWR
 agv
 aho
 aWR
-bfq
-aLR
+bfs
+aYh
 bft
 aWR
-bfq
+bfs
 aYh
 bft
 alB
@@ -128842,8 +128781,8 @@ aeu
 aeu
 aeu
 alB
-bfq
-aAy
+bfs
+aYh
 bft
 alB
 bhl

@@ -50428,8 +50428,25 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "bUe" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/window,
+/obj/structure/window{
+	icon_state = "window";
+	dir = 4
+	},
+/obj/structure/window{
+	icon_state = "window";
+	dir = 1
+	},
+/obj/structure/window{
+	icon_state = "window";
+	dir = 8
+	},
+/turf/open/floor/grass,
 /area/hydroponics)
 "bUf" = (
 /obj/machinery/vending/hydroseeds{
@@ -52402,8 +52419,24 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bYc" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/window,
+/obj/structure/window{
+	icon_state = "window";
+	dir = 4
+	},
+/obj/structure/window{
+	icon_state = "window";
+	dir = 1
+	},
+/obj/structure/window{
+	icon_state = "window";
+	dir = 8
+	},
+/turf/open/floor/grass,
 /area/hallway/primary/central)
 "bYd" = (
 /obj/structure/cable/yellow{
@@ -83429,6 +83462,26 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
+"ijE" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/window,
+/obj/structure/window{
+	icon_state = "window";
+	dir = 4
+	},
+/obj/structure/window{
+	icon_state = "window";
+	dir = 1
+	},
+/obj/structure/window{
+	icon_state = "window";
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/hydroponics)
 "ioI" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -83727,6 +83780,27 @@
 /obj/structure/lattice,
 /turf/closed/wall,
 /area/crew_quarters/cryopod)
+"moN" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/window,
+/obj/structure/window{
+	icon_state = "window";
+	dir = 4
+	},
+/obj/structure/window{
+	icon_state = "window";
+	dir = 1
+	},
+/obj/structure/window{
+	icon_state = "window";
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/hallway/primary/central)
 "mvj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -84513,6 +84587,27 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
+"xam" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/window{
+	icon_state = "window";
+	dir = 8
+	},
+/obj/structure/window,
+/obj/structure/window{
+	icon_state = "window";
+	dir = 4
+	},
+/obj/structure/window{
+	icon_state = "window";
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/hydroponics)
 "xeC" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
@@ -117390,7 +117485,7 @@ bSS
 bUd
 bVq
 bWJ
-bYc
+moN
 bZs
 aYX
 ccr
@@ -117648,9 +117743,9 @@ bUe
 bVr
 bWK
 bST
-bUe
+ijE
 caJ
-bUe
+xam
 bST
 ceZ
 cgo
