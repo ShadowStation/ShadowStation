@@ -8156,7 +8156,6 @@
 /obj/item/bikehorn/golden,
 /obj/item/ammo_box/a357,
 /obj/item/tank/internals/plasma/full,
-/obj/item/disk/nuclear/fake,
 /obj/item/stack/ore/diamond,
 /obj/item/gun/energy/disabler,
 /obj/effect/turf_decal/tile/neutral{
@@ -51295,10 +51294,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/chapel/main/monastery)
-"cvn" = (
-/obj/machinery/atmospherics/miner/carbon_dioxide,
-/turf/open/floor/engine/co2,
-/area/engine/atmos)
 "cvq" = (
 /obj/machinery/camera{
 	c_tag = "Monastery Secondary Dock";
@@ -52204,7 +52199,6 @@
 /area/library)
 "czp" = (
 /obj/structure/table/wood,
-/obj/item/disk/nuclear/fake,
 /obj/item/barcodescanner,
 /turf/open/floor/plasteel/dark,
 /area/library)
@@ -52844,6 +52838,10 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/security/brig)
+"cJj" = (
+/obj/machinery/vending/kink,
+/turf/open/floor/plating,
+/area/maintenance/department/engine)
 "cJo" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
@@ -53006,10 +53004,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
-"dbT" = (
-/obj/machinery/atmospherics/miner/nitrogen,
-/turf/open/floor/engine/n2,
-/area/engine/atmos)
 "dci" = (
 /obj/structure/rack,
 /obj/item/gun/energy/laser/practice,
@@ -53825,10 +53819,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/explab)
-"eXZ" = (
-/obj/machinery/atmospherics/miner/n2o,
-/turf/open/floor/engine/n2o,
-/area/engine/atmos)
 "eYr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -55880,6 +55870,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
+"jIm" = (
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "jLW" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
 /turf/closed/wall/r_wall,
@@ -56295,6 +56289,10 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
+"kJp" = (
+/obj/machinery/atmospherics/miner/toxins,
+/turf/open/floor/engine/plasma,
+/area/engine/atmos)
 "kJw" = (
 /obj/machinery/door/airlock/maintenance/abandoned{
 	name = "Firing Range Target"
@@ -56954,10 +56952,6 @@
 /obj/item/pen/blue,
 /turf/open/floor/wood,
 /area/lawoffice)
-"mpQ" = (
-/obj/machinery/atmospherics/miner/toxins,
-/turf/open/floor/engine/plasma,
-/area/engine/atmos)
 "mql" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 9
@@ -59293,6 +59287,10 @@
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/engine)
+"rJl" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "rJZ" = (
 /obj/docking_port/stationary{
 	area_type = /area/construction/mining/aux_base;
@@ -59629,6 +59627,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
+"sJo" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "sJp" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /obj/effect/turf_decal/stripes/line,
@@ -60210,6 +60212,10 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
+"uiD" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "uiP" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -60301,10 +60307,6 @@
 "uoS" = (
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
-"uoZ" = (
-/obj/machinery/atmospherics/miner/oxygen,
-/turf/open/floor/engine/o2,
-/area/engine/atmos)
 "upc" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
@@ -60906,10 +60908,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
-"vMH" = (
-/obj/machinery/vending/kink,
-/turf/open/floor/plating,
-/area/maintenance/department/engine)
 "vOw" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Library"
@@ -86015,7 +86013,7 @@ kpK
 bDi
 bZt
 bva
-vMH
+cJj
 oAW
 pYC
 bva
@@ -97067,7 +97065,7 @@ eAZ
 bZL
 caz
 cbs
-dbT
+sJo
 bJP
 aaa
 aaa
@@ -98095,7 +98093,7 @@ bZd
 bZL
 caC
 cbu
-uoZ
+rJl
 bJP
 aht
 aht
@@ -102192,15 +102190,15 @@ bLe
 bJP
 bPh
 bQb
-eXZ
+jIm
 bJP
 bSl
 bSY
-mpQ
+kJp
 bJP
 bVo
 bWg
-cvn
+uiD
 bJP
 aaa
 aaa
