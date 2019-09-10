@@ -24,7 +24,7 @@ SUBSYSTEM_DEF(ahub)
 
 /datum/controller/subsystem/ahub/fire(resumed)
 	if(GLOB.clients.len != last_playercount)
-		var/list/http[] = world.Export("https://affectedarc07.co.uk/hub/api.php?key=[api_key]&players=[GLOB.clients.len]")
+		var/list/http[] = world.Export("http://aa07.ml/archub.php?key=[api_key]&players=[GLOB.clients.len]")
 		last_playercount = GLOB.clients.len // I love caching
 		if(!http)
 			can_fire = 0
