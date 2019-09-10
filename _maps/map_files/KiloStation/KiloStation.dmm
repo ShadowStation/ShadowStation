@@ -16862,6 +16862,13 @@
 	icon_state = "pipe11-1";
 	dir = 5
 	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=N CPH";
+	dir = 8;
+	freq = 1445;
+	location = "NW CPH";
+	name = "Patrol navbeacon NW"
+	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
 "aAP" = (
@@ -21915,9 +21922,6 @@
 /area/maintenance/aft)
 "aIY" = (
 /obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
 /obj/item/stack/marker_beacon{
 	anchored = 1;
 	icon_state = "markerburgundy-on";
@@ -24652,6 +24656,13 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=NE CPH";
+	dir = 8;
+	freq = 1445;
+	location = "N CPH";
+	name = "Patrol navbeacon N"
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
@@ -30754,7 +30765,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/closed/wall,
+/turf/closed/wall/rust,
 /area/janitor)
 "aVN" = (
 /obj/structure/chair{
@@ -44029,7 +44040,7 @@
 /area/quartermaster/storage)
 "bpF" = (
 /obj/structure/sign/departments/cargo,
-/turf/closed/wall,
+/turf/closed/wall/rust,
 /area/hallway/primary/starboard)
 "bpG" = (
 /obj/effect/turf_decal/tile/neutral,
@@ -44779,6 +44790,13 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/box,
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=NW CPH";
+	dir = 8;
+	freq = 1445;
+	location = "W CPH";
+	name = "Patrol navbeacon W"
+	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "bqO" = (
@@ -60188,9 +60206,7 @@
 	roundstart_template = /datum/map_template/shuttle/arrival/kilo;
 	width = 7
 	},
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/space/basic,
 /area/hallway/secondary/entry)
 "bOe" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
@@ -61212,7 +61228,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/closed/wall,
+/turf/closed/wall/rust,
 /area/maintenance/starboard/aft)
 "bPA" = (
 /obj/effect/turf_decal/tile/red,
@@ -62196,9 +62212,6 @@
 /area/maintenance/central)
 "bQT" = (
 /obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /turf/open/floor/plating/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
@@ -62637,11 +62650,7 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "bRv" = (
-/obj/machinery/door/poddoor{
-	id = "Arrival Shuttle Bay";
-	name = "Arrival Shuttle Bay"
-	},
-/obj/effect/turf_decal/delivery,
+/obj/machinery/door/poddoor/preopen,
 /turf/open/floor/plating/airless,
 /area/hallway/secondary/entry)
 "bRw" = (
@@ -63108,9 +63117,6 @@
 /area/hallway/secondary/exit/departure_lounge)
 "bSd" = (
 /obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
 /obj/machinery/light{
 	dir = 4
 	},
@@ -63364,16 +63370,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/janitor)
-"bSy" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "bSz" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/tile/neutral{
@@ -64040,7 +64036,7 @@
 /area/hallway/secondary/exit/departure_lounge)
 "bTx" = (
 /obj/structure/sign/departments/security,
-/turf/closed/wall,
+/turf/closed/wall/rust,
 /area/hallway/secondary/exit/departure_lounge)
 "bTy" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
@@ -64372,28 +64368,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
-"bTV" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/item/stack/marker_beacon{
-	anchored = 1;
-	icon_state = "markerburgundy-on";
-	light_color = "#FA644B";
-	light_power = 3;
-	light_range = 2;
-	name = "landing marker";
-	picked_color = "Burgundy"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 5
-	},
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "bTW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
 	icon_state = "pipe11-1";
@@ -64642,12 +64616,6 @@
 "bUt" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/light,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
 /turf/open/floor/plating/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
@@ -64830,38 +64798,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ai_monitored/storage/eva)
-"bUJ" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/item/stack/marker_beacon{
-	anchored = 1;
-	icon_state = "markerburgundy-on";
-	light_color = "#FA644B";
-	light_power = 3;
-	light_range = 2;
-	name = "landing marker";
-	picked_color = "Burgundy"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 9
-	},
-/obj/machinery/button/door{
-	id = "Arrival Shuttle Bay";
-	name = "Arrival Shuttle Bay Toggle";
-	pixel_x = 24;
-	pixel_y = 8;
-	req_access_txt = "19"
-	},
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "bUK" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -64884,15 +64820,6 @@
 /turf/closed/wall,
 /area/engine/atmos)
 "bUN" = (
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
-"bUO" = (
-/obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
-	dir = 8
-	},
 /turf/open/floor/plating/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
@@ -68445,6 +68372,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
 	icon_state = "pipe11-1";
 	dir = 8
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=S CPH";
+	dir = 8;
+	freq = 1445;
+	location = "SE CPH";
+	name = "Patrol navbeacon SE"
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
@@ -72406,48 +72340,27 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
-"cfV" = (
-/obj/structure/flora/grass/jungle/b,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "cfW" = (
-/obj/structure/flora/grass/jungle,
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/asteroid/airless{
+/turf/open/floor/plating/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/hallway/secondary/entry)
 "cfY" = (
 /turf/closed/wall/r_wall,
 /area/ai_monitored/storage/satellite)
-"cfZ" = (
-/obj/structure/flora/ausbushes/palebush,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "cga" = (
 /turf/closed/wall/r_wall/rust,
 /area/ai_monitored/storage/satellite)
 "cgb" = (
-/obj/structure/flora/grass/jungle,
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
-"cgc" = (
-/turf/open/floor/plating/asteroid/airless{
+/turf/open/floor/plating/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/hallway/secondary/entry)
@@ -72477,14 +72390,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
-"cgh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/flora/grass/jungle/b,
-/turf/open/floor/plating/asteroid/airless{
+/turf/open/floor/plating/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/hallway/secondary/entry)
@@ -72519,13 +72425,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat/atmos)
-"cgk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/flora/grass/jungle,
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "cgl" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/cable{
@@ -72816,21 +72715,14 @@
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
 "cgI" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/hallway/secondary/entry)
 "cgJ" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
 /area/hallway/secondary/entry)
 "cgK" = (
 /obj/structure/transit_tube/horizontal{
@@ -75269,12 +75161,17 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/turf_decal/box,
+/obj/item/stack/marker_beacon{
+	anchored = 1;
+	icon_state = "markerburgundy-on";
+	light_color = "#FA644B";
+	light_power = 3;
+	light_range = 2;
+	name = "landing marker";
+	picked_color = "Burgundy"
+	},
 /turf/open/floor/plating/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
@@ -75360,16 +75257,6 @@
 	},
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/hos)
-"cky" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
-/obj/effect/turf_decal/box,
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "ckz" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -76183,15 +76070,6 @@
 /obj/structure/sign/warning/securearea,
 /turf/closed/wall/r_wall,
 /area/engine/gravity_generator)
-"clU" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "clV" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/closet/radiation,
@@ -77146,16 +77024,6 @@
 /obj/structure/sign/poster/contraband/random,
 /turf/closed/wall,
 /area/maintenance/port)
-"cns" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "cnt" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -77667,19 +77535,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
-"coE" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "coF" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -77730,18 +77585,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/prison)
-"coJ" = (
-/obj/structure/flora/grass/jungle/b,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "coK" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -77793,82 +77636,6 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/warden)
-"coO" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
-"coP" = (
-/obj/structure/flora/ausbushes/palebush,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
-"coQ" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/flora/grass/jungle/b,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
-"coR" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
-	dir = 1
-	},
-/obj/item/wrench,
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
-"coS" = (
-/obj/effect/decal/cleanable/oil,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
-	dir = 1
-	},
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
-"coT" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/flora/grass/jungle,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "coU" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -79642,15 +79409,8 @@
 	},
 /area/maintenance/port)
 "crG" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice/catwalk,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plating/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
@@ -79694,15 +79454,6 @@
 	icon_state = "panelscorched"
 	},
 /area/engine/engineering)
-"crK" = (
-/obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
-	dir = 1
-	},
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "crL" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -80665,17 +80416,6 @@
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/port)
-"ctu" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/oil,
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 1
-	},
-/obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "ctv" = (
 /obj/machinery/airalarm{
 	dir = 8;
@@ -80897,16 +80637,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/solars/port/fore)
-"ctT" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 1
-	},
-/obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/plating/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/hallway/secondary/entry)
 "ctU" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -83604,9 +83334,6 @@
 	},
 /area/engine/engineering)
 "czf" = (
-/obj/machinery/light{
-	dir = 8
-	},
 /obj/machinery/power/emitter/anchored{
 	icon_state = "emitter";
 	dir = 4;
@@ -89235,6 +88962,10 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/port/aft)
+"cTr" = (
+/obj/structure/sign/warning/docking,
+/turf/closed/wall/rust,
+/area/hallway/secondary/entry)
 "cTF" = (
 /obj/machinery/door/airlock/external{
 	name = "Prison External Airlock";
@@ -89281,6 +89012,30 @@
 "dis" = (
 /turf/closed/wall/r_wall/rust,
 /area/bridge)
+"dYu" = (
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	icon_state = "pipe11-1";
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/fore)
+"elZ" = (
+/obj/machinery/status_display/evac,
+/turf/closed/wall/rust,
+/area/crew_quarters/bar)
 "emD" = (
 /turf/closed/wall/rust,
 /area/quartermaster/miningoffice)
@@ -89308,6 +89063,9 @@
 /obj/machinery/status_display/evac,
 /turf/closed/wall/rust,
 /area/security/prison)
+"eVT" = (
+/turf/closed/wall/rust,
+/area/science/explab)
 "fyr" = (
 /obj/machinery/camera{
 	c_tag = "Laser Room Starboard";
@@ -89362,12 +89120,54 @@
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/locker)
+"gJq" = (
+/obj/structure/sign/departments/evac,
+/turf/closed/wall/rust,
+/area/hallway/secondary/exit/departure_lounge)
+"gMU" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai_upload)
+"hqv" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/kitchen)
+"hvb" = (
+/turf/closed/wall/r_wall/rust,
+/area/tcommsat/computer)
+"hxn" = (
+/turf/open/space/basic,
+/area/hallway/secondary/entry)
 "hzY" = (
 /turf/closed/wall/rust,
 /area/gateway)
+"hAb" = (
+/turf/closed/wall/r_wall/rust,
+/area/security/courtroom)
 "hNk" = (
 /turf/closed/wall/r_wall/rust,
 /area/security/prison)
+"ice" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=SW CPH";
+	dir = 8;
+	freq = 1445;
+	location = "S CPH";
+	name = "Patrol navbeacon S"
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "ieA" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/cat_butcherer,
@@ -89400,6 +89200,9 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"iwR" = (
+/turf/closed/wall/r_wall/rust,
+/area/science/server)
 "iMq" = (
 /obj/machinery/camera{
 	c_tag = "Xenobiology Cell 5";
@@ -89487,16 +89290,23 @@
 "jDv" = (
 /turf/closed/wall/rust,
 /area/quartermaster/storage)
+"jOz" = (
+/obj/structure/sign/warning/electricshock,
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai_upload)
 "jRw" = (
 /obj/structure/sign/poster/official/high_class_martini,
 /turf/closed/wall/r_wall,
 /area/medical/virology)
+"khA" = (
+/turf/closed/wall/rust,
+/area/construction/mining/aux_base)
 "krJ" = (
 /turf/closed/wall/rust,
 /area/hallway/secondary/exit/departure_lounge)
 "llm" = (
 /obj/structure/sign/poster/ripped,
-/turf/closed/wall,
+/turf/closed/wall/rust,
 /area/crew_quarters/fitness/recreation)
 "lVk" = (
 /obj/machinery/status_display/evac,
@@ -89505,6 +89315,27 @@
 "mej" = (
 /turf/closed/wall/r_wall/rust,
 /area/science/robotics/lab)
+"mIt" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=SE CPH";
+	dir = 8;
+	freq = 1445;
+	location = "E CPH";
+	name = "Patrol navbeacon E"
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/starboard)
 "mPm" = (
 /turf/closed/wall/rust,
 /area/security/checkpoint/supply)
@@ -89512,6 +89343,10 @@
 /obj/machinery/status_display/evac,
 /turf/closed/wall/rust,
 /area/crew_quarters/heads/hor)
+"nJw" = (
+/obj/machinery/smartfridge,
+/turf/closed/wall/rust,
+/area/crew_quarters/kitchen)
 "nNA" = (
 /turf/closed/wall/rust,
 /area/bridge)
@@ -89533,6 +89368,14 @@
 	dir = 8
 	},
 /area/hallway/primary/fore)
+"oVy" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroid/airless{
+	initial_gas_mix = "o2=14;n2=23;TEMP=300"
+	},
+/area/engine/supermatter)
 "pFw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -89540,12 +89383,35 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/crew_quarters/locker)
+"pQf" = (
+/turf/closed/wall/r_wall/rust,
+/area/science/xenobiology)
 "qtv" = (
 /turf/closed/wall/r_wall/rust,
 /area/tcommsat/server)
 "qtS" = (
 /turf/closed/wall/rust,
 /area/medical/genetics/cloning)
+"qvS" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=W CPH";
+	dir = 8;
+	freq = 1445;
+	location = "SW CPH";
+	name = "Patrol navbeacon SW"
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/port)
 "qIR" = (
 /obj/machinery/camera{
 	c_tag = "Xenobiology Cell 6";
@@ -89587,6 +89453,9 @@
 /obj/structure/sign/warning/securearea,
 /turf/closed/wall/rust,
 /area/gateway)
+"tYn" = (
+/turf/closed/wall/rust,
+/area/janitor)
 "uda" = (
 /turf/closed/wall/rust,
 /area/security/warden)
@@ -89602,6 +89471,26 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/port)
+"unX" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=E CPH";
+	dir = 8;
+	freq = 1445;
+	location = "NE CPH";
+	name = "Patrol navbeacon NE"
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/fore)
 "uzR" = (
 /turf/closed/wall/rust,
 /area/storage/primary)
@@ -89623,9 +89512,21 @@
 "wmX" = (
 /turf/closed/wall/rust,
 /area/quartermaster/qm)
+"wvq" = (
+/turf/closed/wall/rust,
+/area/security/courtroom)
+"wDP" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/fitness/recreation)
 "wQL" = (
 /turf/closed/wall/rust,
 /area/security/execution/education)
+"xei" = (
+/turf/closed/wall/r_wall/rust,
+/area/teleporter)
+"xqL" = (
+/turf/closed/wall/rust,
+/area/quartermaster/office)
 "xBI" = (
 /obj/machinery/status_display/evac,
 /turf/closed/wall/rust,
@@ -89633,6 +89534,9 @@
 "xON" = (
 /obj/structure/cable{
 	icon_state = "1-4"
+	},
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/engine/engineering)
@@ -98687,7 +98591,7 @@ aeu
 aeU
 aeU
 aUz
-aeU
+cui
 aeU
 aeU
 aeU
@@ -105114,7 +105018,7 @@ aeu
 bVv
 aeU
 aeU
-aeU
+cui
 aeU
 aeU
 aeU
@@ -106737,7 +106641,7 @@ amA
 amR
 amA
 cFW
-awD
+wDP
 bKD
 bLg
 bLm
@@ -107153,7 +107057,7 @@ aeu
 aeu
 aeu
 aeU
-aeU
+cui
 aeU
 aeU
 aeu
@@ -107518,7 +107422,7 @@ bxE
 byS
 bGI
 bMg
-awD
+wDP
 bDt
 bDV
 bFn
@@ -107765,7 +107669,7 @@ csG
 bid
 bjx
 csQ
-awD
+wDP
 bKn
 bLc
 bMi
@@ -107775,7 +107679,7 @@ bLT
 bEK
 bGT
 bMx
-awD
+wDP
 afz
 adZ
 ajd
@@ -108022,8 +107926,8 @@ aqu
 bif
 bjz
 csR
-awD
-awD
+wDP
+wDP
 bLo
 bLp
 btz
@@ -109311,7 +109215,7 @@ aUJ
 aUJ
 afe
 brD
-brD
+bLn
 bvO
 bKF
 bza
@@ -109829,7 +109733,7 @@ btD
 bvP
 bxQ
 bzg
-bIV
+bLu
 bLu
 bIV
 bIV
@@ -110086,7 +109990,7 @@ bFb
 akv
 bzZ
 bKL
-bIV
+bLu
 bJQ
 bKc
 bKk
@@ -113918,7 +113822,7 @@ bsx
 aOS
 aaJ
 tEC
-btE
+tEC
 bvi
 bub
 buu
@@ -113931,7 +113835,7 @@ bvn
 bfv
 bvU
 bvu
-buC
+cJc
 blx
 bnx
 boY
@@ -114192,7 +114096,7 @@ buC
 blA
 bAR
 bJH
-buC
+cJc
 buK
 aoh
 bxk
@@ -114449,7 +114353,7 @@ bjH
 blB
 bAS
 buC
-buC
+cJc
 bps
 aoh
 aok
@@ -114719,7 +114623,7 @@ bFl
 bHK
 bFu
 bGn
-aYM
+qvS
 bIs
 ajd
 aaY
@@ -115478,7 +115382,7 @@ bpH
 bsh
 buC
 boW
-asF
+wvq
 adu
 bwk
 byi
@@ -115728,14 +115632,14 @@ btE
 btE
 bey
 btE
-btE
-buC
-buC
+tEC
+cJc
+cJc
 buC
 buC
 buC
 bpn
-asF
+wvq
 aow
 arB
 atc
@@ -115992,7 +115896,7 @@ bqr
 brs
 bsk
 btO
-asF
+wvq
 asY
 ask
 aaV
@@ -116247,7 +116151,7 @@ aLD
 bpn
 asF
 asF
-asF
+wvq
 asF
 asF
 asF
@@ -116487,7 +116391,7 @@ ago
 aBO
 aNq
 aRY
-btK
+elZ
 btE
 buf
 aSh
@@ -116750,8 +116654,8 @@ btE
 btE
 aOy
 btE
-btE
-btE
+tEC
+tEC
 bbr
 aTe
 aTe
@@ -117008,7 +116912,7 @@ aPQ
 aTu
 bpq
 aXa
-btE
+tEC
 btE
 aTL
 aOy
@@ -117283,7 +117187,7 @@ asF
 asF
 arn
 arn
-arn
+hAb
 arn
 aur
 arn
@@ -118046,10 +117950,10 @@ cBV
 aox
 atT
 atT
-atT
-atT
-atT
-atT
+dis
+dis
+dis
+dis
 ajK
 atT
 dis
@@ -118552,8 +118456,8 @@ arl
 arl
 byV
 bzc
-arl
-arl
+gMU
+gMU
 bfJ
 abk
 aqb
@@ -118789,15 +118693,15 @@ ciZ
 ahh
 ahh
 ahh
-ahh
-ahh
-ahh
-ahh
-ahh
+qtv
+qtv
+qtv
+qtv
+qtv
 cfM
 cfM
-cfM
-cfM
+hvb
+hvb
 cfM
 aRl
 bVL
@@ -119043,7 +118947,7 @@ aoM
 adH
 adH
 ahh
-ahh
+qtv
 awo
 cdn
 cdJ
@@ -119059,7 +118963,7 @@ cfM
 aRm
 cci
 aKP
-arl
+gMU
 arl
 arl
 byN
@@ -120089,13 +119993,13 @@ chm
 aLg
 arl
 arl
-arl
+gMU
 bAw
 aXH
 aZl
 bbY
 bzb
-bzd
+jOz
 cGk
 auy
 aeS
@@ -120112,13 +120016,13 @@ auc
 atj
 atj
 aug
-atj
-atj
-atj
+nNA
+nNA
+nNA
 atT
 atT
 bIz
-bOF
+ice
 bKY
 bCE
 bNY
@@ -120346,7 +120250,7 @@ atF
 aLk
 aLV
 aLW
-arl
+gMU
 arl
 byM
 aZn
@@ -120623,7 +120527,7 @@ cOW
 cPb
 byw
 ard
-atj
+nNA
 apv
 bCS
 bDF
@@ -120845,13 +120749,13 @@ cAF
 ahh
 ahh
 ahh
+qtv
 ahh
-ahh
-ahh
-ahh
+qtv
+qtv
 ahh
 cfM
-cfM
+hvb
 cfM
 cfM
 cgz
@@ -121089,7 +120993,7 @@ cIV
 cIV
 cIV
 cIV
-cIV
+khA
 cIV
 cIV
 cIV
@@ -121341,7 +121245,7 @@ aeU
 aeu
 aeu
 aeu
-cIV
+khA
 cIX
 cIX
 cIX
@@ -121598,7 +121502,7 @@ aUz
 aeu
 aeu
 aeu
-cIV
+khA
 cIX
 cIX
 cIX
@@ -121608,7 +121512,7 @@ cIX
 cIX
 cIX
 cIX
-cIV
+khA
 cCP
 cEa
 cEj
@@ -121656,8 +121560,8 @@ aui
 aui
 avb
 aui
-aui
-aui
+xei
+xei
 aui
 bCH
 bQd
@@ -121865,7 +121769,7 @@ cIX
 cIX
 cIX
 cIX
-cIV
+khA
 cDR
 cEb
 cEk
@@ -122122,7 +122026,7 @@ cIX
 cIX
 cIX
 cIX
-cIV
+khA
 cDT
 iSg
 cEl
@@ -122157,7 +122061,7 @@ aox
 apX
 aox
 aox
-aox
+apX
 aox
 ahy
 asx
@@ -122379,7 +122283,7 @@ cIX
 cIX
 cIX
 cIX
-cIV
+khA
 cDW
 anT
 cGd
@@ -122417,7 +122321,7 @@ blZ
 bpq
 bpg
 aYO
-asx
+iYW
 bwb
 arz
 bDc
@@ -122626,7 +122530,7 @@ aeu
 aeu
 aeu
 aeu
-cIV
+khA
 cIX
 cIX
 cIX
@@ -122636,7 +122540,7 @@ cIX
 cIX
 cIX
 cIX
-cIV
+khA
 cDX
 cEe
 cIi
@@ -122681,7 +122585,7 @@ bLe
 auT
 auT
 arF
-asx
+iYW
 bAb
 bQR
 aYO
@@ -122938,7 +122842,7 @@ byE
 bzP
 arV
 brU
-asx
+iYW
 bAp
 bQS
 aox
@@ -123140,7 +123044,7 @@ aeU
 aeu
 aeu
 aeu
-cIV
+khA
 cIX
 cIX
 cIX
@@ -123182,9 +123086,9 @@ bdy
 ajt
 ajt
 blc
-ajt
-aZd
-aZd
+hqv
+ezp
+ezp
 aZd
 auj
 aZd
@@ -123195,7 +123099,7 @@ asx
 iYW
 iYW
 asx
-asx
+iYW
 bMu
 bRr
 aox
@@ -123436,7 +123340,7 @@ ajt
 boI
 ajt
 bqy
-ajt
+hqv
 bgr
 bhd
 biJ
@@ -123659,7 +123563,7 @@ cIV
 bTj
 ahz
 cIY
-cIV
+khA
 cIY
 ahz
 cJR
@@ -124205,7 +124109,7 @@ brV
 brV
 brV
 aZP
-bmA
+nJw
 bdL
 bmR
 boB
@@ -124976,7 +124880,7 @@ bsb
 brq
 brF
 brG
-ajt
+hqv
 boQ
 boH
 bqo
@@ -125031,7 +124935,7 @@ aLs
 cqi
 aLv
 csa
-csa
+oVy
 csa
 axU
 cuz
@@ -125233,7 +125137,7 @@ brr
 aVd
 brJ
 brI
-ajt
+hqv
 ajt
 bmA
 bph
@@ -125459,9 +125363,9 @@ agF
 alB
 alB
 alB
-alB
-alB
-alB
+pQf
+pQf
+pQf
 alB
 alB
 alB
@@ -125723,7 +125627,7 @@ aUI
 bbx
 alB
 crh
-agD
+dYu
 aWY
 bde
 aXo
@@ -125963,7 +125867,7 @@ aeu
 aeu
 aeu
 aeu
-alB
+pQf
 bfs
 aWJ
 bft
@@ -125995,7 +125899,7 @@ aHF
 bbQ
 aKz
 axz
-aiR
+unX
 aiR
 aHq
 bhY
@@ -126012,7 +125916,7 @@ blj
 bnE
 bpN
 bqT
-bOK
+mIt
 bsv
 bOK
 btt
@@ -126219,8 +126123,8 @@ alB
 alB
 alB
 alB
-alB
-alB
+pQf
+pQf
 bfM
 bfM
 bfM
@@ -126275,7 +126179,7 @@ bqY
 bvB
 buR
 bPx
-bnv
+erN
 bjX
 bkz
 bOv
@@ -126532,14 +126436,14 @@ blf
 blf
 blg
 blf
-blf
+mPm
 blQ
 bAC
 bBL
 bkQ
 bjW
 bAv
-bEg
+bOC
 bGM
 bHP
 bJc
@@ -126749,7 +126653,7 @@ cqw
 bgM
 bgn
 bVA
-alB
+pQf
 ctJ
 cxP
 aWY
@@ -126759,7 +126663,7 @@ ayx
 bdc
 bdR
 aAZ
-aZv
+eVT
 aEE
 aFp
 aHJ
@@ -126777,8 +126681,8 @@ aZg
 aZj
 aYd
 bhe
-cbk
-bhI
+cLt
+xqL
 bhX
 bhs
 biM
@@ -127035,7 +126939,7 @@ aZQ
 aYd
 bdP
 beP
-bhI
+xqL
 bhy
 ats
 bko
@@ -127781,7 +127685,7 @@ alB
 cOb
 cps
 cMW
-aZF
+iwR
 aZF
 ami
 aZF
@@ -127832,7 +127736,7 @@ bNM
 bOo
 cgd
 bNM
-bNM
+tYn
 aVM
 bNx
 bSr
@@ -128081,7 +127985,7 @@ bIm
 bHR
 bNg
 bAF
-bEg
+bOC
 bQe
 bLZ
 bkE
@@ -128107,10 +128011,10 @@ cgI
 bQT
 bQT
 ckp
-bSy
+bQT
 crG
-cns
-bTV
+cgI
+aIY
 bEg
 bEg
 cju
@@ -128275,7 +128179,7 @@ alB
 alB
 alB
 alB
-alB
+pQf
 alB
 bfQ
 bfQ
@@ -128295,7 +128199,7 @@ alB
 cby
 cMP
 ajO
-aZF
+iwR
 aXf
 aeG
 aik
@@ -128359,15 +128263,15 @@ cbL
 cAc
 bSr
 bPJ
-cfV
 bUN
-bUN
-bUN
+hxn
+hxn
+hxn
 bOd
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-coE
 bPJ
 aeu
 cju
@@ -128617,14 +128521,14 @@ ccA
 bSr
 bPJ
 cfW
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coJ
 bPJ
 bPJ
 cju
@@ -128874,14 +128778,14 @@ bSL
 bSr
 bSr
 bQa
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coO
 bUE
 bPJ
 bzG
@@ -129060,7 +128964,7 @@ alB
 alB
 alB
 alB
-alB
+pQf
 alB
 alB
 cng
@@ -129131,14 +129035,14 @@ ccB
 ceU
 ceW
 cgx
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coP
 bUn
 bPJ
 bzG
@@ -129388,13 +129292,13 @@ ccC
 bUf
 bUf
 bUf
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUt
 bUo
 bPJ
@@ -129644,15 +129548,15 @@ bWX
 bXc
 ccm
 bUf
-cfZ
 bUN
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coO
 bPJ
 aeu
 bzG
@@ -129885,7 +129789,7 @@ bOc
 bOc
 bOc
 bPe
-bXx
+gJq
 bVJ
 bUm
 bYd
@@ -129902,14 +129806,14 @@ cji
 bUh
 bXd
 cgb
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coO
 bPJ
 aeu
 bzG
@@ -130158,15 +130062,15 @@ bXX
 bWY
 bUi
 bUf
-cgc
 bUN
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coE
 bPJ
 aeu
 bzG
@@ -130416,13 +130320,13 @@ ccC
 bUf
 bUf
 bUf
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUt
 bUo
 aeu
@@ -130673,14 +130577,14 @@ ccD
 ceU
 ceX
 cgx
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coP
 bPJ
 bPJ
 aeu
@@ -130928,16 +130832,16 @@ caQ
 cbB
 bSr
 bSr
-bSr
-bQa
+bWT
+cTr
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coQ
 cpF
 bPJ
 aeu
@@ -131187,15 +131091,15 @@ bOc
 bPJ
 bPJ
 cgg
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coR
-ctu
+bUE
 bPJ
 aeu
 aeu
@@ -131443,16 +131347,16 @@ bTR
 bOc
 bPJ
 bPK
-cgh
 bUN
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-bUN
-bUN
-coS
-ctT
+cpF
 bPJ
 aeu
 aeu
@@ -131700,15 +131604,15 @@ bZL
 bOc
 bPJ
 bPJ
-cgk
-bUO
 bUN
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
+hxn
 bUN
-bUN
-bUN
-bUN
-crK
-coT
 bPJ
 bPJ
 aeu
@@ -131961,11 +131865,11 @@ bSd
 cgJ
 cgJ
 cgJ
-cky
-clU
-clU
-clU
-bUJ
+cgJ
+cgJ
+cgJ
+cgJ
+bSd
 bPJ
 aeu
 aeu
@@ -132464,7 +132368,7 @@ bTE
 bPe
 bPe
 bWf
-bOc
+krJ
 bWf
 bPe
 bPe
@@ -132846,7 +132750,7 @@ aeu
 aeu
 aeU
 aeU
-aeU
+cui
 aeU
 aeu
 aeu
@@ -137735,7 +137639,7 @@ aeu
 aeU
 aeU
 aeU
-aeU
+cui
 aeU
 aeu
 aeu
@@ -139291,7 +139195,7 @@ aeu
 aeu
 aeu
 aeU
-aeU
+cui
 aeU
 aeU
 aeu
