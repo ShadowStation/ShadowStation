@@ -1,0 +1,6 @@
+author: "Zaiakusin"
+delete-after: True
+changes: 
+  - rscadd: "Added the BREAKFAST definition to both the Food.dm files"
+  - rscadd: "Gave breakfast items the BREAKFAST tag to trigger the mood buff"
+  - rscadd: "Added the fresh laundry buff as well...forgot that was in the same file."
