@@ -141,7 +141,7 @@
 		to_chat(user, "<span class='warning'>[src] can't be grabbed more aggressively!</span>")
 		return FALSE
 
-	if(user.grab_state >= GRAB_AGGRESSIVE && HAS_TRAIT(user, TRAIT_PACIFISM))
+	if(user.grab_state >= GRAB_AGGRESSIVE && has_trait(user, TRAIT_PACIFISM))
 		to_chat(user, "<span class='notice'>You don't want to risk hurting [src]!</span>")
 		return FALSE
 
@@ -173,7 +173,7 @@
 		switch(user.grab_state)
 			if(GRAB_AGGRESSIVE)
 				var/add_log = ""
-				if(HAS_TRAIT(user, TRAIT_PACIFISM))
+				if(has_trait(user, TRAIT_PACIFISM))
 					visible_message("<span class='danger'>[user] has firmly gripped [src]!</span>",
 						"<span class='danger'>[user] has firmly gripped you!</span>")
 					add_log = " (pacifist)"

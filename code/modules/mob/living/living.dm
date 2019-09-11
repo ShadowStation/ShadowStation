@@ -280,11 +280,6 @@
 				if(D.spread_flags & DISEASE_SPREAD_CONTACT_SKIN)
 					ContactContractDisease(D)
 
-			if(iscarbon(L))
-				var/mob/living/carbon/C = L
-				if(HAS_TRAIT(src, TRAIT_STRONG_GRABBER))
-					C.grippedby(src)
-
 			update_pull_movespeed()
 
 //mob verbs are a lot faster than object verbs
@@ -1017,9 +1012,6 @@
 			stop_pulling() //CIT CHANGE - Ditto...
 	else if(has_legs || ignore_legs)
 		lying = 0
-		if (pulledby)
-			var/mob/living/L = pulledby
-			L.update_pull_movespeed()
 	if(buckled)
 		lying = 90*buckle_lying
 	else if(!lying)

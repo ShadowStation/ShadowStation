@@ -23,9 +23,6 @@
 			playsound(T, 'sound/effects/footstep/crawl1.ogg', 15 * v)
 		return
 
-	if(HAS_TRAIT(LM, TRAIT_SILENT_STEP))
-		return
-
 	if(iscarbon(LM))
 		var/mob/living/carbon/C = LM
 		if(!C.get_bodypart(BODY_ZONE_L_LEG) && !C.get_bodypart(BODY_ZONE_R_LEG))
