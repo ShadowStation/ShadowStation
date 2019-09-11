@@ -139,7 +139,7 @@
 	bonus_reagents = list("nutriment" = 1, "tomatojuice" = 10, "vitamin" = 3)
 	list_reagents = list("nutriment" = 5, "tomatojuice" = 10, "vitamin" = 3)
 	tastes = list("tomato" = 1)
-	foodtype = VEGETABLES
+	foodtype = VEGETABLES | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/soup/tomato/eyeball
 	name = "eyeball soup"

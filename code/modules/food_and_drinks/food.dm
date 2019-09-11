@@ -1,6 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /// Food.
 ////////////////////////////////////////////////////////////////////////////////
+#define BREAKFAST_STOP (9000)
 /obj/item/reagent_containers/food
 	possible_transfer_amounts = list()
 	volume = 50	//Sets the default container amount for all food items.
@@ -36,4 +37,8 @@
 				if(foodtype & H.dna.species.toxic_food)
 					to_chat(H, "<span class='warning'>You don't feel so good...</span>")
 					H.adjust_disgust(25 + 30 * fraction)
+			if((foodtype & BREAKFAST) && world.time - SSticker.round_start_time < BREAKFAST_STOP)
+				SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "breakfast", /datum/mood_event/breakfast)
 			last_check_time = world.time
+
+#undef BREAKFAST_STOP

@@ -168,7 +168,7 @@
 	list_reagents = list("nutriment" = 5)
 	filling_color = "#F0E68C"
 	tastes = list("egg" = 1)
-	foodtype = MEAT | GRAIN
+	foodtype = MEAT | GRAIN | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/beans
 	name = "tin of beans"
