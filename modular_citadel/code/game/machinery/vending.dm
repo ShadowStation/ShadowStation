@@ -27,11 +27,11 @@
 					/obj/item/storage/hypospraykit/o2 = 2,
 					/obj/item/storage/hypospraykit/brute = 2,
 					/obj/item/reagent_containers/glass/bottle/vial/small = 5)
-					
+
 /obj/machinery/vending/wardrobe/chap_wardrobe
 	premium = list(/obj/item/toy/plush/plushvar = 1,
 					/obj/item/toy/plush/narplush = 1)
-	
+
 #define STANDARD_CHARGE 1
 #define CONTRABAND_CHARGE 2
 #define COIN_CHARGE 3
@@ -53,11 +53,16 @@
 	contraband = list(/obj/item/restraints/handcuffs/fake/kinky = 5,
 				/obj/item/clothing/neck/petcollar = 5,
 				/obj/item/clothing/under/mankini = 1,
-				/obj/item/dildo/flared/huge = 1
+				/obj/item/dildo/flared/huge = 1,
+				/obj/item/clothing/mask/muzzle = 2
 				)
 	premium = list(
 				/obj/item/electropack/shockcollar = 3,
-				/obj/item/clothing/neck/petcollar/locked = 1
+				/obj/item/clothing/neck/petcollar/locked = 1,
+				/obj/item/clothing/under/schoolgirl/locked/red = 1,
+				/obj/item/clothing/under/schoolgirl/locked/orange = 1,
+				/obj/item/clothing/under/schoolgirl/locked/green = 1,
+				/obj/item/clothing/under/schoolgirl/locked = 1
 				)
 	refill_canister = /obj/item/vending_refill/kink
 /*
