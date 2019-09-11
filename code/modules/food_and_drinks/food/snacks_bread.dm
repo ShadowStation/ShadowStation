@@ -140,7 +140,7 @@
 	icon_state = "creamcheesebreadslice"
 	filling_color = "#FF8C00"
 	list_reagents = list("nutriment" = 4, "vitamin" = 1)
-	foodtype = GRAIN | DAIRY
+	foodtype = GRAIN | DAIRY | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/store/bread/mimana
 	name = "mimana bread"
@@ -270,6 +270,7 @@ GLOBAL_LIST_INIT(frying_bad_chems, list(
 	list_reagents = list("nutriment" = 4)
 	bonus_reagents = list("nutriment" = 1, "vitamin" = 1)
 	tastes = list("butter" = 1, "toast" = 1)
+	foodtype = GRAIN | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/butterbiscuit
 	name = "butter biscuit"
@@ -280,6 +281,7 @@ GLOBAL_LIST_INIT(frying_bad_chems, list(
 	list_reagents = list("nutriment" = 5)
 	bonus_reagents = list("nutriment" = 1, "vitamin" = 1)
 	tastes = list("butter" = 1, "biscuit" = 1)
+	foodtype = GRAIN | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/butterdog
 	name = "butterdog"
