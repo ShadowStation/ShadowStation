@@ -450,9 +450,6 @@
 		return
 	if(iscarbon(target))
 		var/mob/living/carbon/brigman = target
-		if (!brigman.devourable)
-			to_chat(user, "The target registers an error code. Unable to insert into [src].")
-			return
 		if(patient)
 			to_chat(user,"<span class='warning'>Your [src] is already occupied.</span>")
 			return
