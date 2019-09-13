@@ -360,7 +360,7 @@
 	pixel_x = -25
 	},
 /obj/structure/cable,
-/turf/open/floor/plating/airless{
+/turf/open/floor/plating/asteroid/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/maintenance/central/secondary)
@@ -22288,14 +22288,12 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/purple,
 /obj/effect/landmark/start/research_director,
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/heads/hor)
@@ -31506,19 +31504,14 @@
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/bar)
 "aWX" = (
-/obj/machinery/computer/mecha{
-	dir = 1;
-	icon_state = "computer"
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
 	},
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
+/obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/heads/hor)
 "aWY" = (
 /turf/closed/wall/r_wall,
@@ -32676,21 +32669,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/research)
-"aYU" = (
-/obj/machinery/nanite_program_hub,
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/science/research)
 "aYV" = (
 /obj/effect/landmark/event_spawn,
 /obj/structure/disposalpipe/segment{
@@ -32985,7 +32963,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/effect/turf_decal/bot,
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/dark,
 /area/science/research)
@@ -33363,20 +33340,18 @@
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
 "aZX" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/computer/nanite_chamber_control{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral,
+/obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/research)
 "aZY" = (
@@ -34483,14 +34458,14 @@
 /turf/open/floor/plasteel/dark,
 /area/science/mixing)
 "bbJ" = (
-/obj/machinery/computer/nanite_cloud_controller,
-/obj/effect/turf_decal/bot,
+/obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/research)
 "bbK" = (
@@ -34499,18 +34474,28 @@
 /turf/open/floor/engine,
 /area/science/mixing/chamber)
 "bbL" = (
-/obj/machinery/nanite_chamber,
-/obj/effect/turf_decal/bot,
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_y = 5
+	},
+/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/cell/high,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/item/integrated_electronics/analyzer,
+/obj/machinery/computer/security/telescreen/circuitry{
+	pixel_y = 30
+	},
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/research)
 "bbM" = (
-/obj/structure/table,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
@@ -34528,6 +34513,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
 /area/science/research)
 "bbN" = (
@@ -36602,20 +36588,22 @@
 /turf/open/floor/plasteel/dark,
 /area/science/research)
 "beE" = (
-/obj/structure/chair/office/light{
+/obj/structure/table/reinforced,
+/obj/item/integrated_electronics/debugger,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/landmark/start/scientist,
+/obj/item/clothing/glasses/science,
+/obj/item/clothing/glasses/science,
+/obj/item/stack/sheet/metal/ten,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/research)
 "beF" = (
@@ -57208,7 +57196,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating/airless{
+/turf/open/floor/plating/asteroid/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/maintenance/central/secondary)
@@ -72730,7 +72718,7 @@
 	dir = 1
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/airless{
+/turf/open/floor/plating/asteroid/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/maintenance/central/secondary)
@@ -74033,6 +74021,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
+/obj/item/seeds/sugarcane,
 /turf/open/floor/grass,
 /area/security/prison)
 "ciG" = (
@@ -84402,7 +84391,7 @@
 	dir = 1
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/airless{
+/turf/open/floor/plating/asteroid/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/maintenance/central/secondary)
@@ -85843,6 +85832,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/item/seeds/watermelon,
+/obj/item/seeds/apple,
+/obj/item/seeds/wheat,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "cFS" = (
@@ -85963,7 +85955,7 @@
 	icon_state = "hrwindow_spawner_middle";
 	dir = 4
 	},
-/turf/open/floor/plating/airless{
+/turf/open/floor/plating/asteroid/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/maintenance/central/secondary)
@@ -86082,12 +86074,11 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating/airless{
+/turf/open/floor/plating/asteroid/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/maintenance/central/secondary)
 "cGD" = (
-/obj/structure/flora/tree/jungle/small,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -86158,7 +86149,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/airless{
+/turf/open/floor/plating/asteroid/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/maintenance/central/secondary)
@@ -86243,7 +86234,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/airless{
+/turf/open/floor/plating/asteroid/airless{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
 /area/maintenance/central/secondary)
@@ -89012,6 +89003,37 @@
 "dis" = (
 /turf/closed/wall/r_wall/rust,
 /area/bridge)
+"dxq" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/computer/mecha{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/crew_quarters/heads/hor)
+"dMc" = (
+/obj/structure/table/reinforced,
+/obj/item/integrated_circuit_printer,
+/obj/item/integrated_electronics/wirer,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/dark,
+/area/science/research)
 "dYu" = (
 /obj/effect/spawner/lootdrop/grille_or_trash,
 /obj/effect/decal/cleanable/dirt,
@@ -89336,6 +89358,24 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
+"mIG" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/box/red,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/magnetic_controller{
+	autolink = 1;
+	pixel_x = -28;
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/dark,
+/area/science/research)
 "mPm" = (
 /turf/closed/wall/rust,
 /area/security/checkpoint/supply)
@@ -89368,14 +89408,6 @@
 	dir = 8
 	},
 /area/hallway/primary/fore)
-"oVy" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/open/floor/plating/asteroid/airless{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/engine/supermatter)
 "pFw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -124935,7 +124967,7 @@ aLs
 cqi
 aLv
 csa
-oVy
+csa
 csa
 axU
 cuz
@@ -127953,7 +127985,7 @@ aVJ
 aVJ
 aYN
 aYT
-aYS
+dMc
 bbJ
 aNK
 bgj
@@ -128209,9 +128241,9 @@ anf
 bds
 aVJ
 aVJ
-aYU
+aVJ
 beE
-bbl
+mIG
 aNM
 bgW
 nNV
@@ -128465,7 +128497,7 @@ aBh
 aCD
 aFR
 bdx
-aVJ
+dxq
 aVJ
 aZX
 bbL
