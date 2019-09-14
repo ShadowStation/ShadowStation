@@ -47,8 +47,11 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 1
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/supply)
@@ -93,10 +96,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/supply)
@@ -130,11 +130,12 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/supply)
@@ -200,7 +201,9 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
-/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
@@ -307,9 +310,9 @@ a
 b
 e
 j
-n
+f
 p
-s
+n
 u
 v
 y
@@ -319,13 +322,13 @@ C
 (3,1,1) = {"
 a
 c
-f
-k
 o
 g
-f
 k
-k
+g
+o
+g
+s
 e
 A
 D

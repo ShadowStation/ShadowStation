@@ -1,0 +1,7 @@
+author: "Linzolle"
+delete-after: True
+changes: 
+  - rscadd: "fireman carry"
+  - balance: "slowdown applied to dragging PRONE people to incentivise fireman carrying"
+  - tweak: "pacifists can now aggressive grab to facilitate carrying"
+  - tweak: "pacifists cannot table people"

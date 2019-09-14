@@ -1,0 +1,4 @@
+author: "Zaiakusin"
+delete-after: True
+changes: 
+  - balance: "Pop requirements changed from 40 to 20"

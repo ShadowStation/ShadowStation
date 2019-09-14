@@ -1,0 +1,6 @@
+author: "Zaiakusin"
+delete-after: True
+changes: 
+  - rscadd: "2 Muzzles to Kinkmate"
+  - rscdel: "Deleated Machinery folder and vending file from modular shadow"
+  - tweak: "Merged the vending file from modular shadow with the vending in modular citadel"

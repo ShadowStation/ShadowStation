@@ -166,6 +166,9 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/arrival)
 "s" = (
@@ -221,7 +224,6 @@
 	pixel_y = 6
 	},
 /obj/item/radio{
-	pixel_x = 0;
 	pixel_y = 4
 	},
 /turf/open/floor/mineral/plastitanium,
@@ -240,7 +242,7 @@
 	},
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/arrival)
@@ -364,10 +366,10 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 1
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/arrival)

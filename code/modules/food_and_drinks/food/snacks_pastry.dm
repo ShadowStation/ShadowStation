@@ -12,7 +12,7 @@
 	var/extra_reagent = null
 	filling_color = "#D2691E"
 	tastes = list("donut" = 1)
-	foodtype = JUNKFOOD | GRAIN | FRIED | SUGAR
+	foodtype = JUNKFOOD | GRAIN | FRIED | SUGAR | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/donut/Initialize()
 	. = ..()
@@ -63,7 +63,7 @@
 	bonus_reagents = list("sugar" = 1, "vitamin" = 1)
 	extra_reagent = "berryjuice"
 	tastes = list("jelly" = 1, "donut" = 3)
-	foodtype = JUNKFOOD | GRAIN | FRIED | FRUIT | SUGAR
+	foodtype = JUNKFOOD | GRAIN | FRIED | FRUIT | SUGAR | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/donut/jelly/Initialize()
 	. = ..()
@@ -88,7 +88,7 @@
 	desc = "You jelly?"
 	icon_state = "jdonut1"
 	extra_reagent = "cherryjelly"
-	foodtype = JUNKFOOD | GRAIN | FRIED | FRUIT
+	foodtype = JUNKFOOD | GRAIN | FRIED | FRUIT | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/donut/meat
 	bonus_reagents = list("ketchup" = 1)
@@ -118,14 +118,14 @@
 	list_reagents = list("nutriment" = 6)
 	filling_color = "#F4A460"
 	tastes = list("muffin" = 1)
-	foodtype = GRAIN | SUGAR
+	foodtype = GRAIN | SUGAR | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/muffin/berry
 	name = "berry muffin"
 	icon_state = "berrymuffin"
 	desc = "A delicious and spongy little cake, with berries."
 	tastes = list("muffin" = 3, "berry" = 1)
-	foodtype = GRAIN | FRUIT | SUGAR
+	foodtype = GRAIN | FRUIT | SUGAR | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/muffin/booberry
 	name = "booberry muffin"
@@ -156,7 +156,7 @@
 	list_reagents = list("nutriment" = 8, "vitamin" = 1)
 	filling_color = "#D2691E"
 	tastes = list("waffles" = 1)
-	foodtype = GRAIN | SUGAR
+	foodtype = GRAIN | SUGAR | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/soylentgreen
 	name = "\improper Soylent Green"
@@ -178,7 +178,7 @@
 	list_reagents = list("nutriment" = 10, "vitamin" = 1)
 	filling_color = "#9ACD32"
 	tastes = list("waffles" = 7, "the colour green" = 1)
-	foodtype = GRAIN
+	foodtype = GRAIN | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/rofflewaffles
 	name = "roffle waffles"
@@ -260,7 +260,7 @@
 	list_reagents = list("nutriment" = 5)
 	filling_color = "#F0E68C"
 	tastes = list("mushroom" = 1, "biscuit" = 1)
-	foodtype = GRAIN | VEGETABLES
+	foodtype = GRAIN | VEGETABLES | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/plumphelmetbiscuit/Initialize()
 	var/fey = prob(10)
@@ -395,7 +395,7 @@
 	list_reagents = list("nutriment" = 4, "vitamin" = 1)
 	filling_color = "#D2691E"
 	tastes = list("pancakes" = 1)
-	foodtype = GRAIN | SUGAR
+	foodtype = GRAIN | SUGAR | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/pancakes/blueberry
 	name = "blueberry pancake"

@@ -1,0 +1,5 @@
+author: "TheMocheeze"
+delete-after: True
+changes: 
+  - rscadd: "Add Kilostation and its associated shuttle .dmm map files"
+  - tweak: "Added cryo pods to dorm, removed certain incompatible map objects (pending substitution if problematic. To be determined by playtests.)"

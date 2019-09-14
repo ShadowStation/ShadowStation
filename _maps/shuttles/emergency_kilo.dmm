@@ -216,6 +216,9 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
 "ay" = (
@@ -245,16 +248,6 @@
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape)
 "aA" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape)
-"aB" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -332,9 +325,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape)
 "aJ" = (
@@ -347,14 +337,7 @@
 /area/shuttle/escape)
 "aK" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/corner{
 	dir = 1
-	},
-/obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
-	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -374,13 +357,6 @@
 /area/shuttle/escape)
 "aM" = (
 /obj/effect/turf_decal/stripes/corner,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/box/corners{
-	icon_state = "box_corners";
-	dir = 1
-	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -418,7 +394,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
@@ -500,12 +476,12 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
 "aV" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
@@ -579,24 +555,24 @@
 /area/shuttle/escape)
 "bc" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape)
 "bd" = (
 /obj/effect/turf_decal/stripes/corner,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape)
 "be" = (
@@ -744,6 +720,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
 "bt" = (
@@ -820,13 +799,11 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
 /obj/item/twohanded/required/kirbyplants{
-	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
+	icon_state = "plant-21"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
@@ -862,17 +839,6 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
-"bE" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/shuttle/escape)
 "bF" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -880,20 +846,7 @@
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/shuttle/escape)
-"bG" = (
-/obj/effect/turf_decal/tile/blue{
 	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
@@ -903,8 +856,7 @@
 	dir = 8
 	},
 /obj/machinery/status_display/evac{
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
@@ -1019,6 +971,9 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
 "bT" = (
@@ -1032,6 +987,9 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
 "bU" = (
@@ -1040,10 +998,10 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 4
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 8
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
@@ -1071,6 +1029,9 @@
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
@@ -1146,7 +1107,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 8
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
@@ -1159,9 +1120,7 @@
 	dir = 1
 	},
 /obj/item/twohanded/required/kirbyplants{
-	icon_state = "plant-21";
-	pixel_x = 0;
-	pixel_y = 0
+	icon_state = "plant-21"
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
@@ -1264,7 +1223,6 @@
 	pixel_y = 6
 	},
 /obj/item/radio{
-	pixel_x = 0;
 	pixel_y = 4
 	},
 /turf/open/floor/mineral/plastitanium,
@@ -1278,7 +1236,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 8
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
@@ -1341,9 +1299,6 @@
 /area/shuttle/escape)
 "cu" = (
 /obj/effect/turf_decal/delivery,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
 /obj/machinery/sleeper{
 	dir = 4
 	},
@@ -1356,9 +1311,6 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
@@ -1383,16 +1335,10 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
 "cy" = (
 /obj/effect/turf_decal/delivery,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
 /obj/machinery/sleeper{
 	dir = 8
 	},
@@ -1459,16 +1405,6 @@
 	dir = 8;
 	pixel_x = -12;
 	pixel_y = 2
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/shuttle/escape)
-"cF" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
@@ -1717,6 +1653,40 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
 /area/shuttle/escape)
+"zk" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"Vm" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"WN" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
 
 (1,1,1) = {"
 aa
@@ -1755,7 +1725,7 @@ az
 aS
 bc
 ac
-br
+bD
 bB
 bI
 bI
@@ -1788,7 +1758,7 @@ bJ
 bM
 bJ
 bS
-bY
+zk
 cf
 ck
 cs
@@ -1804,13 +1774,13 @@ aa
 aa
 ac
 ar
-aB
+aA
 aA
 aA
 be
 ac
 bt
-br
+Vm
 bK
 bN
 bu
@@ -1891,7 +1861,7 @@ aU
 bg
 bn
 bw
-bE
+br
 bK
 bQ
 bu
@@ -1900,7 +1870,7 @@ ca
 bC
 cn
 cv
-cF
+cH
 cO
 cX
 cL
@@ -1945,16 +1915,16 @@ aW
 bh
 bo
 bt
-br
+Vm
 bK
 bN
 bu
 bV
 cc
-bG
+bY
 cn
 cx
-cH
+WN
 cP
 cZ
 cL
@@ -2026,7 +1996,7 @@ aY
 bj
 ac
 bw
-bE
+br
 bK
 bQ
 bu
@@ -2053,7 +2023,7 @@ aZ
 bk
 bp
 bz
-bG
+bY
 bJ
 bR
 bJ
