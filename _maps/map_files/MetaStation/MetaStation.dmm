@@ -50428,19 +50428,8 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "bUe" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/genericbush,
-/obj/structure/window,
-/obj/structure/window{
-	dir = 4
-	},
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 8
-	},
-/turf/open/floor/grass,
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
 /area/hydroponics)
 "bUf" = (
 /obj/machinery/vending/hydroseeds{
@@ -52413,20 +52402,8 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bYc" = (
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/leafybush,
-/obj/structure/window,
-/obj/structure/window{
-	dir = 4
-	},
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 8
-	},
-/turf/open/floor/grass,
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
 /area/hallway/primary/central)
 "bYd" = (
 /obj/structure/cable/yellow{
@@ -83179,21 +83156,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
-"dTD" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/fernybush,
-/obj/structure/window,
-/obj/structure/window{
-	dir = 4
-	},
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 8
-	},
-/turf/open/floor/grass,
-/area/hallway/primary/central)
 "dYu" = (
 /obj/machinery/door/airlock/external{
 	name = "Auxiliary Airlock"
@@ -83531,22 +83493,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/fitness/recreation)
-"jjG" = (
-/obj/structure/flora/ausbushes/ppflowers,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/sunnybush,
-/obj/structure/window,
-/obj/structure/window{
-	dir = 4
-	},
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 8
-	},
-/turf/open/floor/grass,
-/area/hydroponics)
 "jwW" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/crew_quarters/fitness/recreation)
@@ -83755,22 +83701,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/server)
-"lZU" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/reedbush,
-/obj/structure/window,
-/obj/structure/window{
-	dir = 4
-	},
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 8
-	},
-/turf/open/floor/grass,
-/area/hydroponics)
 "maM" = (
 /obj/machinery/cryopod,
 /obj/machinery/light{
@@ -117460,7 +117390,7 @@ bSS
 bUd
 bVq
 bWJ
-dTD
+bYc
 bZs
 aYX
 ccr
@@ -117718,9 +117648,9 @@ bUe
 bVr
 bWK
 bST
-lZU
+bUe
 caJ
-jjG
+bUe
 bST
 ceZ
 cgo
