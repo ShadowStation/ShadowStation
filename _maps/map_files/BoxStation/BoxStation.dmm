@@ -21821,8 +21821,17 @@
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "bam" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/floor/grass,
 /area/hydroponics)
 "ban" = (
 /obj/structure/table/reinforced,
@@ -53694,9 +53703,17 @@
 /turf/open/space,
 /area/space/nearstation)
 "cBg" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /obj/effect/landmark/event_spawn,
-/turf/open/floor/plating,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass,
 /area/hydroponics)
 "cBh" = (
 /obj/effect/landmark/event_spawn,
@@ -56477,6 +56494,22 @@
 /obj/structure/table,
 /turf/open/floor/plasteel,
 /area/hydroponics)
+"fJr" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/floor/grass,
+/area/hydroponics)
 "fKl" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/landmark/event_spawn,
@@ -57137,6 +57170,22 @@
 /obj/item/dildo/random,
 /turf/open/floor/plating,
 /area/maintenance/bar)
+"qsX" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/fernybush,
+/turf/open/floor/grass,
+/area/hydroponics)
 "quT" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
@@ -57238,6 +57287,18 @@
 /obj/machinery/photocopier,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
+"srI" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/junglebush,
+/turf/open/floor/grass,
+/area/hydroponics)
 "sxs" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/table,
@@ -97704,7 +97765,7 @@ aVJ
 aOX
 aYP
 bal
-bam
+fJr
 aYV
 aYV
 aYV
@@ -98475,7 +98536,7 @@ aRJ
 aRJ
 aYQ
 cBg
-bam
+srI
 aYV
 aYV
 aYV
@@ -99502,7 +99563,7 @@ aUz
 aVM
 aOX
 aYT
-bam
+qsX
 aYV
 baR
 bcb
