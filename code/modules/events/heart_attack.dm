@@ -3,7 +3,7 @@
 	typepath = /datum/round_event/heart_attack
 	weight = 20
 	max_occurrences = 2
-	min_players = 40 // To avoid shafting lowpop
+	min_players = 20 //can be raised to 25 if it shown to cause more issues.
 
 /datum/round_event/heart_attack/start()
 	var/list/heart_attack_contestants = list()

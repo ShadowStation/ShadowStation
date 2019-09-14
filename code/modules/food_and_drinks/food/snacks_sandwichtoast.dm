@@ -30,7 +30,7 @@
 	bonus_reagents = list("nutriment" = 1, "vitamin" = 1)
 	list_reagents = list("nutriment" = 7, "vitamin" = 1)
 	tastes = list("toast" = 1, "cheese" = 1)
-	foodtype = GRAIN | DAIRY
+	foodtype = GRAIN | DAIRY | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/jellysandwich
 	name = "jelly sandwich"
@@ -40,7 +40,7 @@
 	trash = /obj/item/trash/plate
 	bitesize = 3
 	tastes = list("bread" = 1, "jelly" = 1)
-	foodtype = GRAIN
+	foodtype = GRAIN | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/jellysandwich/slime
 	bonus_reagents = list("slimejelly" = 5, "vitamin" = 2)
@@ -61,7 +61,7 @@
 	list_reagents = list("nutriment" = 2, "ice" = 2)
 	tastes = list("ice cream" = 1)
 	foodtype = GRAIN | DAIRY
-	
+
 /obj/item/reagent_containers/food/snacks/jellysandwich/pbj
 	name = "\improper PB & J sandwich"
 	desc = "A grand creation of peanut butter, jelly and bread! An all-american classic."
@@ -87,7 +87,7 @@
 	bitesize = 3
 	bonus_reagents = list("peanut_butter" = 5, "vitamin" = 2)
 	list_reagents = list("nutriment" = 2, "peanut_butter" = 5, "vitamin" = 2)
-	foodtype  = GRAIN
+	foodtype  = GRAIN | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/notasandwich
 	name = "not-a-sandwich"
@@ -108,12 +108,12 @@
 	trash = /obj/item/trash/plate
 	bitesize = 3
 	tastes = list("toast" = 1, "jelly" = 1)
-	foodtype = GRAIN
+	foodtype = GRAIN | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/jelliedtoast/cherry
 	bonus_reagents = list("cherryjelly" = 5, "vitamin" = 2)
 	list_reagents = list("nutriment" = 1, "cherryjelly" = 5, "vitamin" = 2)
-	foodtype = GRAIN | FRUIT | SUGAR
+	foodtype = GRAIN | FRUIT | SUGAR | BREAKFAST
 
 /obj/item/reagent_containers/food/snacks/jelliedtoast/slime
 	bonus_reagents = list("slimejelly" = 5, "vitamin" = 2)
@@ -130,7 +130,7 @@
 	bonus_reagents = list("peanut_butter" = 5, "vitamin" = 2)
 	list_reagents = list("nutriment" = 1, "peanut_butter" = 5, "vitamin" = 2)
 	tastes = list("toast" = 1, "peanuts" = 1)
-	foodtype = GRAIN
+	foodtype = GRAIN | BREAKFAST
 
 
 /obj/item/reagent_containers/food/snacks/twobread
