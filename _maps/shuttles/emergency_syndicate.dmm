@@ -116,7 +116,6 @@
 	id = "shuttleshutters";
 	name = "Bridge Blast Shutters";
 	pixel_x = -26;
-	pixel_y = 0;
 	req_access_txt = "19"
 	},
 /obj/effect/turf_decal/tile/neutral{
@@ -200,7 +199,7 @@
 	dir = 4;
 	name = "Station Intercom (General)";
 	pixel_x = 27;
-	pixel_y = 0
+	
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
@@ -310,7 +309,7 @@
 	dir = 4;
 	name = "Station Intercom (General)";
 	pixel_x = -27;
-	pixel_y = 0
+	
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
@@ -408,7 +407,6 @@
 	id = "smindicate";
 	name = "external door control";
 	pixel_x = 26;
-	pixel_y = 0;
 	req_access_txt = "150"
 	},
 /obj/structure/fans/tiny,
@@ -421,7 +419,7 @@
 	dir = 4;
 	name = "Station Intercom (General)";
 	pixel_x = 27;
-	pixel_y = 0
+	
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
@@ -1065,8 +1063,7 @@
 "bR" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/drinkingglasses{
-	pixel_x = 0;
-	pixel_y = 0
+	
 	},
 /obj/item/storage/box/drinkingglasses{
 	pixel_x = -3;
@@ -1500,7 +1497,7 @@
 	dir = 4;
 	name = "Station Intercom (General)";
 	pixel_x = 27;
-	pixel_y = 0
+	
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
@@ -1607,7 +1604,7 @@
 	dir = 4;
 	name = "Station Intercom (General)";
 	pixel_x = 27;
-	pixel_y = 0
+	
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
@@ -1635,8 +1632,7 @@
 	pixel_y = -3
 	},
 /obj/item/storage/toolbox/emergency{
-	pixel_x = 0;
-	pixel_y = 0
+	
 	},
 /obj/item/storage/toolbox/syndicate{
 	pixel_x = -3;
