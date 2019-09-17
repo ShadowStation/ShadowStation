@@ -59154,11 +59154,8 @@
 /area/maintenance/starboard/aft)
 "ckC" = (
 /obj/structure/lattice,
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 2;
-	name = "Incinerator Output Pump"
-	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/general/visible,
 /turf/open/space,
 /area/maintenance/disposal/incinerator)
 "ckD" = (
@@ -59899,6 +59896,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 10
+	},
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
 "cme" = (
@@ -60358,8 +60358,8 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "cnd" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/incinerator_output{
-	dir = 1
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
 	},
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
@@ -60368,16 +60368,12 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/air_sensor/atmos/incinerator_tank{
-	pixel_x = -32;
-	pixel_y = -32
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 4
 	},
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
 "cnf" = (
-/obj/structure/sign/warning/vacuum/external{
-	pixel_y = -32
-	},
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/incinerator_input{
 	dir = 1
 	},
@@ -82907,6 +82903,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
+"dDd" = (
+/obj/structure/lattice,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/general/visible,
+/turf/open/space,
+/area/space)
 "dDe" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/plasteel/cafeteria{
@@ -84112,6 +84114,19 @@
 	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
+"qcq" = (
+/obj/machinery/air_sensor/atmos/incinerator_tank{
+	pixel_x = -32;
+	pixel_y = -32
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/turf/open/floor/engine/vacuum,
+/area/maintenance/disposal/incinerator)
 "qhe" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -84240,6 +84255,18 @@
 /obj/machinery/vending/snack/random,
 /turf/open/floor/plasteel,
 /area/science/mixing)
+"rUH" = (
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = -32
+	},
+/turf/open/floor/engine/vacuum,
+/area/maintenance/disposal/incinerator)
+"sbt" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 5
+	},
+/turf/closed/wall/r_wall,
+/area/maintenance/disposal/incinerator)
 "sdi" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -123897,10 +123924,10 @@ ciY
 ckC
 cmc
 cmc
+dDd
 cmc
 cpM
 crc
-aaf
 ctl
 aaa
 aaf
@@ -124155,9 +124182,9 @@ pmc
 cgz
 cgz
 cgz
+cgz
 cpN
 crd
-ack
 ack
 aaf
 aaf
@@ -124409,12 +124436,12 @@ cgw
 cfs
 ciZ
 ckD
-ciZ
+sbt
+cnd
 cnd
 cgz
 cgz
 cre
-aaa
 ack
 aaa
 aaa
@@ -124668,10 +124695,10 @@ cja
 ckE
 cmd
 cne
+qcq
 cNw
 cOa
 crf
-aaa
 ack
 aaa
 aaa
@@ -124925,10 +124952,10 @@ cjb
 ckF
 cjb
 cnf
+rUH
 cgz
 cgz
 cre
-aaa
 ack
 aaa
 aaa
@@ -125183,8 +125210,8 @@ gXY
 cgz
 cng
 cgz
+cgz
 cpP
-ack
 ack
 ack
 aaa
