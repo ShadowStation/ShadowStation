@@ -24683,9 +24683,14 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "bgj" = (
-/obj/effect/spawner/structure/window,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plating,
+/obj/structure/window,
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/genericbush,
+/turf/open/floor/grass,
 /area/hydroponics)
 "bgk" = (
 /obj/effect/spawner/structure/window,
@@ -45926,6 +45931,9 @@
 	},
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/public/glass/incinerator/atmos_exterior,
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 6
+	},
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
 "caO" = (
@@ -45933,9 +45941,8 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/igniter/incinerator_atmos,
-/obj/machinery/air_sensor/atmos/incinerator_tank{
-	pixel_x = 32;
-	pixel_y = -32
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 1
 	},
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
@@ -46213,8 +46220,9 @@
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
 "cbF" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/incinerator_output{
-	dir = 8
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	icon_state = "scrub_map_on";
+	dir = 1
 	},
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
@@ -53509,6 +53517,18 @@
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/science)
+"ego" = (
+/obj/structure/window,
+/obj/structure/window{
+	dir = 4
+	},
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/grass,
+/area/hydroponics)
 "egK" = (
 /obj/structure/girder,
 /turf/open/floor/plating{
@@ -53893,6 +53913,18 @@
 	},
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
+"ffV" = (
+/obj/structure/window,
+/obj/structure/window{
+	dir = 8
+	},
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/floor/grass,
+/area/hydroponics)
 "fhM" = (
 /obj/item/storage/secure/safe{
 	pixel_x = -22
@@ -54249,6 +54281,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
+"gcc" = (
+/turf/open/floor/engine,
+/area/maintenance/disposal/incinerator)
 "gcj" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -54695,6 +54730,15 @@
 /obj/structure/plasticflaps/opaque,
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"gNt" = (
+/obj/structure/window,
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/palebush,
+/turf/open/floor/grass,
+/area/hydroponics)
 "gNv" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_x = 32
@@ -54716,6 +54760,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"gOf" = (
+/obj/structure/window,
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/sunnybush,
+/turf/open/floor/grass,
+/area/hydroponics)
 "gPV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -55538,6 +55591,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
+"iNY" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/turf/closed/wall/r_wall,
+/area/maintenance/disposal/incinerator)
 "iPj" = (
 /obj/machinery/igniter{
 	id = "xenoigniter";
@@ -56697,6 +56756,15 @@
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/maintenance/department/science)
+"lPc" = (
+/obj/structure/window,
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/fernybush,
+/turf/open/floor/grass,
+/area/hydroponics)
 "lQn" = (
 /obj/machinery/light/small{
 	dir = 1;
@@ -61674,6 +61742,19 @@
 	initial_gas_mix = "o2=0.01;n2=0.01"
 	},
 /area/maintenance/department/science)
+"xtO" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/air_sensor/atmos/incinerator_tank{
+	pixel_x = 32;
+	pixel_y = -32
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 10
+	},
+/turf/open/floor/engine,
+/area/maintenance/disposal/incinerator)
 "xuv" = (
 /obj/item/broken_bottle,
 /turf/open/floor/plating,
@@ -87766,7 +87847,7 @@ aYN
 aYN
 aXQ
 bfj
-bdm
+ffV
 aJI
 aDZ
 bih
@@ -88023,7 +88104,7 @@ aZS
 aXS
 bef
 bfk
-bdm
+gNt
 bhd
 aBI
 bii
@@ -88280,7 +88361,7 @@ aZT
 bdj
 beg
 bfl
-bdm
+gOf
 aJI
 aDZ
 bij
@@ -88537,7 +88618,7 @@ bbZ
 bdk
 beh
 bfl
-bdm
+lPc
 aJI
 aDZ
 bik
@@ -89051,7 +89132,7 @@ bca
 aXS
 bej
 bfn
-bdm
+ego
 aJI
 aDZ
 bik
@@ -101433,7 +101514,7 @@ aaa
 bYw
 bZT
 caN
-bZT
+iNY
 bYw
 cdl
 bYw
@@ -101945,9 +102026,9 @@ bVo
 bJP
 aht
 bYw
-bYw
-caP
-bYw
+gcc
+xtO
+cbF
 bYw
 aaa
 aaa
@@ -102201,11 +102282,11 @@ bWg
 uiD
 bJP
 aaa
-aaa
 bYw
-caQ
 bYw
-aaa
+caP
+bYw
+bYw
 aaa
 aaa
 aaa
@@ -102458,10 +102539,10 @@ bJP
 bJP
 bJP
 abI
-abI
-bZV
-caR
-bZV
+aaa
+bYw
+caQ
+bYw
 aaa
 aaa
 aaa
@@ -102715,10 +102796,10 @@ aaa
 aaa
 abI
 aaa
-aaa
-aaa
-aaa
-aaa
+abI
+bZV
+caR
+bZV
 aaa
 aaa
 aaa
