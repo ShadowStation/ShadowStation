@@ -33,6 +33,8 @@
 	var/max_damage = 0
 	var/stam_heal_tick = 0		//per Life(). Defaults to 0 due to citadel changes
 
+	var/cremation_progress = 0 //Gradually increases while burning when at full damage, destroys the limb when at 100
+
 	var/brute_reduction = 0 //Subtracted to brute damage taken
 	var/burn_reduction = 0	//Subtracted to burn damage taken
 
@@ -210,6 +212,7 @@
 		owner.updatehealth()
 	consider_processing()
 	check_disabled()
+	cremation_progress = min(0, cremation_progress - ((brute_dam + burn_dam)*(100/max_damage)))
 	return update_bodypart_damage_state()
 
 //Returns total damage.

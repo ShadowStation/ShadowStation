@@ -20033,6 +20033,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 6
+	},
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
 "aFW" = (
@@ -20055,9 +20058,8 @@
 /obj/machinery/igniter{
 	id = "Incinerator"
 	},
-/obj/machinery/air_sensor{
-	pixel_x = -32;
-	pixel_y = -32
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 8
 	},
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
@@ -21612,6 +21614,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/machinery/power/terminal{
+	icon_state = "term";
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/open/floor/plasteel/dark,
 /area/maintenance/disposal/incinerator)
@@ -80882,6 +80891,9 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/general/visible,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
 "cul" = (
@@ -80893,6 +80905,12 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
@@ -80941,6 +80959,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
@@ -81101,6 +81122,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
@@ -81461,6 +81485,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
@@ -82273,7 +82300,7 @@
 /area/maintenance/port/fore)
 "cwH" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
@@ -83719,10 +83746,6 @@
 	},
 /area/maintenance/port/aft)
 "czY" = (
-/obj/machinery/power/smes{
-	capacity = 9e+006;
-	charge = 10000
-	},
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -83742,6 +83765,10 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel/dark,
 /area/maintenance/disposal/incinerator)
 "czZ" = (
@@ -89411,6 +89438,12 @@
 "jDv" = (
 /turf/closed/wall/rust,
 /area/quartermaster/storage)
+"jHJ" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/turf/closed/wall,
+/area/maintenance/disposal/incinerator)
 "jOz" = (
 /obj/structure/sign/warning/electricshock,
 /turf/closed/wall/r_wall/rust,
@@ -89425,10 +89458,26 @@
 "krJ" = (
 /turf/closed/wall/rust,
 /area/hallway/secondary/exit/departure_lounge)
+"ktv" = (
+/obj/machinery/air_sensor{
+	pixel_x = -32;
+	pixel_y = -32
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 5
+	},
+/turf/open/floor/engine/vacuum,
+/area/maintenance/disposal/incinerator)
 "llm" = (
 /obj/structure/sign/poster/ripped,
 /turf/closed/wall/rust,
 /area/crew_quarters/fitness/recreation)
+"lSJ" = (
+/turf/open/floor/engine/vacuum,
+/area/maintenance/disposal/incinerator)
 "lVk" = (
 /obj/machinery/status_display/evac,
 /turf/closed/wall/rust,
@@ -116854,7 +116903,7 @@ aIL
 aFI
 aFW
 aFI
-cko
+aFI
 cko
 cko
 aaa
@@ -117110,10 +117159,10 @@ aFO
 cwc
 aMF
 cwA
+lSJ
 aFI
 aFI
 aFI
-cko
 aaa
 aaa
 aaa
@@ -117367,10 +117416,10 @@ aFK
 aFQ
 aFV
 aFY
+ktv
 aNi
 aGb
 aGc
-aaa
 aaa
 aaa
 aaa
@@ -117622,12 +117671,12 @@ bSs
 cEm
 aFU
 cwd
-aFO
+jHJ
+cwH
 cwH
 aFI
 aFI
 aFI
-cko
 aaa
 aaa
 aaa
@@ -117882,7 +117931,7 @@ aJl
 aFI
 aFI
 aFI
-cko
+aFI
 cko
 cko
 aaa

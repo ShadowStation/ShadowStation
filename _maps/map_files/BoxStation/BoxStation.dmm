@@ -49384,6 +49384,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 6
+	},
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
 "cnD" = (
@@ -49619,11 +49622,8 @@
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
 "coq" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/incinerator_output{
-	dir = 1
-	},
-/obj/structure/sign/warning/vacuum/external{
-	pixel_y = -32
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
 	},
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
@@ -49637,6 +49637,9 @@
 /obj/machinery/air_sensor{
 	pixel_x = -32;
 	pixel_y = -32
+	},
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 8
 	},
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
@@ -56407,6 +56410,15 @@
 	},
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/hop)
+"etG" = (
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = -32
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/engine/vacuum,
+/area/maintenance/disposal/incinerator)
 "evR" = (
 /turf/open/floor/plating,
 /area/maintenance/bar)
@@ -56679,6 +56691,15 @@
 /obj/item/pen,
 /turf/open/floor/plasteel/white,
 /area/science/circuit)
+"iuM" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 5
+	},
+/turf/open/floor/engine/vacuum,
+/area/maintenance/disposal/incinerator)
 "izv" = (
 /obj/machinery/vending/clothing,
 /obj/machinery/light/small{
@@ -57081,6 +57102,12 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/white,
 /area/science/circuit)
+"oou" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/turf/closed/wall/r_wall,
+/area/maintenance/disposal/incinerator)
 "oDF" = (
 /obj/machinery/light,
 /turf/open/floor/plating,
@@ -57719,6 +57746,9 @@
 	},
 /turf/closed/wall,
 /area/hallway/secondary/service)
+"wGl" = (
+/turf/open/floor/engine/vacuum,
+/area/maintenance/disposal/incinerator)
 "wHz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
@@ -95512,10 +95542,10 @@ cpQ
 cpQ
 cpQ
 cpQ
+cpQ
 czJ
 aaf
 aoV
-aaa
 aaa
 aaf
 aaa
@@ -95768,11 +95798,11 @@ wHz
 cmd
 cmd
 cmd
+cmd
 aag
 aag
 aag
 aag
-aaa
 aaa
 aaf
 csD
@@ -96024,12 +96054,12 @@ uPT
 cmY
 cmc
 cop
+wGl
 cmd
 cmd
 cqs
 aaa
 aag
-aaa
 aaa
 aaf
 csD
@@ -96281,12 +96311,12 @@ cmf
 cna
 cnC
 cor
+iuM
 ciM
 cpN
 cqt
 aaa
 aag
-aaa
 aaa
 aaf
 csD
@@ -96536,14 +96566,14 @@ clf
 csr
 cme
 cmZ
-cme
+oou
 coq
+etG
 cmd
 cmd
 cqs
 aaa
 aag
-aaa
 aaa
 aaf
 csD
@@ -96796,11 +96826,11 @@ tXL
 cmd
 cos
 cmd
+cmd
 czI
 aag
 aag
 aag
-aaa
 aaa
 aaf
 csD
