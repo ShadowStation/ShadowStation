@@ -72,7 +72,6 @@
 	air_contents.gases[/datum/gas/nitrogen][MOLES] = (6*ONE_ATMOSPHERE)*volume/(R_IDEAL_GAS_EQUATION*T20C) * N2STANDARD
 	return
 
-
 /*
  * Plasma
  */
