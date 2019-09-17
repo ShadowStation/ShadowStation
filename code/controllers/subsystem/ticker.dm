@@ -260,14 +260,14 @@ SUBSYSTEM_DEF(ticker)
 		message_admins("<span class='notice'>DEBUG: Bypassing prestart checks...</span>")
 
 	CHECK_TICK
-	if(hide_mode)
+	/*if(hide_mode) SDS CHANGE - yeah showing people the potential gamemodes that are avaliable on low-pop wasn't a great idea. Let's go ahead and hide it again.
 		var/list/modes = new
 		for (var/datum/game_mode/M in runnable_modes)
 			modes += M.name
 		modes = sortList(modes)
 		to_chat(world, "<b>The gamemode is: secret!\nPossibilities:</B> [english_list(modes)]")
 	else
-		mode.announce()
+		mode.announce()*/
 
 	if(!CONFIG_GET(flag/ooc_during_round))
 		toggle_ooc(FALSE) // Turn it off
@@ -568,6 +568,7 @@ SUBSYSTEM_DEF(ticker)
 			news_message += " A partial recovery of the station black box revealed the tragic last moments of a crew member. Their name was: [ded["name"]], [ded["role"]], at [ded["area"]].[ded["last_words"] ? " Their last words were: \"[ded["last_words"]]\"" : ""] May they rest in peace."
 		else
 			news_message += " A partial recovery of the station black box revealed that nobody died during the shift!"
+		news_message += " Full round statistics can be viewed here: https://statbus.shadow-station.com/rounds/[GLOB.round_id]"
 
 	if(news_message)
 		send2otherserver(news_source, news_message,"News_Report")
