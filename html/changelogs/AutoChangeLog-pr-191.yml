@@ -1,0 +1,6 @@
+author: "Phi"
+delete-after: True
+changes: 
+  - rscadd: "Statbus links for the round will be posted into Discord."
+  - bugfix: "Game mode possibilities have been hidden again. Whoops."
+  - tweak: "Manuals that take info from the Wiki now point to OUR wiki instead of tg's."

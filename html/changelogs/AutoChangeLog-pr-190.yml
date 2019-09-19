@@ -1,0 +1,5 @@
+author: "Zaiakusin"
+delete-after: True
+changes: 
+  - rscadd: "Added unfortunate side effects to overdosing on this."
+  - balance: "Changed the values of many of the reactions."
