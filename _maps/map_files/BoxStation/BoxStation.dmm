@@ -25940,9 +25940,7 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
 "bkx" = (
-/obj/machinery/status_display/supply{
-	pixel_y = 2
-	},
+/obj/machinery/status_display/supply,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -31055,7 +31053,9 @@
 	id = "QMLoad"
 	},
 /obj/machinery/light,
-/obj/machinery/status_display/supply,
+/obj/machinery/status_display/supply{
+	pixel_y = -32
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -33322,7 +33322,9 @@
 	name = "Station Intercom (General)";
 	pixel_y = -35
 	},
-/obj/machinery/status_display/supply,
+/obj/machinery/status_display/supply{
+	pixel_x = -32
+	},
 /obj/machinery/computer/security/qm{
 	dir = 4
 	},
