@@ -1,0 +1,7 @@
+author: "Linzolle"
+delete-after: True
+changes: 
+  - bugfix: "atmos helmet visual bug"
+  - bugfix: "supply display are now properly on the wall"
+  - bugfix: "hos trenchcloak now properly has a sprite on digi characters"
+  - bugfix: "being unable to construct general beepsky"
