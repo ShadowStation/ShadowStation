@@ -905,10 +905,8 @@
 	})
 "bX" = (
 /obj/machinery/power/apc{
-	dir = 1;
-	step_y = 24;
-	req_access_txt = "0";
-	areastring = "/area/ruin/space/has_grav/ancientstation/betanorth"
+	areastring = "/area/ruin/has_grav/ancientstation/betanorth/";
+	dir = 1
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -1416,10 +1414,6 @@
 	})
 "cY" = (
 /obj/machinery/power/apc{
-	dir = 2;
-	step_x = 0;
-	step_y = -25;
-	req_access_txt = "0";
 	areastring = "/area/ruin/space/has_grav/ancientstation/hydroponics"
 	},
 /obj/structure/cable{
@@ -1603,10 +1597,8 @@
 "dn" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/power/apc{
-	dir = 4;
-	step_x = 25;
-	req_access_txt = "0";
-	areastring = "/area/ruin/space/has_grav/ancientstation/deltacorridor"
+	areastring = "/area/ruin/space/has_grav/ancientstation/deltacorridor";
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -1976,10 +1968,8 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
-	dir = 4;
-	step_x = 25;
-	req_access_txt = "200";
-	areastring = "/area/ruin/space/has_grav/ancientstation/rnd"
+	areastring = "/area/ruin/space/has_grav/ancientstation/rnd";
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/ancientstation/rnd{
@@ -2038,10 +2028,8 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	dir = 1;
-	step_y = 23;
-	req_access_txt = "0";
-	areastring = "/area/ruin/space/has_grav/ancientstation/solar"
+	areastring = "/area/ruin/space/has_grav/ancientstation/solar";
+	dir = 1
 	},
 /turf/open/floor/grass,
 /area/ruin/space/has_grav/ancientstation/solar{
@@ -2490,10 +2478,8 @@
 	})
 "eT" = (
 /obj/machinery/power/apc{
-	dir = 1;
-	step_y = 24;
-	req_access_txt = "0";
-	areastring = "/area/ruin/space/has_grav/ancientstation/hydroponics"
+	areastring = "/area/ruin/space/has_grav/ancientstation/hydroponics";
+	dir = 1
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -2940,10 +2926,8 @@
 	})
 "fJ" = (
 /obj/machinery/power/apc{
-	dir = 4;
-	step_x = 24;
-	req_access_txt = "0";
-	areastring = "/area/ruin/space/has_grav/ancientstation/kitchen"
+	areastring = "/area/ruin/space/has_grav/ancientstation/kitchen";
+	dir = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/ruin/space/has_grav/ancientstation/kitchen{
