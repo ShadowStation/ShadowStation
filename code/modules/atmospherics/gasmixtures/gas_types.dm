@@ -60,6 +60,7 @@ GLOBAL_LIST_INIT(nonreactive_gases, typecacheof(list(/datum/gas/oxygen, /datum/g
 	id = "co2"
 	specific_heat = 30
 	name = "Carbon Dioxide"
+	fusion_power = 3
 
 /datum/gas/plasma
 	id = "plasma"
@@ -91,7 +92,6 @@ GLOBAL_LIST_INIT(nonreactive_gases, typecacheof(list(/datum/gas/oxygen, /datum/g
 	name = "Nitrous Oxide"
 	gas_overlay = "nitrous_oxide"
 	moles_visible = MOLES_GAS_VISIBLE * 2
-	fusion_power = 10
 	dangerous = TRUE
 
 /datum/gas/nitryl
@@ -129,7 +129,7 @@ GLOBAL_LIST_INIT(nonreactive_gases, typecacheof(list(/datum/gas/oxygen, /datum/g
 	id = "pluox"
 	specific_heat = 80
 	name = "Pluoxium"
-	fusion_power = -10
+	fusion_power = 10
 
 /datum/gas/miasma
 	id = "miasma"
