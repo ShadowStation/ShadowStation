@@ -1,0 +1,6 @@
+author: "Zaiakusin"
+delete-after: True
+changes: 
+  - rscadd: "Fermentation barrel crafting recipe added"
+  - rscdel: "Removed the extra crafting.dm from modular cit, adding it to the main base"
+  - code_imp: "The TG file is to update the tree."

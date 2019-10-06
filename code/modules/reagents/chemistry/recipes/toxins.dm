@@ -55,7 +55,7 @@
 	name = "Lexorin"
 	id = "lexorin"
 	results = list("lexorin" = 3)
-	required_reagents = list("plasma" = 1, "hydrogen" = 1, "oxygen" = 1)
+	required_reagents = list("plasma" = 1, "hydrogen" = 1, "salbutamol" = 1)
 
 /datum/chemical_reaction/chloralhydrate
 	name = "Chloral Hydrate"
@@ -74,7 +74,7 @@
 	id = "zombiepowder"
 	results = list("zombiepowder" = 2)
 	required_reagents = list("carpotoxin" = 5, "morphine" = 5, "copper" = 5)
-	
+
 /datum/chemical_reaction/ghoulpowder
 	name = "Ghoul Powder"
 	id = "ghoulpowder"

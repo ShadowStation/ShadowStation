@@ -1,0 +1,4606 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/template_noop,
+/area/template_noop)
+"ab" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ac" = (
+/obj/structure/fans/tiny/invisible,
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ad" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ae" = (
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"af" = (
+/obj/structure/disposalpipe/trunk,
+/obj/structure/disposaloutlet{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ag" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/structure/beebox/unwrenched,
+/obj/item/clothing/suit/beekeeper_suit,
+/obj/item/clothing/head/beekeeper_head,
+/obj/item/honey_frame,
+/obj/item/honey_frame,
+/obj/item/honey_frame,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ah" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"ai" = (
+/obj/structure/rack,
+/obj/item/mop,
+/obj/item/scythe,
+/obj/item/watertank,
+/obj/item/melee/flyswatter,
+/obj/item/storage/box/lights,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aj" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ak" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"al" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/obj/structure/mopbucket,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"am" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"an" = (
+/obj/machinery/atmospherics/components/unary/tank/air,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ao" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"ap" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"aq" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"ar" = (
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"as" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"at" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/machinery/door/airlock/wood/glass,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"au" = (
+/obj/machinery/seed_extractor,
+/obj/item/seeds/watermelon,
+/obj/item/seeds/watermelon,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"av" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"aw" = (
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ax" = (
+/obj/machinery/light/small{
+	icon_state = "bulb";
+	dir = 4
+	},
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 8";
+	dir = 8;
+	network = list("BioDome")
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ay" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"az" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aA" = (
+/obj/machinery/light/small{
+	icon_state = "bulb";
+	dir = 8
+	},
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 1";
+	dir = 4;
+	network = list("BioDome")
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aB" = (
+/mob/living/simple_animal/slime,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aC" = (
+/obj/item/reagent_containers/glass/bucket,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"aD" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/disks,
+/obj/machinery/smartfridge/disks,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"aE" = (
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aF" = (
+/obj/structure/closet/wardrobe/science_white,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"aG" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/window/southleft{
+	dir = 1;
+	name = "Interior door";
+	req_access_txt = "200"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD8";
+	name = "Biodome containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aH" = (
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"aI" = (
+/obj/structure/table/wood,
+/obj/machinery/plantgenes,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"aJ" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"aK" = (
+/obj/effect/mob_spawn/human/alive{
+	assignedrole = "BioDome Scientist";
+	desc = "An old, dusty cryo tube.  You can make out a living creature inside the humming machine.";
+	dir = 4;
+	flavour_text = "Launched into space in a biodome to continue biological advancements in solitude.";
+	icon_state = "sleeper";
+	job_description = "BioDome Scientist";
+	name = "BioDome Cryotube"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"aL" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/tracker,
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"aM" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/window/southleft{
+	dir = 1;
+	name = "Interior door";
+	req_access_txt = "200"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD1";
+	name = "Biodome containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aN" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aO" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD8";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aP" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD8";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aQ" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD8";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aR" = (
+/obj/machinery/door/window/southleft{
+	req_access_txt = "200"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aS" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD1";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aT" = (
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"aU" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"aV" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD1";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aW" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD1";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"aX" = (
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"aY" = (
+/obj/structure/cable,
+/obj/machinery/power/tracker,
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"aZ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "BioD8";
+	name = "BioContainment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ba" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/airlock/wood/glass,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"bb" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "BioD1";
+	name = "BioContainment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"bc" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"bd" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/template_noop,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"be" = (
+/obj/structure/table/wood,
+/obj/item/storage/backpack/science,
+/obj/item/card/id/away/old/sci{
+	assignment = "Biodome Scientist";
+	desc = "A faded BioDome ID card. You can make out the rank \"Scientist\".";
+	name = "BioDome ID"
+	},
+/obj/item/flashlight,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bf" = (
+/obj/machinery/door/airlock/wood,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bg" = (
+/obj/machinery/autolathe,
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bh" = (
+/obj/structure/mirror,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bi" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bj" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bk" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"bl" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bm" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bn" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/item/clothing/suit/beekeeper_suit,
+/obj/item/clothing/head/beekeeper_head,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"bo" = (
+/obj/item/queen_bee/bought,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"bp" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar,
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"bq" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/template_noop,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"br" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar,
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"bs" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDPortBow";
+	name = "BioDome Port Bow containment"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bt" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDStarboardBow";
+	name = "BioDome Starboard Bow containment"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bu" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bv" = (
+/obj/machinery/door/window/northleft,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bw" = (
+/obj/structure/toilet,
+/turf/open/floor/plasteel/white,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bx" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"by" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/item/soap/homemade,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bz" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bA" = (
+/obj/machinery/light_switch,
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bB" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bC" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"bD" = (
+/obj/structure/table/wood,
+/obj/item/storage/bag/plants,
+/obj/item/cultivator,
+/obj/item/hatchet,
+/obj/item/plant_analyzer,
+/obj/item/shovel/spade,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"bE" = (
+/obj/machinery/biogenerator,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"bF" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/template_noop,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"bG" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bH" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/extinguisher_cabinet{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bJ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDPortBow";
+	name = "BioDome Port Bow containment"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDStarboardBow";
+	name = "BioDome Starboard Bow containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bL" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bM" = (
+/obj/machinery/button/door{
+	id = "BioDPortBow";
+	name = "Port Bow Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"bN" = (
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"bO" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/airlock/wood/glass,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"bP" = (
+/obj/machinery/button/door{
+	id = "BioDStarboardBow";
+	name = "Starboard Bow Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"bQ" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/structure/curtain,
+/turf/open/floor/plasteel/white,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bR" = (
+/turf/open/floor/plasteel/white,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bS" = (
+/obj/machinery/door/airlock/public,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bT" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/sink/puddle,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"bU" = (
+/obj/machinery/vending/hydroseeds,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"bV" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/button/door{
+	id = "BioDPortBow";
+	name = "Port Bow Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"bW" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"bX" = (
+/obj/machinery/power/apc{
+	areastring = "/area/ruin/has_grav/ancientstation/betanorth/";
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"bY" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"bZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"ca" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/machinery/disposal/bin,
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 6";
+	network = list("BioDome")
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cb" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cc" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"cd" = (
+/obj/machinery/light_switch,
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"ce" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cf" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/window/northleft{
+	base_state = "right";
+	dir = 8;
+	icon_state = "right";
+	name = "Containment Pen";
+	req_access_txt = "200"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD7";
+	name = "Biodome containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cg" = (
+/obj/machinery/door/window/northleft{
+	dir = 4;
+	name = "Containment Pen";
+	req_access_txt = "200"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ch" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ci" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cj" = (
+/obj/machinery/computer/camera_advanced/xenobio{
+	networks = list("BioDome")
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ck" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cl" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/window/northleft{
+	dir = 4;
+	name = "Containment Pen";
+	req_access_txt = "200"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD2";
+	name = "Biodome containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cm" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cn" = (
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"co" = (
+/obj/machinery/button/door{
+	id = "BioDPortBow";
+	name = "Port Bow Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"cp" = (
+/obj/machinery/light/small{
+	icon_state = "bulb";
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cq" = (
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cr" = (
+/obj/structure/window/reinforced,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cs" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"ct" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD7";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cu" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"cv" = (
+/obj/machinery/light/small,
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 7";
+	dir = 1;
+	network = list("BioDome")
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cw" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cx" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "BioD7";
+	name = "BioContainment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cy" = (
+/obj/structure/window/reinforced,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cz" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cA" = (
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cB" = (
+/obj/machinery/button/door{
+	id = "BioDStarboardBow";
+	name = "Starboard Bow Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"cC" = (
+/obj/machinery/processor/slime,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cD" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "BioD2";
+	name = "BioContainment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cE" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD2";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cF" = (
+/obj/machinery/light/small,
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 2";
+	dir = 1;
+	network = list("BioDome")
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cG" = (
+/obj/structure/fans/tiny/invisible,
+/obj/machinery/door/airlock/external,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"cH" = (
+/obj/machinery/power/solar_control,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"cI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"cJ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"cK" = (
+/obj/machinery/door/window/northleft,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"cL" = (
+/obj/structure/closet/l3closet,
+/obj/item/extinguisher,
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 4";
+	dir = 4;
+	network = list("BioDome")
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cM" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cN" = (
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cO" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/table/wood,
+/obj/machinery/reagentgrinder,
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cP" = (
+/obj/machinery/smartfridge/extract,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cQ" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/betanorth{
+	name = "BioDome Dorms"
+	})
+"cR" = (
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"cS" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"cT" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"cU" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"cV" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"cW" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/wood/glass,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cX" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"cY" = (
+/obj/machinery/power/apc{
+	areastring = "/area/ruin/space/has_grav/ancientstation/hydroponics"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"cZ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"da" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"db" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/obj/structure/table/wood,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/stack/sheet/mineral/plasma,
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dc" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dd" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/chair/wood/normal{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"de" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"df" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/chair/wood/normal{
+	dir = 8
+	},
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dg" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dh" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"di" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"dj" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"dk" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/structure/rack,
+/obj/item/clothing/suit/space/hardsuit/ancient,
+/obj/item/storage/box/lights,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"dl" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/obj/machinery/light,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"dm" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"dn" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/power/apc{
+	areastring = "/area/ruin/space/has_grav/ancientstation/deltacorridor";
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"do" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"dp" = (
+/obj/machinery/button/door{
+	id = "BioDPortStern";
+	name = "Port Stern Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dq" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/table/wood,
+/obj/item/disk/xenobio_console_upgrade/monkey,
+/obj/item/disk/xenobio_console_upgrade/slimeadv,
+/obj/item/disk/xenobio_console_upgrade/slimebasic,
+/turf/open/floor/carpet,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dr" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ds" = (
+/obj/machinery/button/door{
+	id = "BioDStarboardStern";
+	name = "Starboard Stern Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dt" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"du" = (
+/obj/structure/closet/l3closet,
+/obj/item/extinguisher,
+/obj/machinery/camera{
+	c_tag = "BioDome Kill pen";
+	dir = 8;
+	network = list("BioDome")
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dv" = (
+/obj/machinery/light_switch,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"dw" = (
+/obj/machinery/light/small{
+	icon_state = "bulb";
+	dir = 1
+	},
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 6";
+	network = list("BioDome")
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dx" = (
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD7";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dy" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "BioD6";
+	name = "BioContainment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dz" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	layer = 2.9
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dA" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	layer = 2.9
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dB" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "BioD3";
+	name = "BioContainment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dC" = (
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD2";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dD" = (
+/obj/machinery/light/small{
+	icon_state = "bulb";
+	dir = 1
+	},
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 3";
+	network = list("BioDome")
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dE" = (
+/obj/structure/cable,
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD7";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dF" = (
+/obj/structure/chair/office/dark,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dG" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dH" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/dropper,
+/obj/item/storage/box/monkeycubes,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dI" = (
+/obj/structure/cable,
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD2";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dJ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/template_noop,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"dK" = (
+/obj/machinery/power/terminal{
+	icon_state = "term";
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/structure/rack,
+/obj/item/clothing/suit/space/hardsuit/ancient,
+/obj/item/storage/box/lights,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"dL" = (
+/obj/machinery/processor/slime,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dM" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	layer = 2.9
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dN" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD6";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dO" = (
+/obj/machinery/monkey_recycler,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dP" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/window/northleft{
+	base_state = "right";
+	dir = 8;
+	icon_state = "right";
+	name = "Containment Pen";
+	req_access_txt = "200"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD6";
+	name = "Biodome containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dQ" = (
+/obj/machinery/computer/camera_advanced/xenobio{
+	dir = 1;
+	networks = list("BioDome")
+	},
+/obj/machinery/light,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dR" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD3";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dS" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/button/door{
+	id = "BioDStarboardStern";
+	name = "Starboard Stern Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dT" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/light,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dU" = (
+/obj/machinery/vending/hydronutrients,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"dV" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"dW" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	areastring = "/area/ruin/space/has_grav/ancientstation/rnd";
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dX" = (
+/obj/machinery/light_switch,
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dY" = (
+/obj/machinery/door/airlock/research{
+	name = "Kill Chamber";
+	req_access_txt = "55"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"dZ" = (
+/obj/machinery/door/window/northleft{
+	base_state = "right";
+	dir = 8;
+	icon_state = "right";
+	name = "Containment Pen";
+	req_access_txt = "200"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ea" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 2;
+	external_pressure_bound = 120;
+	name = "killroom vent"
+	},
+/turf/open/floor/circuit/telecomms,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eb" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 2;
+	external_pressure_bound = 140;
+	pressure_checks = 0;
+	name = "killroom vent"
+	},
+/turf/open/floor/circuit/telecomms,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ec" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	areastring = "/area/ruin/space/has_grav/ancientstation/solar";
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"ed" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/template_noop,
+/area/ruin/space/has_grav/ancientstation/solar{
+	name = "Biodome Solar Array"
+	})
+"ee" = (
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"ef" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"eg" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eh" = (
+/obj/structure/flora/ausbushes/genericbush,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ei" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"ej" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"ek" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"el" = (
+/obj/machinery/atmospherics/pipe/simple/general/hidden{
+	icon_state = "intact";
+	dir = 8
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"em" = (
+/obj/machinery/atmospherics/pipe/simple/general/hidden{
+	icon_state = "intact";
+	dir = 8
+	},
+/turf/open/floor/circuit/telecomms,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"en" = (
+/obj/machinery/atmospherics/pipe/manifold/general/hidden,
+/turf/open/floor/circuit/telecomms,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eo" = (
+/obj/machinery/atmospherics/pipe/simple/general/hidden{
+	dir = 9
+	},
+/turf/open/floor/circuit/telecomms,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ep" = (
+/obj/structure/flora/ausbushes/sunnybush,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"eq" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/tree/jungle,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"er" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/window/northleft{
+	dir = 4;
+	name = "Containment Pen";
+	req_access_txt = "200"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD3";
+	name = "Biodome containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"es" = (
+/obj/structure/disposalpipe/trunk,
+/obj/machinery/disposal/bin,
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 5";
+	dir = 8;
+	network = list("BioDome")
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"et" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eu" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/extinguisher_cabinet{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"ev" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"ew" = (
+/obj/structure/extinguisher_cabinet{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"ex" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "BioD5";
+	name = "BioContainment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ey" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "BioD4";
+	name = "BioContainment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ez" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eA" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/syringes,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eB" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eC" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDPortBow";
+	name = "BioDome Port Bow containment"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eD" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"eE" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD6";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eF" = (
+/turf/open/floor/circuit/telecomms,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eG" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD3";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eH" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD6";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eI" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD3";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eJ" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"eK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDPortBow";
+	name = "BioDome Port Bow containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eL" = (
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD5";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eM" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDStarboardBow";
+	name = "BioDome Starboard Bow containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eN" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDStarboardBow";
+	name = "BioDome Starboard Bow containment"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eO" = (
+/obj/machinery/light/small{
+	icon_state = "bulb";
+	dir = 4
+	},
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 5";
+	dir = 8;
+	network = list("BioDome")
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eP" = (
+/obj/machinery/light/small{
+	icon_state = "bulb";
+	dir = 8
+	},
+/obj/machinery/camera{
+	c_tag = "BioDome Pen 4";
+	dir = 4;
+	network = list("BioDome")
+	},
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eQ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eR" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/obj/machinery/door/airlock/wood/glass,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eT" = (
+/obj/machinery/power/apc{
+	areastring = "/area/ruin/space/has_grav/ancientstation/hydroponics";
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"eU" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eV" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eW" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDPortStern";
+	name = "BioDome PortStern Containment"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"eX" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eY" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/structure/disposaloutlet,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"eZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDPortStern";
+	name = "BioDome PortStern Containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fa" = (
+/obj/machinery/door/window/southleft{
+	dir = 1;
+	name = "Interior door";
+	req_access_txt = "200"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fb" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/window/southleft{
+	req_access_txt = "200"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD5";
+	name = "Biodome containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fc" = (
+/obj/machinery/light/small,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fd" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDStarboardStern";
+	name = "BioDome Starboard Stern Containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fe" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/window/southleft{
+	req_access_txt = "200"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD4";
+	name = "Biodome containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"ff" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDStarboardStern";
+	name = "BioDome Starboard Stern Containment"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fg" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/sink/puddle,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"fh" = (
+/obj/machinery/button/door{
+	id = "BioDPortStern";
+	name = "Port Stern Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fi" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD5";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fj" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD5";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fk" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD4";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fl" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD4";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fm" = (
+/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioD4";
+	name = "Biodome containment"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fn" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"fo" = (
+/obj/machinery/button/door{
+	id = "BioDStarboardStern";
+	name = "Starboard Stern Containment"
+	},
+/turf/closed/wall/mineral/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fp" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fq" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fr" = (
+/obj/machinery/camera{
+	c_tag = "BioDome Kill pen";
+	dir = 8;
+	network = list("BioDome")
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/circuit/telecomms,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+"fs" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"ft" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fu" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fv" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/hydroponics{
+	name = "Biodome Hydroponics"
+	})
+"fw" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fx" = (
+/obj/machinery/door/window/southleft,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fy" = (
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fz" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fA" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDPortStern";
+	name = "BioDome PortStern Containment"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fC" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDStarboardStern";
+	name = "BioDome Starboard Stern Containment"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fD" = (
+/obj/structure/rack,
+/obj/machinery/atmospherics/pipe/simple/general/hidden{
+	icon_state = "intact";
+	dir = 5
+	},
+/obj/item/clothing/shoes/winterboots,
+/obj/item/clothing/suit/hooded/wintercoat,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fE" = (
+/obj/machinery/door/window/southleft,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fF" = (
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fG" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fH" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDPortStern";
+	name = "BioDome PortStern Containment"
+	},
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fI" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "BioDStarboardStern";
+	name = "BioDome Starboard Stern Containment"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fJ" = (
+/obj/machinery/power/apc{
+	areastring = "/area/ruin/space/has_grav/ancientstation/kitchen";
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fK" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fL" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/deltacorridor{
+	name = "BioDome"
+	})
+"fM" = (
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fN" = (
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fO" = (
+/obj/machinery/smartfridge/food,
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fP" = (
+/obj/machinery/light_switch,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fQ" = (
+/obj/structure/table/wood,
+/obj/machinery/microwave,
+/obj/machinery/light,
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fR" = (
+/obj/machinery/processor,
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fS" = (
+/obj/structure/table/wood,
+/obj/machinery/reagentgrinder,
+/obj/machinery/light,
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fT" = (
+/obj/machinery/vending/dinnerware,
+/turf/open/floor/plasteel/cafeteria,
+/area/ruin/space/has_grav/ancientstation/kitchen{
+	name = "BioDome Kitchen"
+	})
+"fU" = (
+/obj/structure/rack,
+/obj/item/crowbar,
+/obj/item/multitool,
+/obj/item/screwdriver,
+/obj/item/weldingtool/experimental,
+/obj/item/wirecutters,
+/obj/item/wrench,
+/obj/item/storage/belt/utility/atmostech,
+/obj/item/lightreplacer,
+/obj/item/storage/box/lights,
+/obj/item/inducer,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/ancientstation/rnd{
+	name = "Biodome"
+	})
+
+(1,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+aa
+aa
+cu
+cu
+cu
+aa
+aa
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(2,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aL
+bd
+bq
+bq
+bq
+bq
+bq
+bq
+bq
+bd
+bd
+cG
+cS
+cG
+bd
+bd
+dJ
+dJ
+dJ
+dJ
+ed
+ed
+ed
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(3,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+br
+br
+br
+br
+br
+br
+br
+aa
+cu
+cu
+cT
+cu
+cu
+aa
+br
+br
+br
+br
+br
+br
+br
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(4,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cu
+cH
+cU
+dk
+cu
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(5,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aq
+aq
+aq
+ab
+ab
+ab
+cu
+ec
+cV
+dl
+cu
+ab
+ab
+ab
+ao
+ao
+ap
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(6,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aq
+aq
+bQ
+aq
+ar
+ar
+ar
+ab
+ab
+cW
+ab
+ab
+ar
+ar
+ar
+ao
+dU
+ap
+ap
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(7,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aq
+aq
+bw
+bR
+aq
+cp
+aB
+ar
+cv
+ab
+cX
+ab
+dw
+ar
+ar
+fc
+ao
+aC
+bE
+ao
+ao
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(8,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aq
+aq
+bh
+by
+bR
+aq
+ar
+ar
+ar
+ar
+ab
+cX
+ab
+ar
+ar
+ar
+ar
+ao
+fv
+bD
+eJ
+ao
+ap
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(9,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aq
+aq
+aK
+be
+aX
+bS
+aq
+ct
+cf
+dx
+dE
+ab
+cX
+ab
+dN
+eE
+dP
+eH
+ao
+eT
+aH
+aH
+aJ
+ap
+ap
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(10,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aq
+aq
+aF
+aT
+aT
+aX
+bX
+aq
+cw
+cg
+ce
+cx
+ab
+cW
+ab
+dy
+ce
+cg
+cw
+dv
+fg
+ee
+ep
+aH
+aJ
+ao
+ao
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(11,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aq
+aq
+aX
+aX
+aX
+bf
+bA
+cQ
+cZ
+de
+ej
+ej
+ej
+eC
+eg
+eW
+ej
+ej
+ej
+fp
+fs
+fx
+ef
+aH
+ev
+aH
+fn
+ao
+ap
+aa
+aa
+aa
+aa
+aa
+"}
+(12,1,1) = {"
+aa
+aa
+aa
+aa
+aq
+aq
+aK
+be
+aX
+bg
+aT
+aT
+bN
+bZ
+dn
+ek
+bI
+ez
+eK
+eB
+eZ
+ez
+bI
+ek
+ez
+cI
+bN
+bN
+eq
+aH
+eD
+aI
+aD
+ap
+ap
+aa
+aa
+aa
+aa
+"}
+(13,1,1) = {"
+aa
+aa
+aa
+aa
+aq
+aF
+aT
+aT
+bf
+aT
+aT
+bB
+bZ
+cc
+cn
+cn
+cn
+co
+cn
+cW
+cn
+fh
+cn
+cn
+cn
+ft
+cI
+bB
+fE
+aH
+aH
+aH
+aC
+au
+ao
+aa
+aa
+aa
+aa
+"}
+(14,1,1) = {"
+aa
+aa
+aa
+aa
+aq
+aq
+aq
+aq
+aq
+aq
+bj
+bG
+cc
+do
+do
+aa
+aa
+aE
+bM
+da
+dp
+aE
+aa
+aa
+do
+do
+cJ
+fz
+fF
+ao
+ao
+ao
+ao
+ao
+ao
+aa
+aa
+aa
+aa
+"}
+(15,1,1) = {"
+aa
+aa
+aa
+aa
+ab
+ar
+bx
+ar
+aO
+bY
+bl
+bH
+cd
+do
+aa
+aa
+aE
+aE
+cL
+da
+cP
+aE
+aE
+aa
+aa
+do
+cd
+bH
+fG
+aN
+eL
+ar
+bx
+ar
+ab
+aa
+aa
+aa
+aa
+"}
+(16,1,1) = {"
+aa
+aa
+aa
+aa
+ab
+ar
+ar
+ar
+aG
+aR
+bm
+bH
+cn
+aa
+aa
+ce
+ce
+cr
+aw
+da
+aw
+dL
+ce
+ce
+aa
+aa
+cn
+bH
+bm
+fa
+fb
+ar
+aB
+ar
+ab
+aa
+aa
+aa
+aa
+"}
+(17,1,1) = {"
+aa
+aa
+aa
+af
+aj
+ar
+ar
+ar
+aP
+ce
+bm
+ah
+cn
+aa
+aE
+ce
+cm
+cy
+cM
+dc
+aw
+eA
+dH
+ce
+aE
+aa
+cn
+fA
+bm
+ce
+fi
+ar
+ar
+ar
+ab
+aa
+aa
+aa
+aa
+"}
+(18,1,1) = {"
+aa
+aa
+ab
+ab
+ak
+aj
+ax
+ar
+aQ
+aZ
+bm
+bH
+co
+aE
+dX
+ch
+ci
+cz
+aw
+da
+aw
+cA
+dF
+dQ
+aE
+aE
+fh
+bH
+bm
+ex
+fj
+ar
+eO
+ab
+ab
+ab
+ab
+aa
+aa
+"}
+(19,1,1) = {"
+ab
+ab
+ab
+ag
+al
+as
+ay
+ay
+ay
+ay
+bs
+bJ
+cs
+bV
+ca
+aw
+aw
+aw
+cN
+dd
+cN
+aw
+aw
+aw
+dO
+dp
+cn
+fB
+fH
+ab
+ab
+ab
+ab
+ab
+an
+fU
+ab
+ab
+ab
+"}
+(20,1,1) = {"
+ac
+ad
+ae
+cA
+am
+at
+az
+az
+az
+ba
+bi
+bz
+bO
+bW
+cb
+bW
+bW
+bW
+cO
+db
+dq
+bW
+bW
+bW
+bW
+bW
+bO
+bz
+fw
+ba
+az
+az
+az
+eR
+eU
+cA
+ae
+fq
+ac
+"}
+(21,1,1) = {"
+ab
+ab
+ab
+ai
+an
+ab
+ab
+ab
+ab
+ab
+bt
+bK
+cn
+bP
+dW
+aw
+aw
+aw
+cN
+df
+cN
+aw
+aw
+aw
+es
+dS
+cs
+fC
+fI
+ay
+ay
+ay
+ay
+eS
+eV
+eX
+ab
+ab
+ab
+"}
+(22,1,1) = {"
+aa
+aa
+ab
+ab
+ab
+ab
+aA
+ar
+aS
+bb
+bm
+bH
+cB
+aE
+aE
+cj
+cq
+cA
+aw
+da
+aw
+dz
+dG
+dT
+aE
+aE
+fo
+bH
+bm
+ey
+fk
+ar
+eP
+ak
+aj
+ab
+ab
+aa
+aa
+"}
+(23,1,1) = {"
+aa
+aa
+aa
+aa
+ab
+ar
+aB
+ar
+aV
+ce
+bm
+ah
+cn
+aa
+aE
+ce
+dH
+eA
+aw
+dg
+dr
+dA
+eh
+ce
+aE
+aa
+cn
+fA
+bm
+ce
+fl
+ar
+ar
+ar
+ak
+eY
+aa
+aa
+aa
+"}
+(24,1,1) = {"
+aa
+aa
+aa
+aa
+ab
+ar
+ar
+ar
+aM
+aR
+bm
+bH
+cn
+aa
+aa
+ce
+ce
+cC
+aw
+da
+aw
+dM
+ce
+ce
+aa
+aa
+cn
+bH
+bm
+fa
+fe
+ar
+ar
+ar
+ab
+aa
+aa
+aa
+aa
+"}
+(25,1,1) = {"
+aa
+aa
+aa
+aa
+ab
+ar
+ck
+ar
+aW
+bY
+bu
+bH
+cd
+do
+aa
+aa
+aE
+aE
+cP
+da
+du
+aE
+aE
+aa
+aa
+do
+cd
+bH
+dV
+aN
+fm
+ar
+ck
+ar
+ab
+aa
+aa
+aa
+aa
+"}
+(26,1,1) = {"
+aa
+aa
+aa
+aa
+ao
+ao
+ao
+ao
+ao
+ao
+bj
+bG
+cI
+do
+do
+aa
+aa
+aE
+bP
+da
+ds
+aE
+aa
+aa
+do
+do
+bZ
+fz
+fF
+fL
+fP
+fK
+fK
+fK
+fK
+aa
+aa
+aa
+aa
+"}
+(27,1,1) = {"
+aa
+aa
+aa
+aa
+ao
+au
+aC
+aH
+aH
+aH
+bv
+bL
+cJ
+cI
+cn
+cn
+cn
+cB
+cn
+cW
+cn
+fo
+cn
+cn
+cn
+bZ
+cc
+bL
+bN
+bN
+fN
+fN
+fN
+fT
+fK
+aa
+aa
+aa
+aa
+"}
+(28,1,1) = {"
+aa
+aa
+aa
+aa
+ap
+ap
+aD
+aI
+aU
+aH
+bn
+bN
+bN
+cJ
+ez
+et
+eu
+ez
+eM
+eB
+fd
+ez
+ew
+et
+ez
+cc
+bN
+bN
+bN
+fM
+fN
+fN
+fS
+fK
+fK
+aa
+aa
+aa
+aa
+"}
+(29,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+ap
+ao
+av
+aH
+bc
+aH
+bC
+cK
+dt
+ei
+ej
+ej
+ej
+eN
+eQ
+ff
+ej
+ej
+ej
+bl
+fu
+fy
+fD
+fJ
+fN
+fN
+fR
+fK
+fK
+aa
+aa
+aa
+aa
+aa
+"}
+(30,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+ao
+ao
+aJ
+aH
+bo
+aH
+bT
+dv
+cw
+dZ
+ce
+cD
+ab
+cW
+ab
+dB
+ce
+dZ
+cw
+ab
+dY
+el
+fK
+fN
+fQ
+fK
+fK
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(31,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ap
+ap
+aJ
+aH
+aU
+cY
+ao
+cE
+cl
+dC
+dI
+ab
+cX
+ab
+dR
+eG
+er
+eI
+ab
+eF
+em
+fK
+fO
+fK
+fK
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(32,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ap
+ao
+bk
+bD
+cR
+ao
+ar
+ar
+ar
+ar
+ab
+cX
+ab
+ar
+ar
+ar
+ar
+ab
+ea
+en
+fK
+fK
+fK
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(33,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ao
+ao
+bE
+aC
+ao
+cp
+ar
+ar
+cF
+ab
+cX
+ab
+dD
+ar
+aB
+fc
+ab
+eb
+eo
+fK
+fK
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(34,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ap
+ap
+bU
+ao
+ar
+ar
+ar
+ab
+ab
+cW
+ab
+ab
+ar
+ar
+ar
+ab
+fr
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(35,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ap
+ao
+ao
+ab
+ab
+ab
+cu
+ec
+dh
+dm
+cu
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(36,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cu
+cH
+dj
+dK
+cu
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(37,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+aa
+cu
+cu
+cT
+cu
+cu
+aa
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(38,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bF
+bq
+bF
+bq
+bq
+bq
+bq
+bd
+bd
+cG
+di
+cG
+bd
+bd
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+bd
+aY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(39,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+br
+br
+br
+br
+br
+br
+br
+aa
+aa
+cu
+cu
+cu
+aa
+aa
+br
+br
+br
+br
+br
+br
+br
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}

@@ -1,0 +1,4 @@
+author: "ShrkByte"
+delete-after: True
+changes: 
+  - tweak: "Shifts are now 3 hours long unless overridden by an admin."
