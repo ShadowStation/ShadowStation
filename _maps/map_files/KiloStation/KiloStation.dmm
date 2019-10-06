@@ -6610,6 +6610,8 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/item/key/security,
+/obj/item/key/security,
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
 "akR" = (
@@ -18005,8 +18007,6 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/bot,
-/obj/item/key/security,
-/obj/item/key/security,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "aCG" = (
@@ -50833,7 +50833,6 @@
 	pixel_y = -2
 	},
 /obj/item/storage/belt/bandolier,
-/obj/item/gun/ballistic/revolver/doublebarrel,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/maintenance/port)
@@ -79886,6 +79885,9 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/engine,
 /area/engine/engineering)
 "csx" = (
@@ -80219,6 +80221,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
@@ -86400,10 +86405,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/aft)
-"cHq" = (
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/plating,
-/area/engine/engineering)
 "cHu" = (
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating/airless,
@@ -89083,6 +89084,10 @@
 "dis" = (
 /turf/closed/wall/r_wall/rust,
 /area/bridge)
+"dww" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/engine/engineering)
 "dxq" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral{
@@ -89097,28 +89102,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hor)
-"dyi" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/bottle/grenadine,
-/obj/item/reagent_containers/food/drinks/beer{
-	desc = "A station exclusive. Consumpt may result in seizures, blindness, drunkenness, or even death.";
-	icon_state = "beer";
-	list_reagents = list("thirteenloko" = 10);
-	name = "Kilo-Kocktail";
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/turf/open/floor/wood,
-/area/maintenance/port/fore)
-"dIn" = (
-/obj/machinery/camera{
-	c_tag = "Laser Room Starboard";
-	dir = 1;
-	name = "laser room camera";
-	network = list("ss13","engine")
-	},
-/turf/open/floor/engine,
-/area/engine/engineering)
 "dMc" = (
 /obj/structure/table/reinforced,
 /obj/item/integrated_circuit_printer,
@@ -89136,11 +89119,14 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/research)
-"dWo" = (
-/obj/machinery/vending/cigarette,
-/obj/effect/turf_decal/bot,
+"dQe" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
 /turf/open/floor/plating,
-/area/maintenance/port/fore)
+/area/engine/engineering)
 "dYu" = (
 /obj/effect/spawner/lootdrop/grille_or_trash,
 /obj/effect/decal/cleanable/dirt,
@@ -89171,6 +89157,12 @@
 "erN" = (
 /turf/closed/wall/rust,
 /area/hallway/primary/starboard)
+"esR" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/maintenance/port/fore)
 "evx" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -89184,11 +89176,369 @@
 "ezp" = (
 /turf/closed/wall/rust,
 /area/hydroponics)
-"eDa" = (
-/obj/structure/sign/warning,
+"eKa" = (
+/obj/structure/sign/poster/official/pda_ad,
+/turf/closed/wall,
+/area/medical/virology)
+"eMp" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	icon_state = "warningline_white";
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/engine/atmos)
+"eOu" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/maintenance/port/fore)
+"eQS" = (
+/obj/machinery/status_display/evac,
 /turf/closed/wall/rust,
-/area/space/nearstation)
-"eDy" = (
+/area/security/prison)
+"eVT" = (
+/turf/closed/wall/rust,
+/area/science/explab)
+"fyr" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plating,
+/area/engine/engineering)
+"fAH" = (
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Laser Room";
+	req_access_txt = "10"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plating,
+/area/engine/engineering)
+"fXq" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	icon_state = "pipe11-1";
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/corner{
+	dir = 8
+	},
+/area/hallway/primary/fore)
+"gnA" = (
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/camera{
+	c_tag = "Laser Room Starboard";
+	dir = 1;
+	name = "laser room camera";
+	network = list("ss13","engine")
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/engine/engineering)
+"grW" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/maintenance/port/fore)
+"gvR" = (
+/obj/structure/sign/warning,
+/turf/closed/wall/r_wall,
+/area/engine/engineering)
+"gwD" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 8;
+	name = "Port to Filter"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	icon_state = "warningline_white";
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/engine/atmos)
+"gxY" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/vr_sleeper,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/plasteel/dark,
+/area/crew_quarters/locker)
+"gIE" = (
+/turf/open/floor/plating,
+/area/engine/engineering)
+"gJq" = (
+/obj/structure/sign/departments/evac,
+/turf/closed/wall/rust,
+/area/hallway/secondary/exit/departure_lounge)
+"gMU" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai_upload)
+"hgW" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/structure/chair/stool,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/wood,
+/area/maintenance/port/fore)
+"hqv" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/kitchen)
+"hvb" = (
+/turf/closed/wall/r_wall/rust,
+/area/tcommsat/computer)
+"hxn" = (
+/turf/open/space/basic,
+/area/hallway/secondary/entry)
+"hzY" = (
+/turf/closed/wall/rust,
+/area/gateway)
+"hAb" = (
+/turf/closed/wall/r_wall/rust,
+/area/security/courtroom)
+"hNk" = (
+/turf/closed/wall/r_wall/rust,
+/area/security/prison)
+"ice" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=SW CPH";
+	dir = 8;
+	freq = 1445;
+	location = "S CPH";
+	name = "Patrol navbeacon S"
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
+"ieA" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/cat_butcherer,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/fore)
+"iiA" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine{
+	initial_gas_mix = "n2=100;TEMP=80";
+	name = "mainframe floor"
+	},
+/area/tcommsat/server)
+"ikw" = (
+/obj/machinery/camera{
+	c_tag = "Xenobiology Cell 4";
+	dir = 8;
+	name = "xenobiology camera";
+	network = list("ss13","rd","xeno")
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/science/xenobiology)
+"iwR" = (
+/turf/closed/wall/r_wall/rust,
+/area/science/server)
+"iBL" = (
+/obj/machinery/camera{
+	c_tag = "Laser Room Starboard";
+	dir = 1;
+	name = "laser room camera";
+	network = list("ss13","engine")
+	},
+/turf/open/floor/engine,
+/area/engine/engineering)
+"iLn" = (
+/obj/machinery/vending/boozeomat/all_access,
+/turf/open/floor/wood,
+/area/maintenance/port/fore)
+"iMb" = (
+/obj/structure/sink/kitchen{
+	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
+	name = "old sink";
+	pixel_y = 28
+	},
+/obj/effect/spawner/lootdrop/keg,
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/maintenance/port/fore)
+"iMq" = (
+/obj/machinery/camera{
+	c_tag = "Xenobiology Cell 5";
+	dir = 4;
+	name = "xenobiology camera";
+	network = list("ss13","rd","xeno")
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/science/xenobiology)
+"iRL" = (
+/turf/closed/wall/rust,
+/area/hallway/primary/aft)
+"iSg" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/retaliate/ghost,
+/turf/open/floor/plasteel/dark,
+/area/maintenance/starboard/fore)
+"iYW" = (
+/turf/closed/wall/r_wall/rust,
+/area/crew_quarters/heads/captain)
+"iZo" = (
+/turf/closed/wall/r_wall/rust,
+/area/medical/virology)
+"jaZ" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel/dark,
+/area/security/courtroom)
+"jhM" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/bottle/grenadine,
+/obj/item/reagent_containers/food/drinks/beer{
+	desc = "A station exclusive. Consumpt may result in seizures, blindness, drunkenness, or even death.";
+	icon_state = "beer";
+	list_reagents = list("thirteenloko" = 10);
+	name = "Kilo-Kocktail";
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/open/floor/wood,
+/area/maintenance/port/fore)
+"jiS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	icon_state = "pipe11-1";
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/crew_quarters/locker)
+"juX" = (
+/obj/machinery/camera{
+	c_tag = "Xenobiology Cell 2";
+	dir = 4;
+	name = "xenobiology camera";
+	network = list("ss13","rd","xeno")
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/science/xenobiology)
+"jxc" = (
+/turf/closed/wall/rust,
+/area/hallway/primary/fore)
+"jCp" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/engine{
+	initial_gas_mix = "n2=100;TEMP=80";
+	name = "mainframe floor"
+	},
+/area/tcommsat/server)
+"jDv" = (
+/turf/closed/wall/rust,
+/area/quartermaster/storage)
+"jHJ" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 9
+	},
+/turf/closed/wall,
+/area/maintenance/disposal/incinerator)
+"jOz" = (
+/obj/structure/sign/warning/electricshock,
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai_upload)
+"jPE" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/engine/engineering)
+"jRw" = (
+/obj/structure/sign/poster/official/high_class_martini,
+/turf/closed/wall/r_wall,
+/area/medical/virology)
+"jUj" = (
 /obj/structure/closet/cabinet,
 /obj/item/reagent_containers/food/drinks/beer{
 	desc = "A station exclusive. Consumpt may result in seizures, blindness, drunkenness, or even death.";
@@ -89274,391 +89624,26 @@
 /obj/item/reagent_containers/food/drinks/bottle/wine,
 /turf/open/floor/wood,
 /area/maintenance/port/fore)
-"eKa" = (
-/obj/structure/sign/poster/official/pda_ad,
-/turf/closed/wall,
-/area/medical/virology)
-"eMp" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
+"jUZ" = (
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_contraband,
+/obj/item/poster/random_contraband,
+/obj/item/reagent_containers/food/drinks/beer{
+	pixel_x = -3;
+	pixel_y = 2
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
-	dir = 5
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	icon_state = "warningline_white";
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/engine/atmos)
-"eQS" = (
-/obj/machinery/status_display/evac,
-/turf/closed/wall/rust,
-/area/security/prison)
-"eVT" = (
-/turf/closed/wall/rust,
-/area/science/explab)
-"fyr" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/plating,
-/area/engine/engineering)
-"fXq" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	icon_state = "pipe11-1";
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark/corner{
-	dir = 8
-	},
-/area/hallway/primary/fore)
-"gnA" = (
-/obj/machinery/airalarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/camera{
-	c_tag = "Laser Room Starboard";
-	dir = 1;
-	name = "laser room camera";
-	network = list("ss13","engine")
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plating,
-/area/engine/engineering)
-"gwD" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 8;
-	name = "Port to Filter"
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	icon_state = "warningline_white";
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/engine/atmos)
-"gxY" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/machinery/vr_sleeper,
-/obj/effect/turf_decal/box/white,
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/locker)
-"gJq" = (
-/obj/structure/sign/departments/evac,
-/turf/closed/wall/rust,
-/area/hallway/secondary/exit/departure_lounge)
-"gMU" = (
-/turf/closed/wall/r_wall/rust,
-/area/ai_monitored/turret_protected/ai_upload)
-"hqv" = (
-/turf/closed/wall/rust,
-/area/crew_quarters/kitchen)
-"hsf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/plating,
-/area/engine/engineering)
-"hvb" = (
-/turf/closed/wall/r_wall/rust,
-/area/tcommsat/computer)
-"hxn" = (
-/turf/open/space/basic,
-/area/hallway/secondary/entry)
-"hzY" = (
-/turf/closed/wall/rust,
-/area/gateway)
-"hAb" = (
-/turf/closed/wall/r_wall/rust,
-/area/security/courtroom)
-"hNk" = (
-/turf/closed/wall/r_wall/rust,
-/area/security/prison)
-"ice" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/navbeacon{
-	codes_txt = "patrol;next_patrol=SW CPH";
-	dir = 8;
-	freq = 1445;
-	location = "S CPH";
-	name = "Patrol navbeacon S"
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/central)
-"ieA" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/cat_butcherer,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
-/area/maintenance/fore)
-"ifW" = (
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/wood{
-	icon_state = "wood-broken7"
-	},
-/area/maintenance/port/fore)
-"iiA" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/engine{
-	initial_gas_mix = "n2=100;TEMP=80";
-	name = "mainframe floor"
-	},
-/area/tcommsat/server)
-"ikw" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Cell 4";
-	dir = 8;
-	name = "xenobiology camera";
-	network = list("ss13","rd","xeno")
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
-"ipw" = (
-/turf/open/floor/plating,
-/area/engine/engineering)
-"iqK" = (
+/obj/item/reagent_containers/food/drinks/ale,
 /obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
-/obj/item/flashlight/lamp,
-/turf/open/floor/wood{
-	icon_state = "wood-broken4"
-	},
-/area/maintenance/port/fore)
-"iwR" = (
-/turf/closed/wall/r_wall/rust,
-/area/science/server)
-"izB" = (
-/obj/structure/sign/warning,
-/turf/closed/wall/r_wall,
-/area/engine/engineering)
-"iMq" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Cell 5";
-	dir = 4;
-	name = "xenobiology camera";
-	network = list("ss13","rd","xeno")
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
-"iRL" = (
-/turf/closed/wall/rust,
-/area/hallway/primary/aft)
-"iSg" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/retaliate/ghost,
-/turf/open/floor/plasteel/dark,
-/area/maintenance/starboard/fore)
-"iSD" = (
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/engine/engineering)
-"iYW" = (
-/turf/closed/wall/r_wall/rust,
-/area/crew_quarters/heads/captain)
-"iZo" = (
-/turf/closed/wall/r_wall/rust,
-/area/medical/virology)
-"jaZ" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/structure/chair/stool,
-/turf/open/floor/plasteel/dark,
-/area/security/courtroom)
-"jiS" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	icon_state = "pipe11-1";
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/crew_quarters/locker)
-"jjG" = (
+/obj/item/instrument/eguitar,
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
 	},
 /area/maintenance/port/fore)
-"juX" = (
-/obj/machinery/camera{
-	c_tag = "Xenobiology Cell 2";
-	dir = 4;
-	name = "xenobiology camera";
-	network = list("ss13","rd","xeno")
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/science/xenobiology)
-"jxc" = (
-/turf/closed/wall/rust,
-/area/hallway/primary/fore)
-"jzY" = (
-/obj/structure/sign/nanotrasen,
-/turf/closed/wall,
-/area/maintenance/port/fore)
-"jCp" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/engine{
-	initial_gas_mix = "n2=100;TEMP=80";
-	name = "mainframe floor"
-	},
-/area/tcommsat/server)
-"jDv" = (
-/turf/closed/wall/rust,
-/area/quartermaster/storage)
-"jEk" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/engine/engineering)
-"jHz" = (
-/obj/machinery/vending/snack/random,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plating,
-/area/maintenance/port/fore)
-"jHJ" = (
-/obj/machinery/atmospherics/pipe/simple/general/visible{
-	dir = 9
-	},
-/turf/closed/wall,
-/area/maintenance/disposal/incinerator)
-"jIw" = (
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/wood{
-	icon_state = "wood-broken3"
-	},
-/area/maintenance/port/fore)
-"jMP" = (
-/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
-/obj/item/pickaxe,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
-"jNq" = (
-/obj/machinery/camera{
-	c_tag = "Laser Room Starboard";
-	dir = 1;
-	name = "laser room camera";
-	network = list("ss13","engine")
-	},
-/turf/open/floor/plating,
-/area/engine/engineering)
-"jOz" = (
-/obj/structure/sign/warning/electricshock,
-/turf/closed/wall/r_wall/rust,
-/area/ai_monitored/turret_protected/ai_upload)
-"jRw" = (
-/obj/structure/sign/poster/official/high_class_martini,
-/turf/closed/wall/r_wall,
-/area/medical/virology)
-"jTc" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/shaker,
-/obj/item/reagent_containers/glass/beaker/cryoxadone,
-/obj/item/reagent_containers/glass/beaker{
-	pixel_x = 8;
-	pixel_y = 2
-	},
-/obj/item/reagent_containers/dropper,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/maintenance/port/fore)
 "khA" = (
 /turf/closed/wall/rust,
 /area/construction/mining/aux_base)
-"kng" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/turf/open/floor/wood,
-/area/maintenance/port/fore)
 "krJ" = (
 /turf/closed/wall/rust,
 /area/hallway/secondary/exit/departure_lounge)
@@ -89675,8 +89660,22 @@
 	},
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
-"lhF" = (
-/obj/effect/decal/cleanable/blood/old,
+"kul" = (
+/obj/machinery/vending/snack/random,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating,
+/area/maintenance/port/fore)
+"kIJ" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/maintenance/port/fore)
+"kSc" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall,
+/area/maintenance/port/fore)
+"leX" = (
+/obj/structure/chair/stool,
 /turf/open/floor/wood{
 	icon_state = "wood-broken4"
 	},
@@ -89685,6 +89684,14 @@
 /obj/structure/sign/poster/ripped,
 /turf/closed/wall/rust,
 /area/crew_quarters/fitness/recreation)
+"lKu" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
+/obj/item/flashlight/lamp,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/maintenance/port/fore)
 "lSJ" = (
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
@@ -89692,34 +89699,14 @@
 /obj/machinery/status_display/evac,
 /turf/closed/wall/rust,
 /area/security/warden)
+"mbs" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/item/pickaxe,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "mej" = (
 /turf/closed/wall/r_wall/rust,
 /area/science/robotics/lab)
-"mpn" = (
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = 4;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = 6;
-	pixel_y = -1
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -4;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -5;
-	pixel_y = 2
-	},
-/obj/structure/table/wood,
-/obj/structure/light_construct/small{
-	dir = 1
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/turf/open/floor/wood,
-/area/maintenance/port/fore)
 "mIt" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -89759,6 +89746,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/research)
+"mLN" = (
+/obj/machinery/camera{
+	c_tag = "Laser Room Starboard";
+	dir = 1;
+	name = "laser room camera";
+	network = list("ss13","engine")
+	},
+/turf/open/floor/plating,
+/area/engine/engineering)
 "mPm" = (
 /turf/closed/wall/rust,
 /area/security/checkpoint/supply)
@@ -89782,34 +89778,6 @@
 "nVt" = (
 /turf/closed/wall/rust,
 /area/storage/tech)
-"oqL" = (
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_access_txt = "10"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/oil/slippery,
-/turf/open/floor/plating,
-/area/engine/engineering)
-"oLT" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/structure/chair/stool,
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/wood,
-/area/maintenance/port/fore)
-"oMq" = (
-/obj/structure/sink/kitchen{
-	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
-	name = "old sink";
-	pixel_y = 28
-	},
-/obj/effect/spawner/lootdrop/keg,
-/turf/open/floor/wood{
-	icon_state = "wood-broken3"
-	},
-/area/maintenance/port/fore)
 "oPf" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -89819,13 +89787,10 @@
 	dir = 8
 	},
 /area/hallway/primary/fore)
-"pxV" = (
-/obj/item/reagent_containers/glass/rag,
-/obj/structure/table/wood,
-/turf/open/floor/wood{
-	icon_state = "wood-broken4"
-	},
-/area/maintenance/port/fore)
+"pCe" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating,
+/area/engine/engineering)
 "pFw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -89833,6 +89798,13 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/crew_quarters/locker)
+"pNP" = (
+/obj/item/reagent_containers/glass/rag,
+/obj/structure/table/wood,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/maintenance/port/fore)
 "pQf" = (
 /turf/closed/wall/r_wall/rust,
 /area/science/xenobiology)
@@ -89862,6 +89834,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
+"qyG" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/shaker,
+/obj/item/reagent_containers/glass/beaker/cryoxadone,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/dropper,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/maintenance/port/fore)
 "qIR" = (
 /obj/machinery/camera{
 	c_tag = "Xenobiology Cell 6";
@@ -89883,49 +89869,38 @@
 /mob/living/carbon/monkey,
 /turf/open/floor/grass,
 /area/medical/virology)
-"rfT" = (
-/obj/item/poster/random_contraband,
-/obj/item/poster/random_contraband,
-/obj/item/poster/random_contraband,
-/obj/item/poster/random_contraband,
-/obj/item/poster/random_contraband,
-/obj/item/reagent_containers/food/drinks/beer{
-	pixel_x = -3;
+"swG" = (
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -5;
 	pixel_y = 2
 	},
-/obj/item/reagent_containers/food/drinks/ale,
 /obj/structure/table/wood,
-/obj/item/instrument/eguitar,
-/turf/open/floor/wood{
-	icon_state = "wood-broken5"
+/obj/structure/light_construct/small{
+	dir = 1
 	},
-/area/maintenance/port/fore)
-"rFC" = (
-/turf/closed/wall/rust,
-/area/hallway/primary/port)
-"rQC" = (
-/obj/structure/chair/stool,
-/turf/open/floor/wood{
-	icon_state = "wood-broken4"
-	},
-/area/maintenance/port/fore)
-"sbt" = (
-/turf/open/floor/wood{
-	icon_state = "wood-broken7"
-	},
-/area/maintenance/port/fore)
-"sno" = (
-/obj/machinery/vending/boozeomat/all_access,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /turf/open/floor/wood,
 /area/maintenance/port/fore)
+"sDw" = (
+/obj/structure/sign/warning,
+/turf/closed/wall/rust,
+/area/space/nearstation)
 "sPG" = (
 /turf/closed/wall/rust,
 /area/crew_quarters/heads/hor)
-"teJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/stool/bar,
-/turf/open/floor/wood,
-/area/maintenance/port/fore)
 "tgw" = (
 /obj/structure/sign/warning/electricshock,
 /turf/closed/wall/r_wall/rust,
@@ -89936,6 +89911,12 @@
 "tyb" = (
 /turf/closed/wall/rust,
 /area/hallway/primary/central)
+"tCi" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/maintenance/port/fore)
 "tEC" = (
 /turf/closed/wall/rust,
 /area/crew_quarters/bar)
@@ -89949,6 +89930,11 @@
 "uda" = (
 /turf/closed/wall/rust,
 /area/security/warden)
+"udQ" = (
+/obj/machinery/vending/cigarette,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating,
+/area/maintenance/port/fore)
 "umD" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -89981,13 +89967,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
+"uxQ" = (
+/obj/effect/decal/cleanable/ash,
+/turf/open/floor/plating,
+/area/engine/engineering)
 "uzR" = (
 /turf/closed/wall/rust,
 /area/storage/primary)
-"uUH" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/maintenance/port/fore)
 "uWo" = (
 /turf/closed/wall/rust,
 /area/security/checkpoint/medical)
@@ -90009,6 +89995,9 @@
 "wvq" = (
 /turf/closed/wall/rust,
 /area/security/courtroom)
+"wCy" = (
+/turf/closed/wall/rust,
+/area/hallway/primary/port)
 "wDP" = (
 /turf/closed/wall/rust,
 /area/crew_quarters/fitness/recreation)
@@ -90018,6 +90007,15 @@
 "xei" = (
 /turf/closed/wall/r_wall/rust,
 /area/teleporter)
+"xqv" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/turf/open/floor/wood,
+/area/maintenance/port/fore)
 "xqL" = (
 /turf/closed/wall/rust,
 /area/quartermaster/office)
@@ -90025,10 +90023,6 @@
 /obj/machinery/status_display/evac,
 /turf/closed/wall/rust,
 /area/chapel/office)
-"xFw" = (
-/obj/effect/decal/cleanable/ash,
-/turf/open/floor/plating,
-/area/engine/engineering)
 "xON" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -90041,6 +90035,17 @@
 	},
 /turf/open/floor/plating,
 /area/engine/engineering)
+"xTw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/stool/bar,
+/turf/open/floor/wood,
+/area/maintenance/port/fore)
+"xTT" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/maintenance/port/fore)
 
 (1,1,1) = {"
 aaa
@@ -103520,7 +103525,7 @@ ckq
 ckK
 aeU
 aeU
-jzY
+kSc
 cwp
 cwp
 cwp
@@ -103778,10 +103783,10 @@ ctw
 aeU
 cwq
 cxt
-sno
-pxV
-jTc
-eDy
+iLn
+pNP
+qyG
+jUj
 cwp
 aeu
 aeu
@@ -104034,11 +104039,11 @@ aeU
 aeU
 cwq
 cwq
-ifW
-sbt
+esR
+kIJ
 cxc
-jIw
-uUH
+tCi
+grW
 cwq
 aeu
 aeu
@@ -104290,12 +104295,12 @@ aeU
 aeU
 aeu
 cwq
-dWo
-lhF
-mpn
-kng
-rfT
-dyi
+udQ
+xTT
+swG
+xqv
+jUZ
+jhM
 cwq
 amA
 amA
@@ -104547,12 +104552,12 @@ aeu
 aeu
 aeu
 cwq
-jHz
-jjG
+kul
+eOu
 cxe
-teJ
+xTw
 aAJ
-teJ
+xTw
 cwp
 cAB
 cvj
@@ -104805,7 +104810,7 @@ aeu
 aeu
 cwq
 cwp
-oMq
+iMb
 cxc
 cxc
 cwG
@@ -105062,9 +105067,9 @@ aeu
 aeu
 aeu
 cwq
-oLT
-iqK
-rQC
+hgW
+lKu
+leX
 aFG
 aHR
 cwp
@@ -115377,9 +115382,9 @@ aoS
 aoX
 adc
 aoh
-rFC
-rFC
-rFC
+wCy
+wCy
+wCy
 bvJ
 bwc
 bBj
@@ -122624,7 +122629,7 @@ cuq
 cuq
 cvi
 aeu
-eDa
+sDw
 aeu
 aUz
 aaa
@@ -123905,7 +123910,7 @@ cuq
 cuq
 cuq
 cuq
-jMP
+mbs
 cuq
 cxl
 aeu
@@ -124166,7 +124171,7 @@ axW
 axW
 axa
 axa
-izB
+gvR
 aeu
 aeU
 aaa
@@ -124418,11 +124423,11 @@ cvr
 ckw
 cmw
 xON
-oqL
-iSD
-ipw
-ipw
-hsf
+fAH
+jPE
+gIE
+gIE
+dQe
 axa
 aeu
 aeU
@@ -124676,10 +124681,10 @@ ckH
 cmA
 czf
 axW
-jEk
-ipw
-ipw
-ipw
+dww
+gIE
+gIE
+gIE
 axa
 aeu
 aeU
@@ -124933,10 +124938,10 @@ aAM
 aAM
 aAM
 axW
-cHq
-ipw
-ipw
-ipw
+pCe
+gIE
+gIE
+gIE
 axa
 aeu
 aeu
@@ -125188,12 +125193,12 @@ aLK
 aBx
 aAM
 aAM
-dIn
+iBL
 axa
-ipw
-ipw
-jEk
-jNq
+gIE
+gIE
+dww
+mLN
 axa
 aeu
 aeu
@@ -125447,10 +125452,10 @@ aAM
 aAM
 aMW
 axa
-ipw
-ipw
-ipw
-ipw
+gIE
+gIE
+gIE
+gIE
 axa
 aeu
 aeu
@@ -125705,9 +125710,9 @@ chH
 aLN
 axa
 fyr
-jEk
-ipw
-xFw
+dww
+gIE
+uxQ
 axa
 aeu
 aeU
@@ -125965,7 +125970,7 @@ axa
 axa
 axa
 axa
-izB
+gvR
 aeu
 aeu
 aeU
