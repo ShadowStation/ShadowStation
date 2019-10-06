@@ -1,0 +1,7 @@
+author: "TheMocheeze"
+delete-after: True
+changes: 
+  - rscadd: "A new and improved Maint Bar"
+  - rscadd: "Spare room south of SM emitter room, the perfect size for an antimatter engine. Wink."
+  - tweak: "Transit access area assignment on right door"
+  - tweak: "Security now gets hybrid tasers in lockers."

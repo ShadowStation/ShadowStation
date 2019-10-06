@@ -53,7 +53,7 @@ SUBSYSTEM_DEF(shuttle)
 
 	var/lockdown = FALSE	//disallow transit after nuke goes off
 
-	var/auto_call = 144000 //WZDS Change - shift time is ~4 hrs.
+	var/auto_call = 108000 //SDS Change - shift time is ~3 hrs.
 	var/auto_call_allowed = TRUE //If the shuttle is allowed to be automatically called or not
 	var/realtimeofstart = 0
 
@@ -77,7 +77,7 @@ SUBSYSTEM_DEF(shuttle)
 	if(!supply)
 		WARNING("No /obj/docking_port/mobile/supply placed on the map!")
 	realtimeofstart = world.realtime
-	auto_call = 144000
+	auto_call = 108000
 	return ..()
 
 /datum/controller/subsystem/shuttle/proc/initial_load()

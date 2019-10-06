@@ -955,6 +955,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
+"abn" = (
+/obj/machinery/status_display/supply{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
 "abo" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -2832,11 +2839,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hop)
-"aeP" = (
-/obj/machinery/status_display/supply,
-/obj/effect/turf_decal/loading_area,
-/turf/open/floor/plasteel,
-/area/quartermaster/storage)
 "aeQ" = (
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/plasteel,
@@ -89752,7 +89754,7 @@ byf
 byj
 adn
 adZ
-aeP
+abn
 afC
 agv
 ahk
