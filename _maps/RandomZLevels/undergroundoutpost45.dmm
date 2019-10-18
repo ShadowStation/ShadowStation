@@ -2124,11 +2124,8 @@
 /area/awaymission/undergroundoutpost45/central)
 "eu" = (
 /turf/open/floor/plating{
-	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	heat_capacity = 1e+006;
-	icon_plating = "asteroidplating";
-	icon_state = "asteroidplating";
-	temperature = 363.9
+	icon_state = "platingdmg1"
 	},
 /area/awaymission/undergroundoutpost45/caves)
 "ev" = (
@@ -13949,6 +13946,15 @@
 /obj/effect/mapping_helpers/planet_z,
 /turf/open/space,
 /area/space/nearstation)
+"Hn" = (
+/turf/open/floor/plating{
+	heat_capacity = 1e+006;
+	icon_state = "panelscorched"
+	},
+/area/awaymission/undergroundoutpost45/caves)
+"Jt" = (
+/turf/open/floor/plating,
+/area/awaymission/undergroundoutpost45/caves)
 "KE" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
@@ -42627,7 +42633,7 @@ tT
 gy
 uN
 hH
-eu
+Jt
 eJ
 ad
 ad
@@ -43141,7 +43147,7 @@ tV
 ux
 uP
 hH
-eu
+Jt
 eJ
 eJ
 eJ
@@ -48812,7 +48818,7 @@ ww
 xZ
 yc
 ww
-eu
+Jt
 eJ
 eJ
 eJ
@@ -49326,7 +49332,7 @@ xY
 yb
 ye
 ww
-eu
+Jt
 eJ
 eJ
 eJ
@@ -51328,8 +51334,8 @@ ad
 ad
 ad
 eu
-eu
-eu
+Hn
+Jt
 fn
 eJ
 eJ
