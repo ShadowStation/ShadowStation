@@ -1,0 +1,4 @@
+author: "Zaiakusin"
+delete-after: True
+changes: 
+  - bugfix: "Fixed textures to two away mission maps."
