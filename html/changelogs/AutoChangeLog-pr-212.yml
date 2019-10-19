@@ -1,0 +1,8 @@
+author: "TheMocheeze"
+delete-after: True
+changes: 
+  - bugfix: "Atmospherics incinerator airlock cycle fixed"
+  - bugfix: "SM left rad collectors were missing two critical wires, preventing power collection."
+  - tweak: "No more shotgun in bankvault"
+  - tweak: "Moved secway keys out of the armory."
+  - tweak: "No more stethoscope in vault (why was that in there?)"
